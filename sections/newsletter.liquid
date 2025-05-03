@@ -20,6 +20,7 @@
               <input type="email"
                 placeholder="{{ 'newsletter.placeholder' | t }}"
                 class="signup-form__email"
+                id="newsletter-email-{{ section.id }}"
                 value=""
                 name="contact[email]"
                 aria-label="{{ 'newsletter.label' | t }}"
@@ -29,11 +30,64 @@
                   aria-describedby="{{ form_errors_id }}"
                 {%- endif %}
                 required />
-              <button class="btn signup-form__button" type="submit">
+              <button class="btn signup-form__button" type="submit" {% if form.posted_successfully? %}disabled{% endif %} id="newsletter-submit-{{ section.id }}" disabled>
                 {{- 'newsletter.button_label' | t -}}
               </button>
             </div>
+            <div class="signup-form__terms-container">
+              <label for="signup-terms-{{ section.id }}" class="signup-form__terms-label">
+                <input type="checkbox" 
+                       name="contact[accepts_marketing]" 
+                       id="signup-terms-{{ section.id }}" 
+                       class="signup-form__terms-checkbox"
+                       required 
+                       aria-required="true"
+                       aria-describedby="terms-error-{{ section.id }}">
+                <span class="signup-form__terms-text">
+                  {{ section.settings.privacy_policy_text }}
+                </span>
+              </label>
+              <div id="terms-error-{{ section.id }}" class="signup-form__terms-error" hidden>{{ 'newsletter.terms_error' | t }}</div>
+            </div>
           </div>
+          <script>
+            (function() {
+              var form = document.getElementById('home_newsletter_signup');
+              var emailInput = document.getElementById('newsletter-email-{{ section.id }}');
+              var checkbox = document.getElementById('signup-terms-{{ section.id }}');
+              var submitButton = document.getElementById('newsletter-submit-{{ section.id }}');
+              var errorMsg = document.getElementById('terms-error-{{ section.id }}');
+              
+              function validateForm() {
+                var isValid = emailInput.validity.valid && checkbox.checked;
+                submitButton.disabled = !isValid;
+                return isValid;
+              }
+              
+              // Initial validation
+              validateForm();
+              
+              // Add event listeners
+              emailInput.addEventListener('input', validateForm);
+              checkbox.addEventListener('change', function() {
+                errorMsg.hidden = checkbox.checked;
+                validateForm();
+              });
+              
+              form.addEventListener('submit', function(e) {
+                if (!validateForm()) {
+                  e.preventDefault();
+                  errorMsg.hidden = checkbox.checked;
+                  
+                  if (!checkbox.checked) {
+                    checkbox.focus();
+                  } else if (!emailInput.validity.valid) {
+                    emailInput.focus();
+                  }
+                }
+              });
+            })();
+          </script>
         {% endif %}
       {% endform %}
     </div>
@@ -61,6 +115,12 @@
       "id": "subheading",
       "label": "Subheading",
       "default": "<p>Promotions, new products and sales. Directly to your inbox.</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "privacy_policy_text",
+      "label": "Privacy Policy Text",
+      "default": "<p>I agree to the <a href=\"/pages/privacy-policy\" target=\"_blank\">privacy policy</a></p>"
     },
     {
       "type": "select",

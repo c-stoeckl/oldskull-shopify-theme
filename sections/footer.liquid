@@ -3,135 +3,151 @@
     <div class="section-footer__row section-footer__row--blocks" data-num-blocks="{{ section.blocks.size }}">
       {% for block in section.blocks %}
         {% case block.type %}
-        {% when '@app' %}
-          <div class="section-footer__row__col">
-            {% render block %}
-          </div>
-
-        {% when 'menu' %}
-          <div class="section-footer__row__col section-footer__menu-block" role="navigation" aria-label="{{ 'accessibility.secondary_navigation' | t }}" {{ block.shopify_attributes }}>
-            {% if block.settings.title != blank %}
-              {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
-              <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
-                {{- block.settings.title | escape -}}
-              </div>
-            {% endif %}
-
-            {% if block.settings.menu != blank %}
-              <ul class="section-footer__menu-block__menu" {{ block.shopify_attributes }}>
-                {% for link in linklists[block.settings.menu].links %}
-                  <li>
-                    <a href="{{ link.url }}" {% if link.title.size < 25 %}class="no-wrap"{% endif %}>
-                      {{- link.title -}}
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </div>
-
-        {% when 'text' %}
-          <div class="section-footer__row__col section-footer__text-block {% if block.settings.text != blank %}section-footer__text-block--with-text{% endif %}" {{ block.shopify_attributes }}>
-            {% if block.settings.title != blank %}
-              {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
-              <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
-                {{- block.settings.title | escape -}}
-              </div>
-            {% endif %}
-
-            {% if block.settings.text != blank %}
-              <div class="section-footer__text rte">
-                {{- block.settings.text -}}
-              </div>
-            {% endif %}
-
-            {% if block.settings.image != blank %}
-              <span class="section-footer__text-block__image" style="max-width: {{ block.settings.image_width }}px">
-                {%- liquid
-                  assign image_sizes = block.settings.image_width | append: 'px'
-                  assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
-                -%}
-                {%- render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths, loading: 'lazy' -%}
-              </span>
-            {% endif %}
-
-            {% if block.settings.show_social_icons != blank %}
-              <div class="section-footer__text-block__social">
-                {%- liquid
-                  if block.settings.soc_icons_large
-                    assign icon_height = 23
-                  else
-                    assign icon_height = 15
-                  endif
-                  if block.settings.soc_icons_large
-                    assign container_class = 'social--large'
-                  else
-                    assign container_class = ''
-                  endif
-
-                  render 'social-media', icon: settings.social_custom_icon, icon_height: icon_height, class: container_class
-                -%}
-              </div>
-            {% endif %}
-
-            {%- if shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
-              <div class="section-footer__follow-on-shop">
-                {{- shop | login_button: action: 'follow' -}}
-              </div>
-            {%- endif -%}
-          </div>
-
-        {% when 'newsletter' %}
-          <div class="section-footer__row__col section-footer__newsletter-block" {{ block.shopify_attributes }}>
-            {% if block.settings.title != blank %}
-              {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
-              <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
-                {{- block.settings.title | escape -}}
-              </div>
-            {% endif %}
-
-            {% if block.settings.text != blank %}
-              <div class="section-footer__text rte">
-                {{ block.settings.text }}
-              </div>
-            {% endif %}
-
-            {% render 'newsletter-signup', id: 'footer_newsletter_signup', tags: 'newsletter, footer', block: block %}
-
-            {% if block.settings.show_social_icons != blank %}
-              <div class="section-footer__newsletter-block__social">
-                {%- liquid
-                  if block.settings.soc_icons_large
-                    assign icon_height = 23
-                  else
-                    assign icon_height = 15
-                  endif
-                  if block.settings.soc_icons_large
-                    assign container_class = 'social--large'
-                  else
-                    assign container_class = ''
-                  endif
-
-                  render 'social-media', icon: settings.social_custom_icon, icon_height: icon_height, class: container_class
-                -%}
-              </div>
-            {% endif %}
-          </div>
-
-        {% when 'custom-liquid' %}
-          <div class="section-footer__row__col section-footer__custom-liquid-block" {{ block.shopify_attributes }}>
-            {% if block.settings.title != blank %}
-              {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
-              <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
-                {{- block.settings.title | escape -}}
-              </div>
-            {% endif %}
-
-            <div class="section-footer__custom-liquid">
-              {{- block.settings.code -}}
+          {% when '@app' %}
+            <div class="section-footer__row__col">
+              {% render block %}
             </div>
-          </div>
 
+          {% when 'menu' %}
+            <div
+              class="section-footer__row__col section-footer__menu-block"
+              role="navigation"
+              aria-label="{{ 'accessibility.secondary_navigation' | t }}"
+              {{ block.shopify_attributes }}
+            >
+              {% if block.settings.title != blank %}
+                {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
+                <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
+                  {{- block.settings.title | escape -}}
+                </div>
+              {% endif %}
+
+              {% if block.settings.menu != blank %}
+                <ul class="section-footer__menu-block__menu" {{ block.shopify_attributes }}>
+                  {% for link in linklists[block.settings.menu].links %}
+                    <li>
+                      <a
+                        href="{{ link.url }}"
+                        {% if link.title.size < 25 %}
+                          class="no-wrap"
+                        {% endif %}
+                      >
+                        {{- link.title -}}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+
+          {% when 'text' %}
+            <div
+              class="section-footer__row__col section-footer__text-block {% if block.settings.text != blank %}section-footer__text-block--with-text{% endif %}"
+              {{ block.shopify_attributes }}
+            >
+              {% if block.settings.title != blank %}
+                {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
+                <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
+                  {{- block.settings.title | escape -}}
+                </div>
+              {% endif %}
+
+              {% if block.settings.text != blank %}
+                <div class="section-footer__text rte">
+                  {{- block.settings.text -}}
+                </div>
+              {% endif %}
+
+              {% if block.settings.image != blank %}
+                <span class="section-footer__text-block__image" style="max-width: {{ block.settings.image_width }}px">
+                  {%- liquid
+                    assign image_sizes = block.settings.image_width | append: 'px'
+                    assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
+                  -%}
+                  {%- render 'image' with block.settings.image,
+                    sizes: image_sizes,
+                    widths: image_widths,
+                    loading: 'lazy'
+                  -%}
+                </span>
+              {% endif %}
+
+              {% if block.settings.show_social_icons != blank %}
+                <div class="section-footer__text-block__social">
+                  {%- liquid
+                    if block.settings.soc_icons_large
+                      assign icon_height = 23
+                    else
+                      assign icon_height = 15
+                    endif
+                    if block.settings.soc_icons_large
+                      assign container_class = 'social--large'
+                    else
+                      assign container_class = ''
+                    endif
+
+                    render 'social-media', icon: settings.social_custom_icon, icon_height: icon_height, class: container_class
+                  -%}
+                </div>
+              {% endif %}
+
+              {%- if shop.features.follow_on_shop? and block.settings.enable_follow_on_shop -%}
+                <div class="section-footer__follow-on-shop">
+                  {{- shop | login_button: action: 'follow' -}}
+                </div>
+              {%- endif -%}
+            </div>
+
+          {% when 'newsletter' %}
+            <div class="section-footer__row__col section-footer__newsletter-block" {{ block.shopify_attributes }}>
+              {% if block.settings.title != blank %}
+                {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
+                <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
+                  {{- block.settings.title | escape -}}
+                </div>
+              {% endif %}
+
+              {% if block.settings.text != blank %}
+                <div class="section-footer__text rte">
+                  {{ block.settings.text }}
+                </div>
+              {% endif %}
+
+              {% render 'newsletter-signup', id: 'footer_newsletter_signup', tags: 'newsletter, footer', block: block %}
+
+              {% if block.settings.show_social_icons != blank %}
+                <div class="section-footer__newsletter-block__social">
+                  {%- liquid
+                    if block.settings.soc_icons_large
+                      assign icon_height = 23
+                    else
+                      assign icon_height = 15
+                    endif
+                    if block.settings.soc_icons_large
+                      assign container_class = 'social--large'
+                    else
+                      assign container_class = ''
+                    endif
+
+                    render 'social-media', icon: settings.social_custom_icon, icon_height: icon_height, class: container_class
+                  -%}
+                </div>
+              {% endif %}
+            </div>
+
+          {% when 'custom-liquid' %}
+            <div class="section-footer__row__col section-footer__custom-liquid-block" {{ block.shopify_attributes }}>
+              {% if block.settings.title != blank %}
+                {%- assign title_word_count = block.settings.title | split: ' ' | size -%}
+                <div class="section-footer__title heading-font h6{% if title_word_count < 4 %} no-wrap{% endif %}">
+                  {{- block.settings.title | escape -}}
+                </div>
+              {% endif %}
+
+              <div class="section-footer__custom-liquid">
+                {{- block.settings.code -}}
+              </div>
+            </div>
         {% endcase %}
       {% endfor %}
     </div>
@@ -156,8 +172,14 @@
             {{ type | payment_type_svg_tag: class: 'section-footer__payment-icon' }}
           {% endfor %}
         </div>
-
       {% endif %}
+
+      {% if section.settings.show_shopvote_badge %}
+        <div class="section-footer__shopvote">
+          {% render 'os_shopvote' %}
+        </div>
+      {% endif %}
+      
       {% if section.settings.lower_menu != blank %}
         <div class="section-footer__lower-menu" role="navigation">
           <ul class="section-footer__lower-menu__list" aria-label="{{ 'accessibility.secondary_navigation' | t }}">
@@ -178,20 +200,23 @@
           {% render 'localization-form', id: 'footer-localization', hide_labels: true, promote_popular: true %}
         </div>
       {% endif %}
-
+      
       <div class="copyright">
         {%- assign copyright_year = 'now' | date: '%Y' -%}
-        <span class="copy">{{ 'sections.footer.copyright_html' | t: year: copyright_year, shop_url: routes.root_url, shop_name: shop.name }}</span>
+        <span class="copy">
+          {{-
+            'sections.footer.copyright_html'
+            | t: year: copyright_year, shop_url: routes.root_url, shop_name: shop.name
+          -}}
+        </span>
 
         {% if section.settings.show_powered_by %}
           {{ powered_by_link }}
         {% endif %}
-
       </div>
     </div>
   </div>
 </div>
-
 
 {% schema %}
 {
@@ -224,6 +249,12 @@
       "type": "checkbox",
       "id": "show_payment_icons",
       "label": "Show payment icons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shopvote_badge",
+      "label": "Show shopvote badge",
       "default": true
     },
     {

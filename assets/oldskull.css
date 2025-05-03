@@ -1,0 +1,15 @@
+.cart-savings--prominent {
+  color: #c40000 !important; /* Using !important to increase specificity if needed */
+  font-weight: bold;
+}
+
+.variant-sale-indicator {
+  color: #c40000;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+/* Hide color variant selector because of new related variant selector */
+fieldset.option-selector[data-option="color"] {
+  display: none;
+}

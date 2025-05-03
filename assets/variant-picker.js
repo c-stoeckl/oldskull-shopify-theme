@@ -9,24 +9,29 @@
  * - onlyXLeft
  */
 
-if (!customElements.get('variant-picker')) {
+if (!customElements.get("variant-picker")) {
   class VariantPicker extends HTMLElement {
     constructor() {
       super();
-      this.section = this.closest('.js-product');
-      this.productForm = this.section.querySelector('.js-product-form');
-      this.optionSelectors = this.querySelectorAll('.option-selector:not(.option-selector--custom)');
-      this.nativeSelector = document.getElementById(`variants-${this.section.dataset.section}`);
+      this.section = this.closest(".js-product");
+      this.productForm = this.section.querySelector(".js-product-form");
+      this.optionSelectors = this.querySelectorAll(
+        ".option-selector:not(.option-selector--custom)"
+      );
+      this.nativeSelector = document.getElementById(
+        `variants-${this.section.dataset.section}`
+      );
       this.data = this.getVariantData();
       this.selectedOptions = this.getSelectedOptions();
       this.variant = this.getSelectedVariant();
 
       this.updateAvailability();
       this.updateAddToCartButton();
-      this.addEventListener('change', this.handleVariantChange.bind(this));
+      this.addEventListener("change", this.handleVariantChange.bind(this));
       this.applySearchParams();
 
-      this.setAttribute('loaded', '');
+      this.setAttribute("loaded", "");
+      this.updateSaleIndicators();
     }
 
     /**
@@ -37,7 +42,8 @@ if (!customElements.get('variant-picker')) {
       this.selectedOptions = this.getSelectedOptions();
       this.variant = this.getSelectedVariant();
 
-      this.preSelection = !this.variant && this.selectedOptions.find((o) => o === null) === null;
+      this.preSelection =
+        !this.variant && this.selectedOptions.find((o) => o === null) === null;
 
       this.updateUrl(evt);
       this.updateVariantInput();
@@ -50,15 +56,19 @@ if (!customElements.get('variant-picker')) {
       this.updateBarcode();
       VariantPicker.updateLabelText(evt);
 
-      this.dispatchEvent(new CustomEvent('on:variant:change', {
-        bubbles: true,
-        detail: {
-          form: this.productForm,
-          variant: this.variant,
-          allVariants: this.data.variants,
-          selectedOptions: this.selectedOptions
-        }
-      }));
+      this.updateSaleIndicators();
+
+      this.dispatchEvent(
+        new CustomEvent("on:variant:change", {
+          bubbles: true,
+          detail: {
+            form: this.productForm,
+            variant: this.variant,
+            allVariants: this.data.variants,
+            selectedOptions: this.selectedOptions,
+          },
+        })
+      );
     }
 
     /**
@@ -68,9 +78,12 @@ if (!customElements.get('variant-picker')) {
       if (!this.productForm) return;
       if (this.selectedOptions.indexOf(null) > -1) return;
 
-      this.addBtn = this.addBtn || this.productForm.querySelector('[name="add"]');
+      this.addBtn =
+        this.addBtn || this.productForm.querySelector('[name="add"]');
       const variantAvailable = this.variant && this.variant.available;
-      const unavailableStr = this.variant ? theme.strings.noStock : theme.strings.noVariant;
+      const unavailableStr = this.variant
+        ? theme.strings.noStock
+        : theme.strings.noVariant;
 
       this.addBtn.disabled = !variantAvailable;
       this.addBtn.textContent = variantAvailable
@@ -86,12 +99,14 @@ if (!customElements.get('variant-picker')) {
      */
     static updateOptionAvailability(optionEl, exists, available) {
       const el = optionEl;
-      const unavailableText = exists ? theme.strings.noStock : theme.strings.noVariant;
-      el.classList.toggle('is-unavailable', !available);
-      el.classList.toggle('is-nonexistent', !exists);
+      const unavailableText = exists
+        ? theme.strings.noStock
+        : theme.strings.noVariant;
+      el.classList.toggle("is-unavailable", !available);
+      el.classList.toggle("is-nonexistent", !exists);
 
-      if (optionEl.classList.contains('custom-select__option')) {
-        const em = el.querySelector('em');
+      if (optionEl.classList.contains("custom-select__option")) {
+        const em = el.querySelector("em");
 
         if (em) {
           em.hidden = available;
@@ -107,7 +122,7 @@ if (!customElements.get('variant-picker')) {
       } else if (!available) {
         el.nextElementSibling.title = unavailableText;
       } else {
-        el.nextElementSibling.removeAttribute('title');
+        el.nextElementSibling.removeAttribute("title");
       }
     }
 
@@ -115,7 +130,7 @@ if (!customElements.get('variant-picker')) {
      * Updates the availability status in option selectors.
      */
     updateAvailability() {
-      if (this.dataset.availability === 'off') return;
+      if (this.dataset.availability === "off") return;
       const { availabilityMode } = this.dataset; // 'down' or 'selection'
       let currVariant = this.variant;
 
@@ -123,9 +138,9 @@ if (!customElements.get('variant-picker')) {
         currVariant = { options: this.selectedOptions };
       }
 
-      if (availabilityMode === 'selection') {
+      if (availabilityMode === "selection") {
         // Flag all options as unavailable
-        this.querySelectorAll('.js-option').forEach((optionEl) => {
+        this.querySelectorAll(".js-option").forEach((optionEl) => {
           VariantPicker.updateOptionAvailability(optionEl, false, false);
         });
 
@@ -135,49 +150,71 @@ if (!customElements.get('variant-picker')) {
             let matchCount = 0;
 
             variant.options.forEach((option, optionIndex) => {
-              if (option === currVariant.options[optionIndex] && optionIndex !== selectorIndex) {
+              if (
+                option === currVariant.options[optionIndex] &&
+                optionIndex !== selectorIndex
+              ) {
                 matchCount += 1;
               }
             });
 
             if (matchCount === currVariant.options.length - 1) {
-              const options = selector.querySelectorAll('.js-option');
+              const options = selector.querySelectorAll(".js-option");
               const optionEl = Array.from(options).find((opt) => {
-                if (selector.dataset.selectorType === 'dropdown') {
+                if (selector.dataset.selectorType === "dropdown") {
                   return opt.dataset.value === variant.options[selectorIndex];
                 }
                 return opt.value === variant.options[selectorIndex];
               });
 
               if (optionEl) {
-                VariantPicker.updateOptionAvailability(optionEl, true, variant.available);
+                VariantPicker.updateOptionAvailability(
+                  optionEl,
+                  true,
+                  variant.available
+                );
               }
             }
           });
         });
       } else {
         this.optionSelectors.forEach((selector, selectorIndex) => {
-          const options = selector.querySelectorAll('.js-option:not([data-value=""])');
+          const options = selector.querySelectorAll(
+            '.js-option:not([data-value=""])'
+          );
           options.forEach((option) => {
-            const optionValue = selector.dataset.selectorType === 'dropdown' ? option.dataset.value : option.value;
+            const optionValue =
+              selector.dataset.selectorType === "dropdown"
+                ? option.dataset.value
+                : option.value;
             // any available variants with previous options and this one locked in?
             let variantsExist = false;
             let variantsAvailable = false;
             this.data.variants.forEach((v) => {
               let matches = 0;
               for (let i = 0; i < selectorIndex; i += 1) {
-                if (v.options[i] === this.selectedOptions[i] || this.selectedOptions[i] === null) {
+                if (
+                  v.options[i] === this.selectedOptions[i] ||
+                  this.selectedOptions[i] === null
+                ) {
                   matches += 1;
                 }
               }
-              if (v.options[selectorIndex] === optionValue && matches === selectorIndex) {
+              if (
+                v.options[selectorIndex] === optionValue &&
+                matches === selectorIndex
+              ) {
                 variantsExist = true;
                 if (v.available) {
                   variantsAvailable = true;
                 }
               }
             });
-            VariantPicker.updateOptionAvailability(option, variantsExist, variantsAvailable);
+            VariantPicker.updateOptionAvailability(
+              option,
+              variantsExist,
+              variantsAvailable
+            );
           });
         });
       }
@@ -187,7 +224,8 @@ if (!customElements.get('variant-picker')) {
      * Updates the backorder text and visibility.
      */
     updateBackorderText() {
-      this.backorder = this.backorder || this.section.querySelector('.backorder');
+      this.backorder =
+        this.backorder || this.section.querySelector(".backorder");
       if (!this.backorder) return;
 
       let hideBackorder = true;
@@ -195,10 +233,14 @@ if (!customElements.get('variant-picker')) {
       if (this.variant && this.variant.available) {
         const { inventory } = this.data.formatted[this.variant.id];
 
-        if (this.variant.inventory_management && inventory === 'none') {
-          const backorderProdEl = this.backorder.querySelector('.backorder__product');
-          const prodTitleEl = this.section.querySelector('.product-title');
-          const variantTitle = this.variant.title.includes('Default') ? '' : ` - ${this.variant.title}`;
+        if (this.variant.inventory_management && inventory === "none") {
+          const backorderProdEl = this.backorder.querySelector(
+            ".backorder__product"
+          );
+          const prodTitleEl = this.section.querySelector(".product-title");
+          const variantTitle = this.variant.title.includes("Default")
+            ? ""
+            : ` - ${this.variant.title}`;
 
           backorderProdEl.textContent = `${prodTitleEl.textContent}${variantTitle}`;
           hideBackorder = false;
@@ -213,27 +255,30 @@ if (!customElements.get('variant-picker')) {
      * @param {object} evt - Event object
      */
     static updateLabelText(evt) {
-      const selector = evt.target.closest('.option-selector');
-      if (selector.dataset.selectorType === 'dropdown') return;
+      const selector = evt.target.closest(".option-selector");
+      if (selector.dataset.selectorType === "dropdown") return;
 
-      const colorText = selector.querySelector('.js-color-text');
+      const colorText = selector.querySelector(".js-color-text");
       if (!colorText) return;
 
-      colorText.textContent = evt.target.nextElementSibling.querySelector('.js-value').textContent;
+      colorText.textContent =
+        evt.target.nextElementSibling.querySelector(".js-value").textContent;
     }
 
     /**
      * Updates the pick up availability.
      */
     updatePickupAvailability() {
-      this.pickUpAvailability = this.pickUpAvailability || this.section.querySelector('pickup-availability');
+      this.pickUpAvailability =
+        this.pickUpAvailability ||
+        this.section.querySelector("pickup-availability");
       if (!this.pickUpAvailability) return;
 
       if (this.variant && this.variant.available) {
         this.pickUpAvailability.getAvailability(this.variant.id);
       } else {
-        this.pickUpAvailability.removeAttribute('available');
-        this.pickUpAvailability.innerHTML = '';
+        this.pickUpAvailability.removeAttribute("available");
+        this.pickUpAvailability.innerHTML = "";
       }
     }
 
@@ -241,30 +286,34 @@ if (!customElements.get('variant-picker')) {
      * Updates the price.
      */
     updatePrice() {
-      this.price = this.price || this.section.querySelector('.product-info__price .price');
+      this.price =
+        this.price || this.section.querySelector(".product-info__price .price");
       if (!this.price) return;
 
       let { variant } = this;
       if (this.preSelection) {
         variant = this.data.variants[0];
         for (let i = 1; i < this.data.variants.length; i += 1) {
-          if (this.data.variants[i].price < variant.price) variant = this.data.variants[i];
+          if (this.data.variants[i].price < variant.price)
+            variant = this.data.variants[i];
         }
       }
 
       if (variant) {
-        const priceCurrentEl = this.price.querySelector('.price__current');
-        const priceWasEl = this.price.querySelector('.price__was');
-        const unitPriceEl = this.price.querySelector('.unit-price');
+        const priceCurrentEl = this.price.querySelector(".price__current");
+        const priceWasEl = this.price.querySelector(".price__was");
+        const unitPriceEl = this.price.querySelector(".unit-price");
 
         // Update current price and original price if on sale.
         priceCurrentEl.innerHTML = this.data.formatted[variant.id].price;
-        if (priceWasEl) priceWasEl.innerHTML = this.data.formatted[variant.id].compareAtPrice || '';
+        if (priceWasEl)
+          priceWasEl.innerHTML =
+            this.data.formatted[variant.id].compareAtPrice || "";
 
         // Update unit price, if specified.
         if (variant.unit_price_measurement) {
-          const valueEl = this.price.querySelector('.unit-price__price');
-          const unitEl = this.price.querySelector('.unit-price__unit');
+          const valueEl = this.price.querySelector(".unit-price__price");
+          const unitEl = this.price.querySelector(".unit-price__unit");
           const value = variant.unit_price_measurement.reference_value;
           const unit = variant.unit_price_measurement.reference_unit;
 
@@ -275,13 +324,21 @@ if (!customElements.get('variant-picker')) {
           unitPriceEl.hidden = true;
         }
 
-        this.price.classList.toggle('price--on-sale', variant.compare_at_price > variant.price);
-        this.price.classList.toggle('price--sold-out', !variant.available && !this.preSelection);
+        this.price.classList.toggle(
+          "price--on-sale",
+          variant.compare_at_price > variant.price
+        );
+        this.price.classList.toggle(
+          "price--sold-out",
+          !variant.available && !this.preSelection
+        );
       }
 
-      this.price.querySelector('.price__default').hidden = !this.variant && !this.preSelection;
-      this.price.querySelector('.price__no-variant').hidden = this.variant || this.preSelection;
-      const from = this.price.querySelector('.price__from');
+      this.price.querySelector(".price__default").hidden =
+        !this.variant && !this.preSelection;
+      this.price.querySelector(".price__no-variant").hidden =
+        this.variant || this.preSelection;
+      const from = this.price.querySelector(".price__from");
       if (from) {
         from.hidden = !this.preSelection;
       }
@@ -291,11 +348,11 @@ if (!customElements.get('variant-picker')) {
      * Updates the SKU.
      */
     updateSku() {
-      this.sku = this.sku || this.section.querySelector('.product-sku__value');
+      this.sku = this.sku || this.section.querySelector(".product-sku__value");
       if (!this.sku) return;
 
       const skuAvailable = this.variant && this.variant.sku;
-      this.sku.textContent = skuAvailable ? this.variant.sku : '';
+      this.sku.textContent = skuAvailable ? this.variant.sku : "";
       this.sku.parentNode.hidden = !skuAvailable;
     }
 
@@ -303,11 +360,12 @@ if (!customElements.get('variant-picker')) {
      * Updates the Barcode.
      */
     updateBarcode() {
-      this.barcode = this.barcode || this.section.querySelector('.product-barcode__value');
+      this.barcode =
+        this.barcode || this.section.querySelector(".product-barcode__value");
       if (!this.barcode) return;
 
       const barcodeAvailable = this.variant && this.variant.barcode;
-      this.barcode.textContent = barcodeAvailable ? this.variant.barcode : '';
+      this.barcode.textContent = barcodeAvailable ? this.variant.barcode : "";
       this.barcode.parentNode.hidden = !barcodeAvailable;
     }
 
@@ -316,21 +374,26 @@ if (!customElements.get('variant-picker')) {
      * @param {object} evt - Event object.
      */
     updateUrl(evt) {
-      if (!evt || evt.type !== 'change' || this.dataset.updateUrl === 'false') return;
-      const url = this.variant ? `${this.dataset.url}?variant=${this.variant.id}` : this.dataset.url;
-      window.history.replaceState({ }, '', url);
+      if (!evt || evt.type !== "change" || this.dataset.updateUrl === "false")
+        return;
+      const url = this.variant
+        ? `${this.dataset.url}?variant=${this.variant.id}`
+        : this.dataset.url;
+      window.history.replaceState({}, "", url);
     }
 
     /**
      * Updates the value of the hidden [name="id"] form inputs.
      */
     updateVariantInput() {
-      this.forms = this.forms || this.section.querySelectorAll('.js-product-form, .js-instalments-form');
+      this.forms =
+        this.forms ||
+        this.section.querySelectorAll(".js-product-form, .js-instalments-form");
 
       this.forms.forEach((form) => {
         const input = form.querySelector('[name="id"]');
-        input.value = this.variant ? this.variant.id : '';
-        input.dispatchEvent(new Event('change', { bubbles: true }));
+        input.value = this.variant ? this.variant.id : "";
+        input.dispatchEvent(new Event("change", { bubbles: true }));
       });
     }
 
@@ -351,11 +414,17 @@ if (!customElements.get('variant-picker')) {
       const selectedOptions = [];
 
       this.optionSelectors.forEach((selector) => {
-        if (selector.dataset.selectorType === 'dropdown') {
-          const selected = selector.querySelector('.custom-select__option[aria-selected="true"]');
-          selectedOptions.push(selected && selected.dataset.value !== '' ? selected.dataset.value : null);
+        if (selector.dataset.selectorType === "dropdown") {
+          const selected = selector.querySelector(
+            '.custom-select__option[aria-selected="true"]'
+          );
+          selectedOptions.push(
+            selected && selected.dataset.value !== ""
+              ? selected.dataset.value
+              : null
+          );
         } else {
-          const selected = selector.querySelector('input:checked');
+          const selected = selector.querySelector("input:checked");
           selectedOptions.push(selected ? selected.value : null);
         }
       });
@@ -368,8 +437,8 @@ if (!customElements.get('variant-picker')) {
      * @returns {?object} Variant object, or null if one is not selected.
      */
     getSelectedVariant() {
-      return this.data.variants.find(
-        (v) => v.options.every((val, index) => val === this.selectedOptions[index])
+      return this.data.variants.find((v) =>
+        v.options.every((val, index) => val === this.selectedOptions[index])
       );
     }
 
@@ -382,31 +451,78 @@ if (!customElements.get('variant-picker')) {
       Array.from(searchParams.keys()).forEach((key) => {
         const value = searchParams.get(key);
         const optionSelectors = Array.from(this.optionSelectors);
-        const matchingOptionSelector = optionSelectors.find((x) => x.dataset.option === key);
+        const matchingOptionSelector = optionSelectors.find(
+          (x) => x.dataset.option === key
+        );
         if (!matchingOptionSelector) return;
 
-        if (matchingOptionSelector.dataset.selectorType === 'dropdown') {
-          const colorOptionDropdown = matchingOptionSelector.querySelector(`.custom-select__option[data-value="${value}"]`);
+        if (matchingOptionSelector.dataset.selectorType === "dropdown") {
+          const colorOptionDropdown = matchingOptionSelector.querySelector(
+            `.custom-select__option[data-value="${value}"]`
+          );
           if (colorOptionDropdown) {
-            const customSelect = colorOptionDropdown.closest('custom-select');
+            const customSelect = colorOptionDropdown.closest("custom-select");
             customSelect.selectOption(colorOptionDropdown);
           }
         } else {
-          const matchingInput = matchingOptionSelector.querySelector(`input[value="${value}"]`);
+          const matchingInput = matchingOptionSelector.querySelector(
+            `input[value="${value}"]`
+          );
           if (matchingInput) {
-            const matchingOptionValue = matchingOptionSelector.querySelector('.option-selector__label-value');
+            const matchingOptionValue = matchingOptionSelector.querySelector(
+              ".option-selector__label-value"
+            );
             if (matchingOptionValue) {
-              matchingOptionSelector.querySelector('.option-selector__label-value').textContent = value;
+              matchingOptionSelector.querySelector(
+                ".option-selector__label-value"
+              ).textContent = value;
             }
             matchingInput.checked = true;
             matchingInput.dispatchEvent(
-              new CustomEvent('change', { bubbles: true, cancelable: false })
+              new CustomEvent("change", { bubbles: true, cancelable: false })
             );
           }
         }
       });
     }
+
+     /**
+     * Updates the sale indicators.
+     */
+    updateSaleIndicators() {
+      this.optionSelectors.forEach((selector, optionIndex) => {
+        // Only apply to color option-selector (using data-option attribute)
+        if (selector.dataset.option?.toLowerCase() !== 'color') return;
+        const labels = selector.querySelectorAll('.opt-label');
+        labels.forEach(label => {
+          // Get the value for this label
+          const valueSpan = label.querySelector('.js-value');
+          if (!valueSpan) return;
+          const value = valueSpan.textContent.trim();
+
+          // Build a test options array: use selected options, but replace current index with this value
+          let testOptions = [...this.selectedOptions];
+          testOptions[optionIndex] = value;
+
+          // Find the matching variant
+          const matchingVariant = this.data.variants.find(v =>
+            v.options.every((opt, idx) => opt === testOptions[idx])
+          );
+
+          // Find the badge span
+          const badge = label.querySelector('.variant-sale-indicator');
+          if (badge) {
+            if (matchingVariant && matchingVariant.compare_at_price > matchingVariant.price) {
+              badge.textContent = window.themeStrings?.sale || '%';
+              badge.style.display = '';
+            } else {
+              badge.style.display = 'none';
+            }
+          }
+        });
+      });
+    }
   }
 
-  customElements.define('variant-picker', VariantPicker);
+  customElements.define("variant-picker", VariantPicker);
 }

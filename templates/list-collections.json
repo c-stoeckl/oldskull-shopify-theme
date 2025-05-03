@@ -1,12 +1,1 @@
-{
-  "sections": {
-    "main": {
-      "type": "main-list-collections",
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "main"
-  ]
-}
+{"sections":{"main":{"type":"main-list-collections","blocks":{"image_PDwmbg":{"type":"image","settings":{"collection":"basics","subheading":"","button_label":""}},"image_BDfAVF":{"type":"image","settings":{"collection":"print-t-shirts","subheading":"","button_label":""}},"image_VEMCxa":{"type":"image","settings":{"collection":"longsleeves","subheading":"","button_label":""}},"image_9BtEhb":{"type":"image","settings":{"collection":"sweatshirts","subheading":"","button_label":""}},"image_rcm3e6":{"type":"image","settings":{"collection":"hoodies","subheading":"","button_label":""}},"image_Y3gmEd":{"type":"image","settings":{"collection":"zip-hoodies","subheading":"","button_label":""}},"image_EgWCx4":{"type":"image","settings":{"collection":"sweatpants","subheading":"","button_label":""}},"image_aGT7xG":{"type":"image","settings":{"collection":"backprints-only","subheading":"","button_label":""}}},"block_order":["image_PDwmbg","image_BDfAVF","image_VEMCxa","image_9BtEhb","image_rcm3e6","image_Y3gmEd","image_EgWCx4","image_aGT7xG"],"settings":{"title":"Our collections","display_type":"selected","grid":4,"coll_grid_image_shape":"square","coll_grid_image_position":"center center","coll_thumb_mob_per_row":"2","coll_grid_show_count":true,"coll_text_position":"below","coll_text_position_under_mobile":false,"coll_thumb_text_align_x":"center","coll_thumb_text_align_y":"center","coll_button_style":"primary"}}},"order":["main"]}

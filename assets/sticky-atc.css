@@ -46,6 +46,7 @@
 
 .sticky-atc__details__title {
   font-weight: 600;
+  font-size: 16px;
   line-height: 1.3;
 }
 
@@ -88,7 +89,7 @@
   .sticky-atc {
     --sticky-atc-width: 485px;
     width: var(--sticky-atc-width);
-    padding: 12px;
+    padding: 16px;
     bottom: calc(var(--gutter-content) + env(safe-area-inset-bottom, 0px));
     border-radius: var(--btn-border-radius);
     box-shadow: 0 6px 12px 1px rgba(0, 0, 0, 0.12);

@@ -191,6 +191,11 @@
               {%- endfor -%}
             </ul>
           {%- endif -%}
+          
+          {%- if section.settings.show_cart_savings -%}
+            {%- render 'os_cart-savings' -%}
+          {%- endif -%}
+          
           <div class="subtotal h4 heading-font opposing-items">
             {{ 'cart.summary.subtotal' | t }}:
             <span class="theme-money">
@@ -744,6 +749,16 @@
           "label": "2"
         }
       ]
+    },
+    {
+      "type": "header",
+      "content": "Cart savings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_cart_savings",
+      "label": "Show total savings",
+      "default": true
     }
   ]
 }
