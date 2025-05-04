@@ -1,1 +1,345 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"text_iyBXm8":{"type":"text","settings":{"text":"{{ product.metafields.products.description.value }}","icon":"","icon_size":"small","enable_box":false,"box_color":"#e0f4d5","show_in_quickbuy":false}},"price":{"type":"price","settings":{"show_tax_and_shipping":true,"enable_product_reviews_by_price":true}},"divider":{"type":"divider","settings":{"show_in_quickbuy":false}},"related_products_GawTBP":{"type":"related-products","settings":{"title":"colors","product_list":"{{ product.metafields.custom.siblings.value }}","style":"image","image_width":60,"show_in_quickbuy":true}},"variant-picker":{"type":"variant-picker","settings":{"show_single":false,"selector_style":"listed","dynamic_availability":"show","enable_size_chart":true,"size_chart_label":"Größentabelle","size_chart_variant":"size","size_chart_page":"sizechart"}},"inventory_level_kBELfj":{"type":"inventory-level","settings":{"show_inventory_notice":"low","show_inventory_count":"low","inventory_threshold":3,"enable_box":false,"enable_pulse":true,"show_in_quickbuy":true}},"text_Cdz8rb":{"type":"text","settings":{"text":"Lieferzeit: in 1-3 Werktagen bei dir!","icon":"truck","icon_size":"small","enable_box":false,"box_color":"#e0f4d5","show_in_quickbuy":true}},"buy-buttons":{"type":"buy-buttons","settings":{"show_quantity_selector":false,"enable_payment_button":false,"show_backorder_text":false,"show_pickup_availability":false,"show_gift_card_recipient":false}},"richtext_7Lknxh":{"type":"richtext","settings":{"richtext":"<p><strong>May Day Sale: <\/strong>Spare 50% auf jeden 2. Artikel (<a href=\"\/pages\/may-day-sale\" title=\"May Day Sale\">klicke für mehr Infos<\/a>)  <\/p>","icon":"dollar_sign","icon_size":"large","enable_box":true,"box_color":"#c40000","show_in_quickbuy":false}},"custom_liquid_QxcBqA":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"section-footer__payment-icons\">\n            {% for type in shop.enabled_payment_types %}\n              {{ type | payment_type_svg_tag: class: 'section-footer__payment-icon' }}\n            {% endfor %}\n          <\/div>","show_in_quickbuy":false}},"countdown_TTUkbf":{"type":"countdown","disabled":true,"settings":{"heading":"Verpasse nicht unseren May Day Sale","end_date":"2025-05-04","end_time":"23:59","end_text":"","hide_on_end":true,"box_color":"#c40000","text_color":"#ffffff","number_font":"base","divider_type":"colon","show_timer_labels":true,"show_in_quickbuy":false}},"accordion_RCmMBi":{"type":"accordion","settings":{"title":"Beschreibung","icon":"chat_bubble","content":"{{ product.description }}","page":"","custom_liquid":"","open":false,"show_in_quickbuy":false}},"accordion_jMw8Pm":{"type":"accordion","settings":{"title":"Materialhinweise und Details","icon":"shirt","content":"<p><strong>Material:<\/strong> {{ product.metafields.products.fabrics.value }}<br\/><strong>Schnitt: <\/strong>{{ product.metafields.products.cut.value }}<\/p>","page":"","custom_liquid":"","open":false,"show_in_quickbuy":false}},"accordion_RntUfH":{"type":"accordion","settings":{"title":"Pflegehinweise","icon":"iron","content":"<p>{{ product.metafields.products.cleaning_care.value }}<\/p>","page":"","custom_liquid":"","open":false,"show_in_quickbuy":false}},"accordion_atMCmV":{"type":"accordion","settings":{"title":"Angaben zur Produktsicherheit","icon":"question_mark","content":"<p>{{ product.metafields.products.gpsr.value }}<\/p>","page":"","custom_liquid":"","open":false,"show_in_quickbuy":false}},"related_products_WFY4rt":{"type":"related-products","disabled":true,"settings":{"title":"Dieser Artikel ist auch in diesen Styles erhältlich:","product_list":"{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}","style":"card","image_width":80,"show_in_quickbuy":false}}},"block_order":["title","text_iyBXm8","price","divider","related_products_GawTBP","variant-picker","inventory_level_kBELfj","text_Cdz8rb","buy-buttons","richtext_7Lknxh","custom_liquid_QxcBqA","countdown_TTUkbf","accordion_RCmMBi","accordion_jMw8Pm","accordion_RntUfH","accordion_atMCmV","related_products_WFY4rt"],"custom_css":["h1 {font-size: 20px;}"],"settings":{"show_breadcrumbs":true,"select_first_variant":true,"show_location_underneath":false,"inventory_transfers_enable":true,"enable_sticky_columns":true,"enable_sticky_atc":true,"sticky_atc_position":"center","sticky_atc_mobile":true,"sticky_atc_behavior":"add_to_cart","sticky_atc_button_style":"primary","gallery_size":"large","gallery_layout":"columns-2","enable_zoom":true,"show_alt_text":false,"alt_text_icon":"","enable_video_autoplay":false,"enable_video_looping":false,"enable_media_grouping":false,"media_grouping_option":"Color,Colour,Couleur,Farbe"}},"product_template_product_list_UYBti8":{"type":"product-template-product-list","settings":{"title":"Dieser Artikel ist auch in diesen Varianten erhältlich:","product_list":"{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}","hide_if_empty":true,"show_vendor":false,"enable_carousel":true,"grid":4,"color_scheme":"default","full_width":true}},"key_features_hFRCEq":{"type":"key-features","blocks":{"feature_86L33B":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/oldskull_bundle_teaser_241018_mobile.jpg","bg_color":"#ffffff","bg_gradient":"","text_color":"#000000","heading":"Qualität, die du lieben wirst!","text":"<p>Keine Kompromisse bei Qualität - Langlebige Drucke und vorgewaschene Lieblingsteile für den perfekten Look, immer und überall.<\/p>","show_segments":false,"segments":4,"active_segment":"4","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"heart"}},"feature_cJYQ8e":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/os01exos0370bkmdetails8.jpg","bg_color":"#ffffff","bg_gradient":"","text_color":"#000000","heading":"Designs, die  begeistern","text":"<p>Unsere Motive vereinen Kulturen und setzen immer wieder neue, unverwechselbare Akzente. Wir halten die Spannung hoch mit regelmäßigen Print & Basic Knallern.<\/p>","show_segments":false,"segments":4,"active_segment":"4","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"star"}},"feature_hnrrpq":{"type":"feature","settings":{"image":"shopify:\/\/shop_images\/os01ulhd1311bkmdetails8_0e1663bd-2207-4b02-9b2c-262951fb77b1.jpg","bg_color":"#ffffff","bg_gradient":"","text_color":"#000000","heading":"Good Vibes & Great Styles","text":"<p>Retro-Vibes und Asien-Flair - für deine Sehnsuchtsorte und unvergesslichen Jugend-Momente. Dein Style, der Abenteuer und Freiheitsgefühl neu definiert.<\/p>","show_segments":false,"segments":4,"active_segment":"4","fill_segments":true,"show_labels":true,"label_left":"","label_middle":"","label_right":"","show_icon":false,"icon":"star"}}},"block_order":["feature_86L33B","feature_cJYQ8e","feature_hnrrpq"],"settings":{"heading":"Unser Verspechen an dich","image_max_width":400,"media_aspect_ratio":"s","image_position":"left","segment_position":"under-text"}},"related-products":{"type":"related-products","settings":{"title":"Das wird dir auch gefallen","show_vendor":false,"grid":4}}},"order":["main","product_template_product_list_UYBti8","key_features_hFRCEq","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_iyBXm8": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.products.description.value }}",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": true,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "related_products_GawTBP": {
+          "type": "related-products",
+          "settings": {
+            "title": "colors",
+            "product_list": "{{ product.metafields.custom.siblings.value }}",
+            "style": "image",
+            "image_width": 60,
+            "show_in_quickbuy": true
+          }
+        },
+        "variant-picker": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": true,
+            "size_chart_label": "Größentabelle",
+            "size_chart_variant": "size",
+            "size_chart_page": "sizechart"
+          }
+        },
+        "inventory_level_kBELfj": {
+          "type": "inventory-level",
+          "settings": {
+            "show_inventory_notice": "low",
+            "show_inventory_count": "low",
+            "inventory_threshold": 3,
+            "enable_box": false,
+            "enable_pulse": true,
+            "show_in_quickbuy": true
+          }
+        },
+        "text_Cdz8rb": {
+          "type": "text",
+          "settings": {
+            "text": "Lieferzeit: in 1-3 Werktagen bei dir!",
+            "icon": "truck",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": true
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "richtext_7Lknxh": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "richtext": "<p><strong>May Day Sale: </strong>Spare 50% auf jeden 2. Artikel (<a href=\"/pages/may-day-sale\" title=\"May Day Sale\">klicke für mehr Infos</a>)  </p>",
+            "icon": "dollar_sign",
+            "icon_size": "large",
+            "enable_box": true,
+            "box_color": "#c40000",
+            "show_in_quickbuy": false
+          }
+        },
+        "custom_liquid_QxcBqA": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"section-footer__payment-icons\">\n            {% for type in shop.enabled_payment_types %}\n              {{ type | payment_type_svg_tag: class: 'section-footer__payment-icon' }}\n            {% endfor %}\n          </div>",
+            "show_in_quickbuy": false
+          }
+        },
+        "countdown_TTUkbf": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "heading": "Verpasse nicht unseren May Day Sale",
+            "end_date": "2025-05-04",
+            "end_time": "23:59",
+            "end_text": "",
+            "hide_on_end": true,
+            "box_color": "#c40000",
+            "text_color": "#ffffff",
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true,
+            "show_in_quickbuy": false
+          }
+        },
+        "accordion_RCmMBi": {
+          "type": "accordion",
+          "settings": {
+            "title": "Beschreibung",
+            "icon": "chat_bubble",
+            "content": "{{ product.description }}",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "accordion_jMw8Pm": {
+          "type": "accordion",
+          "settings": {
+            "title": "Materialhinweise und Details",
+            "icon": "shirt",
+            "content": "<p><strong>Material:</strong> {{ product.metafields.products.fabrics.value }}<br/><strong>Schnitt: </strong>{{ product.metafields.products.cut.value }}</p>",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "accordion_RntUfH": {
+          "type": "accordion",
+          "settings": {
+            "title": "Pflegehinweise",
+            "icon": "iron",
+            "content": "<p>{{ product.metafields.products.cleaning_care.value }}</p>",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "accordion_atMCmV": {
+          "type": "accordion",
+          "settings": {
+            "title": "Angaben zur Produktsicherheit",
+            "icon": "question_mark",
+            "content": "<p>{{ product.metafields.products.gpsr.value }}</p>",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "related_products_WFY4rt": {
+          "type": "related-products",
+          "disabled": true,
+          "settings": {
+            "title": "Dieser Artikel ist auch in diesen Styles erhältlich:",
+            "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
+            "style": "card",
+            "image_width": 80,
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_iyBXm8",
+        "price",
+        "divider",
+        "related_products_GawTBP",
+        "variant-picker",
+        "inventory_level_kBELfj",
+        "text_Cdz8rb",
+        "buy-buttons",
+        "richtext_7Lknxh",
+        "custom_liquid_QxcBqA",
+        "countdown_TTUkbf",
+        "accordion_RCmMBi",
+        "accordion_jMw8Pm",
+        "accordion_RntUfH",
+        "accordion_atMCmV",
+        "related_products_WFY4rt"
+      ],
+      "custom_css": [
+        "h1 {font-size: 20px;}"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": true,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "center",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "primary",
+        "gallery_size": "large",
+        "gallery_layout": "columns-2",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "product_template_product_list_UYBti8": {
+      "type": "product-template-product-list",
+      "settings": {
+        "title": "Dieser Artikel ist auch in diesen Varianten erhältlich:",
+        "product_list": "{{ product.metafields[\"shopify--discovery--product_recommendation\"].related_products.value }}",
+        "hide_if_empty": true,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true
+      }
+    },
+    "key_features_hFRCEq": {
+      "type": "key-features",
+      "blocks": {
+        "feature_86L33B": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/oldskull_bundle_teaser_241018_mobile.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#000000",
+            "heading": "Qualität, die du lieben wirst!",
+            "text": "<p>Keine Kompromisse bei Qualität - Langlebige Drucke und vorgewaschene Lieblingsteile für den perfekten Look, immer und überall.</p>",
+            "show_segments": false,
+            "segments": 4,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "heart"
+          }
+        },
+        "feature_cJYQ8e": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/os01exos0370bkmdetails8.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#000000",
+            "heading": "Designs, die  begeistern",
+            "text": "<p>Unsere Motive vereinen Kulturen und setzen immer wieder neue, unverwechselbare Akzente. Wir halten die Spannung hoch mit regelmäßigen Print & Basic Knallern.</p>",
+            "show_segments": false,
+            "segments": 4,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_hnrrpq": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/os01ulhd1311bkmdetails8_0e1663bd-2207-4b02-9b2c-262951fb77b1.jpg",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#000000",
+            "heading": "Good Vibes & Great Styles",
+            "text": "<p>Retro-Vibes und Asien-Flair - für deine Sehnsuchtsorte und unvergesslichen Jugend-Momente. Dein Style, der Abenteuer und Freiheitsgefühl neu definiert.</p>",
+            "show_segments": false,
+            "segments": 4,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "feature_86L33B",
+        "feature_cJYQ8e",
+        "feature_hnrrpq"
+      ],
+      "settings": {
+        "heading": "Unser Verspechen an dich",
+        "image_max_width": 400,
+        "media_aspect_ratio": "s",
+        "image_position": "left",
+        "segment_position": "under-text"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "Das wird dir auch gefallen",
+        "show_vendor": false,
+        "grid": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_template_product_list_UYBti8",
+    "key_features_hFRCEq",
+    "related-products"
+  ]
+}

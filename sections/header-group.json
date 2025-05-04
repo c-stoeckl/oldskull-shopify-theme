@@ -1,1 +1,265 @@
-{"type":"header","name":"Header Group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-2":{"type":"announcement","disabled":true,"settings":{"text":"<a href=\"\/pages\/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS BASIC T-SHIRT<\/strong> FÜR DEINE BESTELLUNG <strong>AB 119€<\/strong><\/a>","show_countdown":false,"hide_on_end":false,"end_date":"","end_time":"","number_font":"base","countdown_separator":"dot","use_custom_colors":false,"bg_color":"#f4f6f8","bg_gradient":"","text_color":"#4c4c4b"}},"announcement_4f4E8j":{"type":"announcement","settings":{"text":"<a href=\"\/pages\/may-day-sale\" title=\"May Day Sale\"><strong>MAY DAY SALE: SPARE BEI JEDEM 2. ARTIKEL 50%<\/strong><\/a>","show_countdown":true,"hide_on_end":true,"end_date":"2025-05-04","end_time":"23:59","number_font":"heading","countdown_separator":"space","use_custom_colors":false,"bg_color":"#4a4a4a","bg_gradient":"","text_color":"#ffffff"}},"announcement_KWybDz":{"type":"announcement","settings":{"text":"<a href=\"\/pages\/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER<\/strong> UND ERHALTE EINEN <strong>10% RABATTCODE<\/strong><\/a>","show_countdown":false,"hide_on_end":false,"end_date":"","end_time":"","number_font":"base","countdown_separator":"box","use_custom_colors":false,"bg_color":"#4a4a4a","bg_gradient":"","text_color":"#ffffff"}}},"block_order":["announcement-2","announcement_4f4E8j","announcement_KWybDz"],"custom_css":["a {text-decoration: none !important;}"],"settings":{"message_font_size":11,"announcement_bar_col":"#000000","announcement_bar_gradient":"","announcement_text_col":"#ffffff","show_social_icons":true,"menu":"","enable_country_selector":false,"enable_language_selector":true}},"header":{"type":"header","blocks":{"menu_promotion_small_hdbmWi":{"type":"menu-promotion-small","disabled":true,"settings":{"dropdown_link_title":"Basics","image":"shopify:\/\/shop_images\/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png","title":"Erhalte ein Oldskull Basic T-Shirt für deine Bestellung ab 119€ als Geschenk*","link_url":"shopify:\/\/collections\/basics"}},"menu_promotion_small_n7jTMf":{"type":"menu-promotion-small","disabled":true,"settings":{"dropdown_link_title":"Prints","image":"shopify:\/\/shop_images\/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png","title":"Erhalte ein Oldskull Basic T-Shirt für deine Bestellung ab 119€ als Geschenk*","link_url":"shopify:\/\/collections\/basics"}},"menu_promotion_large_EBnqXa":{"type":"menu-promotion-large","disabled":true,"settings":{"dropdown_link_title":"Basics","desktop_image":"shopify:\/\/shop_images\/Easter_2025-2.png","mobile_image":"shopify:\/\/shop_images\/Easter_2025-2.png","enable_fade":true,"image_position":"right","subheading":"","title":"","text":"<p><strong>EASTER DEALS:<\/strong> SPARE <strong>BIS ZU 30% EXTRA<\/strong> AUF ALLE ARTIKEL<\/p>","button_1_label":"Mehr Infos >","button_1_link":"shopify:\/\/pages\/easter-deals","button_1_style":"secondary","button_2_label":"Zum Shop >","button_2_link":"shopify:\/\/collections\/shop","button_2_style":"primary","text_alignment":"center","show_countdown":false,"countdown_position":"under-heading","end_date":"","end_time":"","end_text":"","hide_on_end":false,"number_size":40,"number_font":"base","divider_type":"colon","show_timer_labels":true}},"menu_promotion_large_PAaJBT":{"type":"menu-promotion-large","disabled":true,"settings":{"dropdown_link_title":"Prints","desktop_image":"shopify:\/\/shop_images\/Easter_2025-2.png","mobile_image":"shopify:\/\/shop_images\/Easter_2025-2.png","enable_fade":true,"image_position":"right","subheading":"","title":"","text":"<p><strong>EASTER DEALS:<\/strong> SPARE <strong>BIS ZU 30% EXTRA<\/strong> AUF ALLE ARTIKEL<\/p>","button_1_label":"Mehr Infos >","button_1_link":"shopify:\/\/pages\/easter-deals","button_1_style":"secondary","button_2_label":"Zum Shop >","button_2_link":"shopify:\/\/collections\/shop","button_2_style":"primary","text_alignment":"center","show_countdown":false,"countdown_position":"under-heading","end_date":"","end_time":"","end_text":"","hide_on_end":false,"number_size":40,"number_font":"base","divider_type":"colon","show_timer_labels":true}},"menu_promotion_large_yBbyGz":{"type":"menu-promotion-large","disabled":true,"settings":{"dropdown_link_title":"Easter Deals","desktop_image":"shopify:\/\/shop_images\/Easter_2025-2.png","mobile_image":"shopify:\/\/shop_images\/Easter_2025-4.png","enable_fade":true,"image_position":"right","subheading":"","title":"EASTER DEALS","text":"<p><strong>EASTER DEALS:<\/strong> SPARE <strong>BIS ZU 30% EXTRA<\/strong> AUF ALLE ARTIKEL<\/p>","button_1_label":"Mehr Infos >","button_1_link":"shopify:\/\/pages\/easter-deals","button_1_style":"secondary","button_2_label":"Zum Shop >","button_2_link":"shopify:\/\/collections\/shop","button_2_style":"primary","text_alignment":"center","show_countdown":true,"countdown_position":"under-text","end_date":"2025-04-22","end_time":"23:59","end_text":"","hide_on_end":true,"number_size":30,"number_font":"heading","divider_type":"dot","show_timer_labels":true}}},"block_order":["menu_promotion_small_hdbmWi","menu_promotion_small_n7jTMf","menu_promotion_large_EBnqXa","menu_promotion_large_PAaJBT","menu_promotion_large_yBbyGz"],"settings":{"logo":"shopify:\/\/shop_images\/oldskull_logo_2025_WH_520x379_e4af457b-5905-4c00-9f64-840386bd40ff.png","logo_img_width_int":80,"mobile_logo_img_width_int":90,"logo_h1":true,"enable_sticky":true,"enable_transparent":false,"transparent_color":"#ffffff","transparent_logo":"shopify:\/\/shop_images\/oldskull_logo_2025_WH_520x379_e4af457b-5905-4c00-9f64-840386bd40ff.png","menu_linklist":"main-menu-new","menu_layout":"inline-menu-center","nav_featured_link":"May Day Sale","menu_linklist_mobile":"","mobile_expand_with_entire_link":false,"enable_mobile_promo_carousel":true,"enable_nav_mob_products":true,"nav_mob_products_title":"Best Sellers","nav_mob_products_collection":"hot-selling-products","enable_search":true,"search_recommendations_title":"","search_recommendations_menu":"search-menu","icon_strategy":"icons_cart_search","cart_icon":"bag"}},"store-messages":{"type":"store-messages","blocks":{"1601308127822":{"type":"message","settings":{"heading":"","subheading":"Free and easy domestic returns","link_url":""}}},"block_order":["1601308127822"],"disabled":true,"settings":{"head_not_home_only":true,"head_not_col_bg":"#f4f6f8","head_not_col_txt1":"#171717","head_not_col_txt2":"#4c4c4b","head_not_mob_show":true,"head_not_mob_text":"Free shipping on orders over $100","head_not_mob_url":""}}},"order":["announcement-bar","header","store-messages"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS BASIC T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "dot",
+            "use_custom_colors": false,
+            "bg_color": "#f4f6f8",
+            "bg_gradient": "",
+            "text_color": "#4c4c4b"
+          }
+        },
+        "announcement_4f4E8j": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<a href=\"/pages/may-day-sale\" title=\"May Day Sale\"><strong>MAY DAY SALE: SPARE BEI JEDEM 2. ARTIKEL 50%</strong></a>",
+            "show_countdown": true,
+            "hide_on_end": true,
+            "end_date": "2025-05-04",
+            "end_time": "23:59",
+            "number_font": "heading",
+            "countdown_separator": "space",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement_KWybDz": {
+          "type": "announcement",
+          "settings": {
+            "text": "<a href=\"/pages/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER</strong> UND ERHALTE EINEN <strong>10% RABATTCODE</strong></a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-2",
+        "announcement_4f4E8j",
+        "announcement_KWybDz"
+      ],
+      "custom_css": [
+        "a {text-decoration: none !important;}"
+      ],
+      "settings": {
+        "message_font_size": 11,
+        "announcement_bar_col": "#000000",
+        "announcement_bar_gradient": "",
+        "announcement_text_col": "#ffffff",
+        "show_social_icons": true,
+        "menu": "",
+        "enable_country_selector": false,
+        "enable_language_selector": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_promotion_small_hdbmWi": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "Basics",
+            "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
+            "title": "Erhalte ein Oldskull Basic T-Shirt für deine Bestellung ab 119€ als Geschenk*",
+            "link_url": "shopify://collections/basics"
+          }
+        },
+        "menu_promotion_small_n7jTMf": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "Prints",
+            "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
+            "title": "Erhalte ein Oldskull Basic T-Shirt für deine Bestellung ab 119€ als Geschenk*",
+            "link_url": "shopify://collections/basics"
+          }
+        },
+        "menu_promotion_large_EBnqXa": {
+          "type": "menu-promotion-large",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "Basics",
+            "desktop_image": "shopify://shop_images/Easter_2025-2.png",
+            "mobile_image": "shopify://shop_images/Easter_2025-2.png",
+            "enable_fade": true,
+            "image_position": "right",
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>EASTER DEALS:</strong> SPARE <strong>BIS ZU 30% EXTRA</strong> AUF ALLE ARTIKEL</p>",
+            "button_1_label": "Mehr Infos >",
+            "button_1_link": "shopify://pages/easter-deals",
+            "button_1_style": "secondary",
+            "button_2_label": "Zum Shop >",
+            "button_2_link": "shopify://collections/shop",
+            "button_2_style": "primary",
+            "text_alignment": "center",
+            "show_countdown": false,
+            "countdown_position": "under-heading",
+            "end_date": "",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "number_size": 40,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        },
+        "menu_promotion_large_PAaJBT": {
+          "type": "menu-promotion-large",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "Prints",
+            "desktop_image": "shopify://shop_images/Easter_2025-2.png",
+            "mobile_image": "shopify://shop_images/Easter_2025-2.png",
+            "enable_fade": true,
+            "image_position": "right",
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>EASTER DEALS:</strong> SPARE <strong>BIS ZU 30% EXTRA</strong> AUF ALLE ARTIKEL</p>",
+            "button_1_label": "Mehr Infos >",
+            "button_1_link": "shopify://pages/easter-deals",
+            "button_1_style": "secondary",
+            "button_2_label": "Zum Shop >",
+            "button_2_link": "shopify://collections/shop",
+            "button_2_style": "primary",
+            "text_alignment": "center",
+            "show_countdown": false,
+            "countdown_position": "under-heading",
+            "end_date": "",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "number_size": 40,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        },
+        "menu_promotion_large_yBbyGz": {
+          "type": "menu-promotion-large",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "Easter Deals",
+            "desktop_image": "shopify://shop_images/Easter_2025-2.png",
+            "mobile_image": "shopify://shop_images/Easter_2025-4.png",
+            "enable_fade": true,
+            "image_position": "right",
+            "subheading": "",
+            "title": "EASTER DEALS",
+            "text": "<p><strong>EASTER DEALS:</strong> SPARE <strong>BIS ZU 30% EXTRA</strong> AUF ALLE ARTIKEL</p>",
+            "button_1_label": "Mehr Infos >",
+            "button_1_link": "shopify://pages/easter-deals",
+            "button_1_style": "secondary",
+            "button_2_label": "Zum Shop >",
+            "button_2_link": "shopify://collections/shop",
+            "button_2_style": "primary",
+            "text_alignment": "center",
+            "show_countdown": true,
+            "countdown_position": "under-text",
+            "end_date": "2025-04-22",
+            "end_time": "23:59",
+            "end_text": "",
+            "hide_on_end": true,
+            "number_size": 30,
+            "number_font": "heading",
+            "divider_type": "dot",
+            "show_timer_labels": true
+          }
+        }
+      },
+      "block_order": [
+        "menu_promotion_small_hdbmWi",
+        "menu_promotion_small_n7jTMf",
+        "menu_promotion_large_EBnqXa",
+        "menu_promotion_large_PAaJBT",
+        "menu_promotion_large_yBbyGz"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/oldskull_logo_2025_WH_520x379_e4af457b-5905-4c00-9f64-840386bd40ff.png",
+        "logo_img_width_int": 80,
+        "mobile_logo_img_width_int": 90,
+        "logo_h1": true,
+        "enable_sticky": true,
+        "enable_transparent": true,
+        "transparent_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/oldskull_logo_2025_WH_520x379_e4af457b-5905-4c00-9f64-840386bd40ff.png",
+        "menu_linklist": "main-menu-new",
+        "menu_layout": "inline-menu-center",
+        "nav_featured_link": "Outlet",
+        "menu_linklist_mobile": "",
+        "mobile_expand_with_entire_link": false,
+        "enable_mobile_promo_carousel": true,
+        "enable_nav_mob_products": true,
+        "nav_mob_products_title": "Best Sellers",
+        "nav_mob_products_collection": "hot-selling-products",
+        "enable_search": true,
+        "search_recommendations_title": "",
+        "search_recommendations_menu": "search-menu",
+        "icon_strategy": "icons_cart_search",
+        "cart_icon": "bag"
+      }
+    },
+    "store-messages": {
+      "type": "store-messages",
+      "blocks": {
+        "1601308127822": {
+          "type": "message",
+          "settings": {
+            "heading": "",
+            "subheading": "Free and easy domestic returns",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1601308127822"
+      ],
+      "disabled": true,
+      "settings": {
+        "head_not_home_only": true,
+        "head_not_col_bg": "#f4f6f8",
+        "head_not_col_txt1": "#171717",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": true,
+        "head_not_mob_text": "Free shipping on orders over $100",
+        "head_not_mob_url": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "store-messages"
+  ]
+}
