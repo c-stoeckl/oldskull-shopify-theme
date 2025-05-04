@@ -251,6 +251,7 @@
             {%- if settings.swatch_source != 'none' and settings.prod_thumb_show_options and hide_swatches == blank -%}
               {%- liquid
                 assign sibling_products_from_metafield = product.metafields.custom.siblings.value | default: ""
+                assign product_metafield_color = product.metafields.products.colour.value | default: blank 
 
                 assign valid_sibling_count = 0
                 if sibling_products_from_metafield != ""
@@ -276,84 +277,86 @@
                 else
                   assign swatch_loading = 'lazy'
                 endif
-                assign current_option_limit = option_limit
               -%}
 
+              {%- comment %} NEW: Render color swatches based on metafield, outside the options loop {% endcomment %}
+              {%- if product_metafield_color != blank -%}
+                {%- render 'product-block-options-color',
+                  product: product,
+                  product_metafield_color: product_metafield_color,  
+                  sibling_products: sibling_products_from_metafield,
+                  valid_sibling_count: valid_sibling_count,
+                  option_limit: option_limit,
+                  swatch_loading: swatch_loading,
+                  settings: settings
+                -%}
+              {%- endif -%}
+
+              {%- comment %} MODIFIED: Loop for OTHER options, skipping the actual 'Color'/'Colour' option {% endcomment %}
               {%- capture rendered_option_names_string %}{% endcapture -%}
               {%- assign name_delimiter = '|||' -%}
-               {%- for product_option in product.options_with_values -%}
-                 {%- liquid
-                   assign full_option_name = product_option.name
-                   assign base_option_name = full_option_name
- 
-                   if full_option_name contains '(' and full_option_name contains ')'
-                     assign parts_after_paren = full_option_name | split: '(' | last
-                     assign potential_base = parts_after_paren | split: ')' | first | strip
-                     if potential_base != blank
-                       assign base_option_name = potential_base
-                     endif
-                   endif
- 
-                   assign base_option_name_downcased = base_option_name | downcase
- 
-                   assign rendered_option_names_array = rendered_option_names_string | split: name_delimiter
-                   assign already_rendered = false
-                   for rendered_name in rendered_option_names_array
-                     if rendered_name == base_option_name_downcased
-                       assign already_rendered = true
-                       break
-                     endif
-                   endfor
- 
-                   if already_rendered
-                     continue
-                   else
-                     capture rendered_option_names_string
-                       echo rendered_option_names_string
-                       echo base_option_name_downcased | append: name_delimiter
-                     endcapture
-                   endif
- 
-                   assign is_color_option = false
-                   if base_option_name_downcased == 'color' or base_option_name_downcased == 'colour'
-                     assign is_color_option = true
-                   endif
- 
-                   assign is_text_swatch = true
-                   if is_color_option and settings.swatch_source == 'theme' and settings.swatch_method != 'none'
-                     assign is_text_swatch = false
-                   elsif settings.swatch_source == 'native' and full_option_name == settings.swatch_native_option_name
-                     assign is_text_swatch = false
-                   endif
-                 -%}
+              {%- for product_option in product.options_with_values -%}
+                {%- liquid
+                  assign full_option_name = product_option.name
+                  assign base_option_name = full_option_name
 
-                 {%- comment -%} Refactor: Render options using dedicated snippets {%- endcomment -%}
-                 {%- if is_color_option -%}
-                   {%- comment -%} Always render color options if it IS a color option, let the snippet handle siblings {%- endcomment -%}
-                   {%- render 'product-block-options-color',
-                     product: product,
-                     product_option: product_option,
-                     sibling_products: sibling_products_from_metafield,
-                     valid_sibling_count: valid_sibling_count,
-                     option_limit: option_limit,
-                     swatch_loading: swatch_loading,
-                     settings: settings
-                   -%}
-                 {%- elsif is_color_option == false -%}
-                    {%- render 'product-block-options-other',
-                      product: product,
-                      product_option: product_option,
-                      is_text_swatch: is_text_swatch,
-                      option_limit: option_limit,
-                      swatch_loading: swatch_loading,
-                      settings: settings,
-                      compact: compact
-                    -%}
-                 {%- endif -%}
-               {%- endfor -%}
-             {%- endif -%}
+                  if full_option_name contains '(' and full_option_name contains ')'
+                    assign parts_after_paren = full_option_name | split: '(' | last
+                    assign potential_base = parts_after_paren | split: ')' | first | strip
+                    if potential_base != blank
+                      assign base_option_name = potential_base
+                    endif
+                  endif
 
-             {%- if settings.enable_product_reviews_collection
+                  assign base_option_name_downcased = base_option_name | downcase
+
+                  assign is_the_actual_color_option = false
+                  if base_option_name_downcased == 'color' or base_option_name_downcased == 'colour'
+                    assign is_the_actual_color_option = true
+                  endif
+
+                  if is_the_actual_color_option
+                    continue
+                  endif
+
+                  assign rendered_option_names_array = rendered_option_names_string | split: name_delimiter
+                  assign already_rendered = false
+                  for rendered_name in rendered_option_names_array
+                    if rendered_name == base_option_name_downcased
+                      assign already_rendered = true
+                      break
+                    endif
+                  endfor
+
+                  if already_rendered
+                    continue
+                  else
+                    capture rendered_option_names_string
+                      echo rendered_option_names_string
+                      echo base_option_name_downcased | append: name_delimiter
+                    endcapture
+                  endif
+
+                  assign is_text_swatch = true
+                  if settings.swatch_source == 'native' and full_option_name == settings.swatch_native_option_name
+                    assign is_text_swatch = false
+                  endif
+                -%}
+
+                {%- comment %} Render non-color options using the other snippet {% endcomment %}
+                {%- render 'product-block-options-other',
+                  product: product,
+                  product_option: product_option,
+                  is_text_swatch: is_text_swatch,
+                  option_limit: option_limit,
+                  swatch_loading: swatch_loading,
+                  settings: settings,
+                  compact: compact
+                -%}
+              {%- endfor -%}
+            {%- endif -%}
+
+            {%- if settings.enable_product_reviews_collection
                and product.metafields.reviews.rating_count != blank
                and compact == false
              -%}
