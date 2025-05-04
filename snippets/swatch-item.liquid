@@ -1,0 +1,83 @@
+{%- comment -%}
+  Renders a single swatch item (link or span) for product options.
+  
+  Parameters:
+  - url {String} - URL for the swatch link (optional, if not provided renders as span)
+  - label {String} - Text label for the swatch
+  - is_active {Boolean} - Whether this swatch is the currently selected option
+  - is_unavailable {Boolean} - Whether this option is unavailable
+  - swatch_value {String} - The normalized swatch value for data attribute
+  - swatch_type {String} - Either 'color', 'image', or 'text'
+  - image_object {Object} - Media object to use for image swatches (optional)
+  - media_id {String} - ID of the media to show when this swatch is hovered (optional)
+  - custom_class {String} - Additional CSS classes to add (optional)
+  - custom_style {String} - Additional inline styles (optional)
+  - loading {String} - Image loading strategy ('lazy', 'eager', 'manual')
+  - settings {Object} - Theme settings object
+  - tooltip_location {String} - Where to position the tooltip (optional, default: 'top')
+  - is_truncated {Boolean} - Whether this swatch is visually truncated in the list (optional)
+{%- endcomment -%}
+
+{%- liquid
+  assign swatch_type = swatch_type | default: 'text'
+  assign tooltip_location = tooltip_location | default: 'top'
+  assign loading = loading | default: 'lazy'
+  
+  assign element_tag = 'span'
+  if url != blank
+    assign element_tag = 'a'
+  endif
+  
+  assign item_classes = 'product-block-options__item'
+  if is_active
+    assign item_classes = item_classes | append: ' is-active'
+  endif
+  if is_unavailable
+    assign item_classes = item_classes | append: ' product-block-options__item--unavailable'
+  endif
+  if is_truncated
+    assign item_classes = item_classes | append: ' product-block-options__item--truncated'
+  endif
+  if custom_class != blank
+    assign item_classes = item_classes | append: ' ' | append: custom_class
+  endif
+  
+  assign item_attributes = ''
+  if swatch_value != blank
+    assign item_attributes = item_attributes | append: ' data-swatch="' | append: swatch_value | append: '"'
+  endif
+  if media_id != blank
+    assign item_attributes = item_attributes | append: ' data-media="' | append: media_id | append: '"'
+  endif
+  if option_item != blank
+    assign item_attributes = item_attributes | append: ' data-option-item="' | append: option_item | escape | append: '"'
+  endif
+  if custom_style != blank
+    assign item_attributes = item_attributes | append: ' style="' | append: custom_style | append: '"'
+  endif
+-%}
+
+<{{ element_tag }}
+  class="{{ item_classes }}"
+  {%- if url != blank %} href="{{ url }}"{% endif %}
+  {%- if label != blank %} 
+    aria-label="{{ label | escape }}"
+    data-tooltip="{{ label | escape }}"
+    data-tooltip-location="{{ tooltip_location }}"
+  {%- endif %}
+  {{ item_attributes }}
+>
+  <span class="product-block-options__item__text">{{ label | escape }}</span>
+  
+  {%- if swatch_type == 'image' and image_object != blank and image_object.preview_image -%}
+    {%- render 'image'
+      , image: image_object
+      , sizes: '36px'
+      , widths: '36, 72'
+      , custom_aspect_ratio: 1
+      , custom_crop: settings.swatch_crop_align
+      , loading: loading
+      , fetchpriority: 'low'
+    -%}
+  {%- endif -%}
+</{{ element_tag }}>

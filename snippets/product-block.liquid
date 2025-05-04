@@ -17,35 +17,33 @@
     %}
 {%- endcomment -%}
 {%- liquid
+  # 1. URL and collection context
   if collection and settings.prod_thumb_url_within_coll and product.collections contains collection
     assign product_url = product.url | within: collection
   else
     assign product_url = product.url
   endif
 
+  # 2. Product images setup
   assign product_images = product.media | where: 'media_type', 'image'
   if settings.prod_thumb_hover_image and product_images.size > 1
     assign show_hover_image = true
   else
     assign show_hover_image = false
   endif
-
-  if grid == blank
-    assign size_cols_desktop = section.settings.grid
-  else
-    assign size_cols_desktop = grid
-  endif
-
-  if compact
-    assign no_swiping = true
-    assign no_quick_buy = true
-    assign show_hover_image = false
-  else
-    assign compact = false
-  endif
-
+  
+  # 3. Grid and layout settings
+  assign size_cols_desktop = grid | default: section.settings.grid
+  
+  # 4. Compact mode settings
+  assign compact = compact | default: false
+  assign no_swiping = compact
+  assign no_quick_buy = no_quick_buy | default: compact
+  
+  # 5. Variant pricing
   assign cheapest_variant = product.variants | sort: 'price' | first
-
+  
+  # 6. Image loading strategy
   if manual_loading
     assign loading = 'manual'
     assign hover_loading = 'manual'
@@ -56,7 +54,8 @@
     assign loading = 'lazy'
     assign hover_loading = 'lazy'
   endif
-
+  
+  # 7. Display settings
   if in_predictive_search
     assign show_vendor = settings.quick_search_show_vendor
     assign show_price = settings.quick_search_show_price
@@ -64,7 +63,8 @@
     assign show_vendor = section.settings.show_vendor
     assign show_price = true
   endif
-
+  
+  # 8. Aspect ratio handling
   if custom_aspect_ratio
     assign custom_aspect_ratio = custom_aspect_ratio | at_least: 0.6
   endif
@@ -83,6 +83,7 @@
     <div class="block-inner-inner">
       {% if product.featured_media %}
         {%- liquid
+          # Check if all images have the same aspect ratio
           assign aspect_ratios_same = true
           for media in product.media offset: 1
             if media.preview_image.aspect_ratio != product.media.first.preview_image.aspect_ratio
@@ -91,6 +92,7 @@
             endif
           endfor
 
+          # Determine crop settings
           if settings.prod_thumb_crop
             assign custom_crop = settings.prod_thumb_crop_align
           else
@@ -108,7 +110,11 @@
               <div>
                 {%- if show_hover_image -%}
                   <div
-                    class="product-block__image product-block__image--primary{% if product.featured_media.id == product.media.first.id %}{% assign active_media_found = true %} product-block__image--active{% endif %}{% if product_images.last.id == product.featured_media.id %} product-block__image--show-on-hover{% endif %}"
+                    class="product-block__image product-block__image--primary
+                    {%- if product.featured_media.id == product.media.first.id -%} product-block__image--active
+                    {%- endif -%}
+                    {%- if product_images.last.id == product.featured_media.id -%} product-block__image--show-on-hover
+                    {%- endif -%}"
                     data-media-id="{{ product.media.first.id }}"
                   >
                     {%- render 'image' with product.media.first.preview_image,
@@ -119,19 +125,21 @@
                       custom_crop: custom_crop
                     -%}
                   </div>
+                  {%- assign active_media_found = false -%}
+                  {%- if product.featured_media.id == product.media.first.id -%}
+                    {%- assign active_media_found = true -%}
+                  {%- endif -%}
                   {%- for media in product_images offset: 1 -%}
                     {%- liquid
-                      assign image_state_class = ''
+                      # Simplified image state class logic
                       if media.id == product.featured_media.id
-                        assign active_media_found = true
                         assign image_state_class = 'product-block__image--active'
+                        assign active_media_found = true
+                      elsif active_media_found and forloop.first
+                        assign image_state_class = 'product-block__image--show-on-hover product-block__image--inactivated'
+                        assign active_media_found = false
                       else
-                        if active_media_found
-                          assign active_media_found = false
-                          assign image_state_class = 'product-block__image--show-on-hover product-block__image--inactivated'
-                        else
-                          assign image_state_class = 'product-block__image--inactivated'
-                        endif
+                        assign image_state_class = 'product-block__image--inactivated'
                       endif
                     -%}
                     <div
@@ -250,6 +258,7 @@
 
             {%- if settings.swatch_source != 'none' and settings.prod_thumb_show_options and hide_swatches == blank -%}
               {%- liquid
+                # Pre-calculate sibling product data
                 assign sibling_products_from_metafield = product.metafields.custom.siblings.value | default: ""
                 assign product_metafield_color = product.metafields.products.colour.value | default: blank 
 
@@ -262,16 +271,13 @@
                   endfor
                 endif
 
-                assign show_sibling_swatches = false
-                if valid_sibling_count > 0
-                  assign show_sibling_swatches = true
-                endif
-
+                # Option display settings
                 if card_layout == 'landscape'
                   assign option_limit = 5
                 else
                   assign option_limit = 3
                 endif
+                
                 if manual_loading
                   assign swatch_loading = 'manual'
                 else
@@ -279,7 +285,7 @@
                 endif
               -%}
 
-              {%- comment %} NEW: Render color swatches based on metafield, outside the options loop {% endcomment %}
+              {%- comment %} Render color swatches based on metafield {% endcomment %}
               {%- if product_metafield_color != blank -%}
                 {%- render 'product-block-options-color',
                   product: product,
@@ -292,11 +298,12 @@
                 -%}
               {%- endif -%}
 
-              {%- comment %} MODIFIED: Loop for OTHER options, skipping the actual 'Color'/'Colour' option {% endcomment %}
+              {%- comment %} Loop for other options, skipping color options {% endcomment %}
               {%- capture rendered_option_names_string %}{% endcapture -%}
               {%- assign name_delimiter = '|||' -%}
               {%- for product_option in product.options_with_values -%}
                 {%- liquid
+                  # Extract base option name (handling parentheses)
                   assign full_option_name = product_option.name
                   assign base_option_name = full_option_name
 
@@ -310,15 +317,12 @@
 
                   assign base_option_name_downcased = base_option_name | downcase
 
-                  assign is_the_actual_color_option = false
+                  # Skip color options
                   if base_option_name_downcased == 'color' or base_option_name_downcased == 'colour'
-                    assign is_the_actual_color_option = true
-                  endif
-
-                  if is_the_actual_color_option
                     continue
                   endif
 
+                  # Skip already rendered options
                   assign rendered_option_names_array = rendered_option_names_string | split: name_delimiter
                   assign already_rendered = false
                   for rendered_name in rendered_option_names_array
@@ -330,20 +334,22 @@
 
                   if already_rendered
                     continue
-                  else
-                    capture rendered_option_names_string
-                      echo rendered_option_names_string
-                      echo base_option_name_downcased | append: name_delimiter
-                    endcapture
                   endif
+                  
+                  # Add to rendered options list
+                  capture rendered_option_names_string
+                    echo rendered_option_names_string
+                    echo base_option_name_downcased | append: name_delimiter
+                  endcapture
 
+                  # Determine if this is a text swatch
                   assign is_text_swatch = true
                   if settings.swatch_source == 'native' and full_option_name == settings.swatch_native_option_name
                     assign is_text_swatch = false
                   endif
                 -%}
 
-                {%- comment %} Render non-color options using the other snippet {% endcomment %}
+                {%- comment %} Render non-color options {% endcomment %}
                 {%- render 'product-block-options-other',
                   product: product,
                   product_option: product_option,

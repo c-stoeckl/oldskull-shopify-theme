@@ -14,9 +14,20 @@
 
     assign swatches_shown = 0
     assign current_option_limit = option_limit | default: 3
-    assign show_sibling_swatches = false
+    
+    # Determine if we should show sibling swatches
     if valid_sibling_count > 0
         assign show_sibling_swatches = true
+    else
+        assign show_sibling_swatches = false
+    endif
+    
+    assign total_available_swatches = 1 | plus: valid_sibling_count
+    
+    # Determine swatch type based on settings
+    assign swatch_type = 'text'
+    if settings.swatch_method == 'variant-images'
+        assign swatch_type = 'image'
     endif
 -%}
 
@@ -24,84 +35,56 @@
     <div class="product-block-options__inner">
         {%- comment %} 1. Show current product swatch {% endcomment %}
         {%- liquid
-            assign current_product_item = product
             assign swatch_label = product_metafield_color | default: 'Default'
-
-            assign swatch_value_downcased = swatch_label | downcase
             assign swatch_value_normalized = swatch_label | replace: '"', '' | downcase
-
-            assign current_featured_media = current_product_item.featured_media
+            assign current_featured_media = product.featured_media
         -%}
-        <a
-            href="{{ current_product_item.url }}"
-            class="product-block-options__item is-active"
-            aria-label="{{ 'products.product.product_link_label' | t: title: current_product_item.title | escape }} - {{ swatch_label | escape }}"
-            data-tooltip="{{ swatch_label | escape }}"
-            data-tooltip-location="top"
-            data-swatch="{{ swatch_value_normalized }}">
-            <span class="product-block-options__item__text">{{ swatch_label | escape }}</span>
-            {%- if settings.swatch_method == 'variant-images' and current_featured_media.preview_image %}
-                {%- render 'image'
-                    , image: current_featured_media
-                    , sizes: '36px'
-                    , widths: '36, 72'
-                    , custom_aspect_ratio: 1
-                    , custom_crop: settings.swatch_crop_align
-                    , loading: swatch_loading
-                    , fetchpriority: 'low'
-                -%}
-            {%- endif -%}
-        </a>
-        {%- assign swatches_shown = swatches_shown | plus: 1 %}
+        
+        {%- render 'swatch-item',
+            url: product.url,
+            label: swatch_label,
+            is_active: true,
+            swatch_value: swatch_value_normalized,
+            swatch_type: swatch_type,
+            image_object: current_featured_media,
+            loading: swatch_loading,
+            settings: settings
+        -%}
+        
+        {%- assign swatches_shown = swatches_shown | plus: 1 -%}
 
         {%- comment %} 2. Show sibling product swatches (up to limit) {% endcomment %}
-        {%- if show_sibling_swatches and sibling_products != blank %}
-            {%- for sibling_product_item in sibling_products %}
-                {%- if swatches_shown >= current_option_limit %}
-                    {%- break %}
+        {%- if show_sibling_swatches and sibling_products != blank -%}
+            {%- for sibling_product_item in sibling_products -%}
+                {%- if swatches_shown >= current_option_limit -%}
+                    {%- break -%}
                 {%- endif -%}
 
-                {%- if sibling_product_item != blank and sibling_product_item.handle != product.handle %}
+                {%- if sibling_product_item != blank and sibling_product_item.handle != product.handle -%}
                     {%- liquid
                         assign sibling_swatch_label = sibling_product_item.metafields.products.colour.value | default: 'Default'
-
                         assign sibling_swatch_value_normalized = sibling_swatch_label | replace: '"', '' | downcase
                         assign sibling_featured_media = sibling_product_item.featured_media
                     -%}
-                    <a
-                        href="{{ sibling_product_item.url }}"
-                        class="product-block-options__item"
-                        aria-label="{{ 'products.product.product_link_label' | t: title: sibling_product_item.title | escape }} - {{ sibling_swatch_label | escape }}"
-                        data-tooltip="{{ sibling_swatch_label | escape }}"
-                        data-tooltip-location="top"
-                        data-swatch="{{ sibling_swatch_value_normalized }}">
-                        <span class="product-block-options__item__text">{{ sibling_swatch_label | escape }}</span>
-                        {%- if settings.swatch_method == 'variant-images' and sibling_featured_media.preview_image %}
-                            {%- render 'image'
-                                , image: sibling_featured_media
-                                , sizes: '36px'
-                                , widths: '36, 72'
-                                , custom_aspect_ratio: 1
-                                , custom_crop: settings.swatch_crop_align
-                                , loading: swatch_loading
-                                , fetchpriority: 'low'
-                            -%}
-                        {%- endif -%}
-                    </a>
-                    {%- assign swatches_shown = swatches_shown | plus: 1 %}
+                    
+                    {%- render 'swatch-item',
+                        url: sibling_product_item.url,
+                        label: sibling_swatch_label,
+                        swatch_value: sibling_swatch_value_normalized,
+                        swatch_type: swatch_type,
+                        image_object: sibling_featured_media,
+                        loading: swatch_loading,
+                        settings: settings
+                    -%}
+                    
+                    {%- assign swatches_shown = swatches_shown | plus: 1 -%}
                 {%- endif -%}
             {%- endfor -%}
         {%- endif -%}
 
         {%- comment %} Show "+ remaining" if needed {% endcomment %}
-        {%- assign total_available_swatches = 1 %}
-        {%- comment %} Start with current product {% endcomment %}
-        {%- if show_sibling_swatches %}
-            {%- assign total_available_swatches = total_available_swatches | plus: valid_sibling_count %}
-        {%- endif -%}
-
-        {%- if total_available_swatches > current_option_limit %}
-            {%- assign remaining = total_available_swatches | minus: current_option_limit %}
+        {%- if total_available_swatches > current_option_limit -%}
+            {%- assign remaining = total_available_swatches | minus: current_option_limit -%}
             <span class="product-block-options__more-label">+ {{ remaining }}</span>
         {%- endif -%}
     </div>
