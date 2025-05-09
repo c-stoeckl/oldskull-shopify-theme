@@ -94,6 +94,18 @@
             "show_gift_card_recipient": false
           }
         },
+        "smile_io_smile_points_on_product_page_teRnWW": {
+          "type": "shopify://apps/smile-io/blocks/smile-points-on-product-page/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#121212",
+            "secondary_colour": "#ebeaea",
+            "preview_scenario": "log_in_required_to_earn_points",
+            "should_show_icon": true,
+            "should_show_points_label": true,
+            "points_text_logged_in": "<p>Earn [points_amount] when you buy this item.</p>",
+            "points_text_logged_out": "<p>Members earn [points_amount] when they buy this item. <a href=\"/account/register/\">Sign up</a> or <a href=\"/account/login/\">log in</a>.</p>"
+          }
+        },
         "richtext_7Lknxh": {
           "type": "richtext",
           "disabled": true,
@@ -109,7 +121,7 @@
         "custom_liquid_QxcBqA": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "<div class=\"section-footer__payment-icons\">\n            {% for type in shop.enabled_payment_types %}\n              {{ type | payment_type_svg_tag: class: 'section-footer__payment-icon' }}\n            {% endfor %}\n          </div>",
+            "custom_liquid": "<div class=\"section-footer__payment-icons\"></br>\n            {% for type in shop.enabled_payment_types %}\n              {{ type | payment_type_svg_tag: class: 'section-footer__payment-icon' }}\n            {% endfor %}\n          </div>",
             "show_in_quickbuy": false
           }
         },
@@ -200,6 +212,7 @@
         "inventory_level_kBELfj",
         "text_Cdz8rb",
         "buy-buttons",
+        "smile_io_smile_points_on_product_page_teRnWW",
         "richtext_7Lknxh",
         "custom_liquid_QxcBqA",
         "countdown_TTUkbf",
