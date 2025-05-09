@@ -34,6 +34,27 @@
             "text_alignment": "bottom right"
           }
         },
+        "image_K6JRcd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oldskull_4for3-tshirts-may25_teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull_4for3-tshirts-may25_teaser-banner-mobile.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "THIS WEEKEND ONLY",
+            "heading_max_width": 40,
+            "title_size": 60,
+            "title_size_mobile": 30,
+            "use_h1": false,
+            "text": "<p>Kaufe 4 T-Shirts und erhalte das günstigste geschenkt*</p>",
+            "enlarge_text": true,
+            "button_label_1": "Zu den T-Shirts >",
+            "button_url_1": "shopify://collections/print-t-shirts",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "bottom left"
+          }
+        },
         "16359276425da8ce46-0": {
           "type": "image",
           "settings": {
@@ -54,34 +75,12 @@
             "button_url_2": "",
             "text_alignment": "bottom right"
           }
-        },
-        "image_K6JRcd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/oldskull_drop-4-25-iconic-logo_teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull_drop-4-25-iconic-logo_teaser-banner-mobile.png",
-            "slide_link": "",
-            "subheading": "",
-            "title": "NEW ICONIC LOGO",
-            "heading_max_width": 40,
-            "title_size": 60,
-            "title_size_mobile": 30,
-            "use_h1": false,
-            "text": "",
-            "enlarge_text": false,
-            "button_label_1": "Zum Drop >",
-            "button_url_1": "shopify://collections/oldskull-drop",
-            "button_label_2": "",
-            "button_url_2": "",
-            "text_alignment": "bottom left"
-          }
         }
       },
       "block_order": [
         "image_ER4WXB",
-        "16359276425da8ce46-0",
-        "image_K6JRcd"
+        "image_K6JRcd",
+        "16359276425da8ce46-0"
       ],
       "settings": {
         "height": "adapt",
