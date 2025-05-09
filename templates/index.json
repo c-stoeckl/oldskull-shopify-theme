@@ -158,8 +158,8 @@
     "16359278676808bea5": {
       "type": "featured-collection",
       "settings": {
-        "title": "Neuheiten",
-        "collection": "new-arrivals",
+        "title": "Entdecke unsere Topseller",
+        "collection": "hot-selling-products",
         "show_vendor": false,
         "enable_carousel": false,
         "grid": 4,
