@@ -102,8 +102,8 @@
             "preview_scenario": "log_in_required_to_earn_points",
             "should_show_icon": true,
             "should_show_points_label": true,
-            "points_text_logged_in": "<p>Earn [points_amount] when you buy this item.</p>",
-            "points_text_logged_out": "<p>Members earn [points_amount] when they buy this item. <a href=\"/account/register/\">Sign up</a> or <a href=\"/account/login/\">log in</a>.</p>"
+            "points_text_logged_in": "<p>Erhalte <strong>[points_amount]</strong> beim Kauf dieses Artikels.</p>",
+            "points_text_logged_out": "<p>Mitglieder erhalten <strong>[points_amount]</strong> beim Kauf dieses Artikels. <a href=\"/account/register/\" title=\"/account/register/\">Jetzt registrieren</a> oder <a href=\"/account/login/\" title=\"/account/login/\">einloggen</a>.</p>"
           }
         },
         "richtext_7Lknxh": {
