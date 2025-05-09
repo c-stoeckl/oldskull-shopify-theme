@@ -16,6 +16,7 @@
       "blocks": {
         "announcement-2": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS BASIC T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
             "show_countdown": false,
@@ -47,6 +48,22 @@
             "text_color": "#ffffff"
           }
         },
+        "announcement_TDRj7c": {
+          "type": "announcement",
+          "settings": {
+            "text": "<a href=\"/collections/print-t-shirts\" title=\"Print T-Shirts\">KAUFE <strong>4 T-SHIRTS</strong> UND ERHALTE DAS <strong>GÜNSTIGSTE GESCHENKT</strong></a>*",
+            "show_countdown": true,
+            "hide_on_end": true,
+            "end_date": "2025-05-12",
+            "end_time": "12:00",
+            "number_font": "heading",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
         "announcement_KWybDz": {
           "type": "announcement",
           "settings": {
@@ -67,6 +84,7 @@
       "block_order": [
         "announcement-2",
         "announcement_4f4E8j",
+        "announcement_TDRj7c",
         "announcement_KWybDz"
       ],
       "custom_css": [

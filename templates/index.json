@@ -102,12 +102,13 @@
         "text_9KqGh3": {
           "type": "text",
           "settings": {
-            "text": "<p>Unsere Easter Deals enden bald</p>",
+            "text": "<p>KAUFE <strong>4 T-SHIRTS</strong> UND ERHALTE DAS <strong>GÜNSTIGSTE GESCHENKT</strong>*</p>",
             "enlarge_text": true
           }
         },
         "text_pzYcVc": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>24h Extension!</strong></p>",
             "enlarge_text": false
@@ -116,8 +117,8 @@
         "countdown_HbjezN": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-04-23",
-            "end_time": "23:59",
+            "end_date": "2025-05-12",
+            "end_time": "12:00",
             "end_text": "",
             "hide_on_end": true,
             "number_size": 30,
@@ -129,8 +130,8 @@
         "button_dKQ3Em": {
           "type": "button",
           "settings": {
-            "button_label": "Mehr Infos >",
-            "button_link": "shopify://pages/easter-deals",
+            "button_label": "Zu den T-Shirts >",
+            "button_link": "shopify://collections/print-t-shirts",
             "button_style": "secondary"
           }
         }
@@ -141,7 +142,6 @@
         "countdown_HbjezN",
         "button_dKQ3Em"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],
