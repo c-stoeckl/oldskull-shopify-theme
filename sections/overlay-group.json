@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "<a href=\"https://oldskulleurope.com/pages/bundle-offers\" title=\"Bundle Offers\"><strong>Jetzt dein Gratis T-Shirt im OLDSKULL BUNDLE sichern</strong>: Packe Artikel deiner Wahl im Wert von 119€ in deinen Warenkorb und schnapp dir 1 Basic T-Shirt als Geschenk dazu (klicke für mehr Infos)</a>",
+        "announcement_text": "<a href=\"/pages/bundle-offers\" title=\"/pages/bundle-offers\"><strong>Jetzt dein Gratis T-Shirt im OLDSKULL BUNDLE sichern</strong>: Artikel im Wert von 119€ + ein weiteres T-Shirt in den Warenkorb legen und das günstigste T-Shirt geschenkt bekommen* (klicke für mehr Infos)</a>",
         "announcement_icon": "shirt",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,
