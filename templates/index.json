@@ -41,15 +41,15 @@
             "mobile_image": "shopify://shop_images/oldskull_4for3-tshirts-may25_teaser-banner-mobile.png",
             "slide_link": "",
             "subheading": "",
-            "title": "THIS WEEKEND ONLY",
+            "title": "FREE T-SHIRT",
             "heading_max_width": 40,
             "title_size": 60,
             "title_size_mobile": 30,
             "use_h1": false,
-            "text": "<p>Kaufe 4 T-Shirts und erhalte das günstigste geschenkt*</p>",
+            "text": "<p>Artikel im Wert von 199€ + ein weiteres T-Shirt in den Warenkorb legen und das günstigste T-Shirt geschenkt bekommen*</p>",
             "enlarge_text": true,
-            "button_label_1": "Zu den T-Shirts >",
-            "button_url_1": "shopify://collections/print-t-shirts",
+            "button_label_1": "Zum Shop >",
+            "button_url_1": "shopify://collections/shop-all",
             "button_label_2": "",
             "button_url_2": "",
             "text_alignment": "bottom left"
@@ -142,6 +142,7 @@
         "countdown_HbjezN",
         "button_dKQ3Em"
       ],
+      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],
