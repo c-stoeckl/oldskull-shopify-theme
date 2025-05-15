@@ -1,1 +1,281 @@
-{"sections":{"image_with_text_overlay_pnHRgT":{"type":"image-with-text-overlay","blocks":{"subheading_Tyr8xr":{"type":"subheading","settings":{"subheading":"OUR LOYALTY PROGRAM"}},"heading_MTaPXk":{"type":"heading","settings":{"title":"Join the Oldskull Crew","heading_max_width":15,"title_size":64,"title_size_mobile":32,"use_h1":false}},"text_NKRR6j":{"type":"text","settings":{"text":"<p>Sammle Punkte und erhalte exklusive Benefits mit unserem Treueprogramm!<\/p>","enlarge_text":true}},"button_KA89JT":{"type":"button","settings":{"button_label":"Jetzt registrieren >","button_link":"https:\/\/oldskulleurope.com\/account\/register\/#smile-home","button_style":"primary"}},"button_XWtWfU":{"type":"button","settings":{"button_label":"Du hast schon einen Account? Login >","button_link":"https:\/\/oldskulleurope.com\/account\/login\/#smile-home","button_style":"secondary"}}},"block_order":["subheading_Tyr8xr","heading_MTaPXk","text_NKRR6j","button_KA89JT","button_XWtWfU"],"name":"Image with text overlay","settings":{"image":"shopify:\/\/shop_images\/oldskull-loyalty-oldskull-crew-header.jpg","mobile_image":"shopify:\/\/shop_images\/oldskull-loyalty-oldskull-crew-header-mobile.jpg","height":"adapt","height_desktop":600,"height_mobile":460,"image_link":"","full_width":true,"text_alignment":"center left","mobile_overlay_under":false,"overlay_style":"full image-overlay--bg-shadow"}},"main":{"type":"main-page","settings":{"show_page_title":true,"full_width":false}},"multi_column_8EFYVe":{"type":"multi-column","blocks":{"text_block_gXP9Pq":{"type":"text_block","settings":{"enable_media":false,"title":"100 Points","text":"<p>Registriere dich bei Oldskull<\/p>","button_label":"","link":""}},"text_block_gWtNer":{"type":"text_block","settings":{"enable_media":false,"title":"20 Points","text":"<p>Folge Oldskull bei Facebook oder Instagram<\/p>","button_label":"","link":""}},"text_block_pyK6jq":{"type":"text_block","settings":{"enable_media":false,"title":"100 Points","text":"<p>Erhalte von uns zu deinem Geburtstag eine kleine Extraüberraschung<\/p>","button_label":"","link":""}},"text_block_qcJr9M":{"type":"text_block","settings":{"enable_media":false,"title":"1€ = 1 Point","text":"<p>Sammle mit jedem Einkauf Punkte<\/p>","button_label":"","link":""}},"text_block_tbkNNY":{"type":"text_block","settings":{"enable_media":false,"title":"Je 10€ für dich und einen Freund","text":"<p>Teile deinen exklusiven Freundeslink mit deinen Freunden, Bekannten oder Verwandten und profitiert beide von je 10€ Rabatt<\/p>","button_label":"","link":""}}},"block_order":["text_block_gXP9Pq","text_block_gWtNer","text_block_pyK6jq","text_block_qcJr9M","text_block_tbkNNY"],"name":"Multi-column","settings":{"title":"Punkte sammeln","media_aspect_ratio":"s","media_width":700,"text_alignment":"center","button_style":"primary","color_scheme":"default"}},"multi_column_nAVrja":{"type":"multi-column","blocks":{"text_block_YPmYWU":{"type":"text_block","settings":{"enable_media":false,"title":"10% Rabatt Gutschein","text":"<p>200 Points<\/p><p>Ausgeschlossen sind Gutscheine und bereits reduzierte Artikel.<br\/>Nicht kombinierbar mit anderen Aktionen oder Rabattcodes, Mindestbestellwert 50€<\/p>","button_label":"","link":""}},"text_block_hNiJLe":{"type":"text_block","settings":{"enable_media":false,"title":"1€ Gutschein, mehrfach anwendbar","text":"<p>20 Points<\/p><p>Pro Einlösung von 20 Punkten kannst du einen Gutschein über je 1€ erhalten, Mindestbestellwert 15€<\/p>","button_label":"","link":""}},"text_block_64Ftat":{"type":"text_block","settings":{"enable_media":false,"title":"5€ Gutschein","text":"<p>100 Points<\/p><p>Ausgeschlossen sind Gutscheine und bereits reduzierte Artikel.<br\/>Nicht kombinierbar mit anderen Aktionen oder Rabattcodes, Mindestbestellwert 50€<\/p>","button_label":"","link":""}},"text_block_WtRHpp":{"type":"text_block","settings":{"enable_media":false,"title":"Wechselnde Geschenke","text":"<p>Wir bieten dir wechselnde Artikel als Bonus für deine Treue kostenlos dazu. <strong>Kopiere dazu den Code und füge diesen im Checkout als Gutscheincode ein.<\/strong> Du erhältst den Code zusätzlich per Email.<\/p>","button_label":"","link":""}},"text_block_AxPEJc":{"type":"text_block","settings":{"enable_media":false,"title":"Kostenloser Versand","text":"<p>150 Points<\/p><p>Einfach einlösen und kostenfreien Versand für deine Bestellung erhalten<\/p>","button_label":"","link":""}}},"block_order":["text_block_YPmYWU","text_block_hNiJLe","text_block_64Ftat","text_block_WtRHpp","text_block_AxPEJc"],"name":"Multi-column","settings":{"title":"Deine Benefits","media_aspect_ratio":"s","media_width":700,"text_alignment":"center","button_style":"primary","color_scheme":"default"}},"image_with_text_overlay_kcV4eE":{"type":"image-with-text-overlay","blocks":{"heading_XMUCCx":{"type":"heading","settings":{"title":"Registriere dich jetzt","heading_max_width":15,"title_size":38,"title_size_mobile":20,"use_h1":false}},"text_KQFihj":{"type":"text","settings":{"text":"<p>Es trennen dich nur noch ein paar Schritte von deinen exklusiven Benefits!<\/p><p>Mit der Erstellung deines Kundenkontos erhältst du schon die ersten 100 Punkte auf deinen Oldskull Crew Account und kannst direkt los shoppen.<\/p>","enlarge_text":true}},"button_rQEVcQ":{"type":"button","settings":{"button_label":"Jetzt registrieren >","button_link":"https:\/\/oldskulleurope.com\/account\/register\/#smile-home","button_style":"primary"}}},"block_order":["heading_XMUCCx","text_KQFihj","button_rQEVcQ"],"name":"Image with text overlay","settings":{"image":"shopify:\/\/shop_images\/oldskull-loyalty-oldskull-crew-header.jpg","mobile_image":"shopify:\/\/shop_images\/oldskull-loyalty-oldskull-crew-header-mobile.jpg","height":"adapt","height_desktop":600,"height_mobile":460,"image_link":"","full_width":true,"text_alignment":"center center","mobile_overlay_under":false,"overlay_style":"full image-overlay--bg-shadow"}}},"order":["image_with_text_overlay_pnHRgT","main","multi_column_8EFYVe","multi_column_nAVrja","image_with_text_overlay_kcV4eE"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_pnHRgT": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_Tyr8xr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "OUR LOYALTY PROGRAM"
+          }
+        },
+        "heading_MTaPXk": {
+          "type": "heading",
+          "settings": {
+            "title": "Join the Oldskull Crew",
+            "heading_max_width": 15,
+            "title_size": 64,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_NKRR6j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sammle Punkte und erhalte exklusive Benefits mit unserem Treueprogramm!</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_KA89JT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt registrieren >",
+            "button_link": "https://oldskulleurope.com/account/register/#smile-home",
+            "button_style": "primary"
+          }
+        },
+        "button_XWtWfU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Du hast schon einen Account? Login >",
+            "button_link": "https://oldskulleurope.com/account/login/#smile-home",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Tyr8xr",
+        "heading_MTaPXk",
+        "text_NKRR6j",
+        "button_KA89JT",
+        "button_XWtWfU"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-loyalty-oldskull-crew-header.jpg",
+        "mobile_image": "shopify://shop_images/oldskull-loyalty-oldskull-crew-header-mobile.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center left",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "multi_column_8EFYVe": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_gXP9Pq": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "150 OSCOINS",
+            "text": "<p>Erstelle einen Account und werde Teil der Oldskull Crew</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_gWtNer": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "50 OSCOINS",
+            "text": "<p>Folge Oldskull bei Facebook oder Instagram</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_pyK6jq": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "50 OSCOINS",
+            "text": "<p>Erhalte von uns zu deinem Geburtstag eine kleine Extraüberraschung</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_qcJr9M": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "1€ = 10 OSCOINS",
+            "text": "<p>Sammle mit jedem Einkauf Punkte</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_tbkNNY": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Je 5€ für dich und einen Freund",
+            "text": "<p>Teile deinen exklusiven Freundeslink mit deinen Freunden, Bekannten oder Verwandten und profitiert beide von je 5€ Rabatt</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_gXP9Pq",
+        "text_block_gWtNer",
+        "text_block_pyK6jq",
+        "text_block_qcJr9M",
+        "text_block_tbkNNY"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "Punkte sammeln",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "multi_column_nAVrja": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_YPmYWU": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "10% Rabatt Gutschein",
+            "text": "<p><strong>2000 OSCOINS</strong></p><p>Ausgeschlossen sind Gutscheine und bereits reduzierte Artikel.<br/>Nicht kombinierbar mit anderen Aktionen oder Rabattcodes, Mindestbestellwert 50€</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_hNiJLe": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "1€ Gutschein, mehrfach anwendbar",
+            "text": "<p><strong>200 OSCOINS</strong></p><p>Pro Einlösung von 200 OSCOINS kannst du einen Gutschein über je 1€ erhalten, Mindestbestellwert 15€</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_64Ftat": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "5€ Gutschein",
+            "text": "<p><strong>1000 OSCOINS</strong></p><p>Ausgeschlossen sind Gutscheine und bereits reduzierte Artikel.<br/>Nicht kombinierbar mit anderen Aktionen oder Rabattcodes, Mindestbestellwert 50€</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_AxPEJc": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Kostenloser Versand",
+            "text": "<p><strong>1500 OSCOINS</strong></p><p>Einfach einlösen und kostenfreien Versand für deine Bestellung erhalten</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_WtRHpp": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Wechselnde Geschenke",
+            "text": "<p>Wir bieten dir wechselnde Artikel als Bonus für deine Treue kostenlos dazu. <strong>Kopiere dazu den Code und füge diesen im Checkout als Gutscheincode ein.</strong> Du erhältst den Code zusätzlich per Email.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_YPmYWU",
+        "text_block_hNiJLe",
+        "text_block_64Ftat",
+        "text_block_AxPEJc",
+        "text_block_WtRHpp"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "Deine Benefits",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_overlay_kcV4eE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XMUCCx": {
+          "type": "heading",
+          "settings": {
+            "title": "Registriere dich jetzt",
+            "heading_max_width": 15,
+            "title_size": 38,
+            "title_size_mobile": 20,
+            "use_h1": false
+          }
+        },
+        "text_KQFihj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Es trennen dich nur noch ein paar Schritte von deinen exklusiven Benefits!</p><p>Mit der Erstellung deines Kundenkontos erhältst du schon die ersten 150 Punkte auf deinen Oldskull Crew Account und kannst direkt los shoppen.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_rQEVcQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt registrieren >",
+            "button_link": "https://oldskulleurope.com/account/register/#smile-home",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XMUCCx",
+        "text_KQFihj",
+        "button_rQEVcQ"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-loyalty-oldskull-crew-header.jpg",
+        "mobile_image": "shopify://shop_images/oldskull-loyalty-oldskull-crew-header-mobile.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_pnHRgT",
+    "main",
+    "multi_column_8EFYVe",
+    "multi_column_nAVrja",
+    "image_with_text_overlay_kcV4eE"
+  ]
+}
