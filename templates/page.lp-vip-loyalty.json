@@ -80,6 +80,109 @@
         "full_width": false
       }
     },
+    "key_features_YPjWEp": {
+      "type": "key-features",
+      "blocks": {
+        "feature_9BTaQT": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/vip-club-os-member.png",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "Every journey starts with a first step",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li>+150 OSCOINS</li><li>1x Free Shipping</li></ul><p>Willkommen in der Crew! Du bist offiziell Teil der Oldskull Family. Als OS Member sammelst du Coins, sicherst dir erste Rewards – und legst das Fundament für deinen eigenen Style-Weg.</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "0",
+            "label_middle": "-",
+            "label_right": "2.499 OSCOINS",
+            "show_icon": false,
+            "icon": "award"
+          }
+        },
+        "feature_XHfTrz": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/vip-club-os-hero.png",
+            "bg_color": "#c3c3c3",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "From casual to committed. You’re in deep",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li>2x Free Shipping</li><li><strong>5% permanenter Rabatt</strong></li><li>Early Acces für Drops und Sonderaktionen</li></ul><p>Du bist kein Mitläufer, du hast es ernst gemeint – und das sieht man. Als OS Hero bekommst du mehr: früheren Zugang, mehr Versandvorteile und natürlich mehr OS-Vibes auf jedem Level.</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "2.500",
+            "label_middle": "-",
+            "label_right": "3.999 OSCOINS",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_KwPq3h": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/vip-club-os-icon.png",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "You’re not just part of the story – you shape it",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li>3x Free Shipping</li><li><strong>10% permanenter Rabatt</strong></li><li>Early Acces für Drops und Sonderaktionen</li></ul><p>Als OS Icon bist du eine feste Größe in der Community. Du hast Style gezeigt, Coins gesammelt und OS mitgetragen. Jetzt bekommst du das, was zu dir passt: echtes VIP-Treatment, Rabatte auf jede Order, Zugriff auf exklusive Drops und mehr.</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "4.000",
+            "label_middle": "-",
+            "label_right": "5.999 OSCOINS",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_wAc4YN": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/vip-club-os-legend.png",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "This isn’t status – it’s identity",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li><strong>Unlimited Free Shipping</strong></li><li><strong>Kostenfreie Retouren</strong> (EU weit)</li><li><strong>15% permanenter Rabatt</strong></li><li>Early Acces für Drops und Sonderaktionen</li></ul><p>Du hast es nicht nur getragen, du verkörperst Oldskull. Als OS Legend bist du ganz oben angekommen – mit allen Vorteilen, allen Zugängen und dem Respekt der Crew. Voting-Power, exklusive Produkte & Specials inklusive.</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "> 6.000 OSCOINS",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "feature_9BTaQT",
+        "feature_XHfTrz",
+        "feature_KwPq3h",
+        "feature_wAc4YN"
+      ],
+      "name": "Key features",
+      "settings": {
+        "heading": "Unsere Stufen im VIP Club",
+        "image_max_width": 450,
+        "media_aspect_ratio": "s",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
     "multi_column_8EFYVe": {
       "type": "multi-column",
       "blocks": {
@@ -274,6 +377,7 @@
   "order": [
     "image_with_text_overlay_pnHRgT",
     "main",
+    "key_features_YPjWEp",
     "multi_column_8EFYVe",
     "multi_column_nAVrja",
     "image_with_text_overlay_kcV4eE"
