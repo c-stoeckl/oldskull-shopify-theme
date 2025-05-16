@@ -376,7 +376,7 @@
             "enable_media": true,
             "image": "shopify://shop_images/vip-club-step1.png",
             "title": "10% Rabatt für dich und deinen Freund",
-            "text": "<p>Teile deinen exklusiven Freundeslink mit deinen Freunden, Bekannten oder Verwandten und profitiert beide von je 10% Rabatt</p>",
+            "text": "<p>Teile deinen exklusiven Freundeslink mit deinen Freunden, Bekannten oder Verwandten und profitiert beide von <strong>je 10% Rabatt auf die gesamte Bestellung</strong></p>",
             "button_label": "",
             "link": ""
           }
