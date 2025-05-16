@@ -217,7 +217,7 @@
         "button_UJh3WH": {
           "type": "button",
           "settings": {
-            "button_label": "Hier kannst du dein Club Dashboard öffnen >",
+            "button_label": "Hier dein Club Dashboard öffnen >",
             "button_link": "#smile-home",
             "button_style": "primary"
           }
