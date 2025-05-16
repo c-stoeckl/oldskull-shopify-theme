@@ -228,6 +228,7 @@
         "feature_KwPq3h",
         "feature_wAc4YN"
       ],
+      "disabled": true,
       "name": "Key features",
       "settings": {
         "heading": "Unsere Stufen im VIP Club",
@@ -353,8 +354,8 @@
           "settings": {
             "enable_media": true,
             "image": "shopify://shop_images/vip-club-step1.png",
-            "title": "Je 5€ für dich und einen Freund",
-            "text": "<p>Teile deinen exklusiven Freundeslink mit deinen Freunden, Bekannten oder Verwandten und profitiert beide von je 5€ Rabatt</p>",
+            "title": "10% Rabatt für dich und deinen Freund",
+            "text": "<p>Teile deinen exklusiven Freundeslink mit deinen Freunden, Bekannten oder Verwandten und profitiert beide von je 10% Rabatt</p>",
             "button_label": "",
             "link": ""
           }
