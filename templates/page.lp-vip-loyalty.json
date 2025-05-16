@@ -137,6 +137,29 @@
         "color_scheme": "default"
       }
     },
+    "rich_text_d6Aex9": {
+      "type": "rich-text",
+      "blocks": {
+        "button_CQapRY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Hier dein Club Dahsboard öffnen",
+            "button_link": "#smile-home",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "button_CQapRY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
     "multi_column_knM8gW": {
       "type": "multi-column",
       "blocks": {
@@ -560,12 +583,21 @@
             "button_link": "/account/register/#smile-home",
             "button_style": "primary"
           }
+        },
+        "button_zXFXA6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Hier dein Club Dashboard öffnen >",
+            "button_link": "#smile-home",
+            "button_style": "secondary"
+          }
         }
       },
       "block_order": [
         "heading_XMUCCx",
         "text_KQFihj",
-        "button_rQEVcQ"
+        "button_rQEVcQ",
+        "button_zXFXA6"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -586,6 +618,7 @@
     "main",
     "image_with_text_overlay_pnHRgT",
     "multi_column_e8aR4V",
+    "rich_text_d6Aex9",
     "multi_column_knM8gW",
     "rich_text_emRM3Q",
     "multi_column_8EFYVe",
