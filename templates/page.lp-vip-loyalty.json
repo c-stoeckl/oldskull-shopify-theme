@@ -124,6 +124,9 @@
         "text_block_iBxDUK",
         "text_block_P3MdMP"
       ],
+      "custom_css": [
+        "h2 {font-size: 32px;}"
+      ],
       "name": "Multi-column",
       "settings": {
         "title": "Und so funktioniert es",
@@ -187,6 +190,9 @@
         "text_block_rn6PEq",
         "text_block_64dq3h",
         "text_block_VkzMxz"
+      ],
+      "custom_css": [
+        "h2 {font-size: 32px;}"
       ],
       "name": "Multi-column",
       "settings": {
@@ -298,7 +304,7 @@
         "text_block_Y9pxX7"
       ],
       "custom_css": [
-        "h4 {font-size: 20px%;}"
+        "h2 {font-size: 32px;}"
       ],
       "name": "Multi-column",
       "settings": {
@@ -384,6 +390,9 @@
     },
     "faq_header_JTtjQm": {
       "type": "faq-header",
+      "custom_css": [
+        "h2 {font-size: 32px;}"
+      ],
       "name": "FAQ header",
       "settings": {
         "title": "OLDKSULL VIP CLUB - FAQ",
@@ -521,7 +530,7 @@
       ],
       "name": "Collapsible tabs",
       "settings": {
-        "title": "OLDKSULL VIP CLUB - FAQ"
+        "title": ""
       }
     },
     "image_with_text_overlay_kcV4eE": {
