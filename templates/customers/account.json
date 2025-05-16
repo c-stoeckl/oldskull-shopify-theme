@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "rich_text_Ne8cTc": {
+      "type": "rich-text",
+      "blocks": {
+        "button_qYDqfn": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIP Club öffnen >",
+            "button_link": "#smile-home",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "button_qYDqfn"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
     "17474296475375b48f": {
       "type": "apps",
       "blocks": {
@@ -16,7 +39,7 @@
           "type": "shopify://apps/smile-io/blocks/smile-points-on-account-page/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
           "settings": {
             "primary_colour": "#121212",
-            "secondary_colour": "#F8F8F8",
+            "secondary_colour": "#f8f8f8",
             "preview_scenario": "can_afford_reward",
             "show_icon": true,
             "show_points_label": true,
@@ -41,6 +64,7 @@
     }
   },
   "order": [
+    "rich_text_Ne8cTc",
     "17474296475375b48f",
     "main"
   ]
