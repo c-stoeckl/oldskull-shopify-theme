@@ -207,7 +207,7 @@
             "bg_color": "#ffffff",
             "bg_gradient": "",
             "text_color": "#000000",
-            "heading": "This isn’t status – it’s identity",
+            "heading": "This isn't status – it’s identity",
             "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li><strong>Unlimited Free Shipping</strong></li><li><strong>Kostenfreie Retouren</strong> (EU weit)</li><li><strong>15% permanenter Rabatt</strong></li><li>Early Acces für Drops und Sonderaktionen</li></ul><p>Du hast es nicht nur getragen, du verkörperst Oldskull. Als OS Legend bist du ganz oben angekommen – mit allen Vorteilen, allen Zugängen und dem Respekt der Crew. Voting-Power, exklusive Produkte & Specials inklusive.</p>",
             "show_segments": true,
             "segments": 4,
@@ -237,13 +237,78 @@
         "segment_position": "over-text"
       }
     },
+    "multi_column_knM8gW": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_PqKNyQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-os-member.png",
+            "title": "Every journey starts with a first step",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li>+150 OSCOINS</li><li>1x Free Shipping</li></ul><p>Willkommen in der Crew! Du bist offiziell Teil der Oldskull Family. Als OS Member sammelst du Coins, sicherst dir erste Rewards – und legst das Fundament für deinen eigenen Style-Weg.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_rn6PEq": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-os-hero.png",
+            "title": "From casual to committed. You’re in deep",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li>2x Free Shipping</li><li><strong>5% permanenter Rabatt</strong></li><li>Early Acces für Drops und Sonderaktionen</li></ul><p>Du bist kein Mitläufer, du hast es ernst gemeint – und das sieht man. Als OS Hero bekommst du mehr: früheren Zugang, mehr Versandvorteile und natürlich mehr OS-Vibes auf jedem Level.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_64dq3h": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-os-icon.png",
+            "title": "You’re not just part of the story – you shape it",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li>3x Free Shipping</li><li><strong>10% permanenter Rabatt</strong></li><li>Early Acces für Drops und Sonderaktionen</li></ul><p>Als OS Icon bist du eine feste Größe in der Community. Du hast Style gezeigt, Coins gesammelt und OS mitgetragen. Jetzt bekommst du das, was zu dir passt: echtes VIP-Treatment, Rabatte auf jede Order, Zugriff auf exklusive Drops und mehr.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_VkzMxz": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-os-legend.png",
+            "title": "This isn't status – it’s identity",
+            "text": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li><strong>Unlimited Free Shipping</strong></li><li><strong>Kostenfreie Retouren</strong> (EU weit)</li><li><strong>15% permanenter Rabatt</strong></li><li>Early Acces für Drops und Sonderaktionen</li></ul><p>Du hast es nicht nur getragen, du verkörperst Oldskull. Als OS Legend bist du ganz oben angekommen – mit allen Vorteilen, allen Zugängen und dem Respekt der Crew. Voting-Power, exklusive Produkte & Specials inklusive.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_PqKNyQ",
+        "text_block_rn6PEq",
+        "text_block_64dq3h",
+        "text_block_VkzMxz"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "Unsere Stufen im VIP Club",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "left",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
     "multi_column_8EFYVe": {
       "type": "multi-column",
       "blocks": {
         "text_block_gXP9Pq": {
           "type": "text_block",
           "settings": {
-            "enable_media": false,
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-step1.png",
             "title": "150 OSCOINS",
             "text": "<p>Erstelle einen Account und werde Teil der Oldskull Crew</p>",
             "button_label": "",
@@ -253,7 +318,8 @@
         "text_block_gWtNer": {
           "type": "text_block",
           "settings": {
-            "enable_media": false,
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-step1.png",
             "title": "50 OSCOINS",
             "text": "<p>Folge Oldskull bei Facebook und/oder Instagram</p>",
             "button_label": "",
@@ -263,7 +329,8 @@
         "text_block_pyK6jq": {
           "type": "text_block",
           "settings": {
-            "enable_media": false,
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-step1.png",
             "title": "50 OSCOINS",
             "text": "<p>Erhalte zusätzlich von uns zu deinem Geburtstag eine kleine Extraüberraschung</p>",
             "button_label": "",
@@ -273,7 +340,8 @@
         "text_block_qcJr9M": {
           "type": "text_block",
           "settings": {
-            "enable_media": false,
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-step1.png",
             "title": "1€ = 10 OSCOINS",
             "text": "<p>Sammle mit jedem Einkauf Punkte</p>",
             "button_label": "",
@@ -283,9 +351,20 @@
         "text_block_tbkNNY": {
           "type": "text_block",
           "settings": {
-            "enable_media": false,
+            "enable_media": true,
+            "image": "shopify://shop_images/vip-club-step1.png",
             "title": "Je 5€ für dich und einen Freund",
             "text": "<p>Teile deinen exklusiven Freundeslink mit deinen Freunden, Bekannten oder Verwandten und profitiert beide von je 5€ Rabatt</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_Y9pxX7": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "",
+            "text": "",
             "button_label": "",
             "link": ""
           }
@@ -296,13 +375,14 @@
         "text_block_gWtNer",
         "text_block_pyK6jq",
         "text_block_qcJr9M",
-        "text_block_tbkNNY"
+        "text_block_tbkNNY",
+        "text_block_Y9pxX7"
       ],
       "name": "Multi-column",
       "settings": {
         "title": "Punkte sammeln",
         "media_aspect_ratio": "s",
-        "media_width": 700,
+        "media_width": 60,
         "text_alignment": "center",
         "button_style": "primary",
         "color_scheme": "default"
@@ -378,54 +458,6 @@
         "text_alignment": "center",
         "button_style": "primary",
         "color_scheme": "default"
-      }
-    },
-    "image_with_text_overlay_kcV4eE": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_XMUCCx": {
-          "type": "heading",
-          "settings": {
-            "title": "Registriere dich jetzt",
-            "heading_max_width": 15,
-            "title_size": 38,
-            "title_size_mobile": 20,
-            "use_h1": false
-          }
-        },
-        "text_KQFihj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Es trennen dich nur noch ein paar Schritte von deinen exklusiven Benefits!</p><p>Mit der Erstellung deines Kundenkontos erhältst du schon die ersten 150 Punkte auf deinen Oldskull Crew Account.</p>",
-            "enlarge_text": true
-          }
-        },
-        "button_rQEVcQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Jetzt registrieren >",
-            "button_link": "https://oldskulleurope.com/account/register/#smile-home",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_XMUCCx",
-        "text_KQFihj",
-        "button_rQEVcQ"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "image": "shopify://shop_images/oldskull-vip-club-may-2025-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-vip-club-may-2025-banner-mobile.png",
-        "height": "adapt",
-        "height_desktop": 600,
-        "height_mobile": 460,
-        "image_link": "",
-        "full_width": true,
-        "text_alignment": "center center",
-        "mobile_overlay_under": false,
-        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "faq_header_JTtjQm": {
@@ -569,6 +601,54 @@
       "settings": {
         "title": "OLDKSULL VIP CLUB - FAQ"
       }
+    },
+    "image_with_text_overlay_kcV4eE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XMUCCx": {
+          "type": "heading",
+          "settings": {
+            "title": "Registriere dich jetzt",
+            "heading_max_width": 15,
+            "title_size": 38,
+            "title_size_mobile": 20,
+            "use_h1": false
+          }
+        },
+        "text_KQFihj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Es trennen dich nur noch ein paar Schritte von deinen exklusiven Benefits!</p><p>Mit der Erstellung deines Kundenkontos erhältst du schon die ersten 150 Punkte auf deinen Oldskull Crew Account.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_rQEVcQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt registrieren >",
+            "button_link": "https://oldskulleurope.com/account/register/#smile-home",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XMUCCx",
+        "text_KQFihj",
+        "button_rQEVcQ"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-vip-club-may-2025-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-vip-club-may-2025-banner-mobile.png",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
     }
   },
   "order": [
@@ -576,6 +656,7 @@
     "image_with_text_overlay_pnHRgT",
     "multi_column_e8aR4V",
     "key_features_YPjWEp",
+    "multi_column_knM8gW",
     "multi_column_8EFYVe",
     "multi_column_nAVrja",
     "faq_header_JTtjQm",
