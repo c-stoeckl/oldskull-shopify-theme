@@ -297,6 +297,9 @@
         "text_block_tbkNNY",
         "text_block_Y9pxX7"
       ],
+      "custom_css": [
+        "h4 {font-size-adjust: 120% }"
+      ],
       "name": "Multi-column",
       "settings": {
         "title": "OSCOINS sammeln",
