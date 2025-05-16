@@ -298,7 +298,7 @@
         "text_block_Y9pxX7"
       ],
       "custom_css": [
-        "h4 {font-size-adjust: 120% }"
+        "h4 {font-size: 20px%;}"
       ],
       "name": "Multi-column",
       "settings": {
