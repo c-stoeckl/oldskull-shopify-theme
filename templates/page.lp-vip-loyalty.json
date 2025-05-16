@@ -70,8 +70,8 @@
       ],
       "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-vip-club-may-2025-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-vip-club-may-2025-banner-mobile.png",
+        "image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1900x900_c2114a37-239a-4c2b-82da-de21b0c93fe9.jpg",
+        "mobile_image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1080x1350_266a0196-b208-4fb4-b6b4-4c12dd7226e2.jpg",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
@@ -79,7 +79,7 @@
         "full_width": true,
         "text_alignment": "center left",
         "mobile_overlay_under": false,
-        "overlay_style": "no_background"
+        "overlay_style": "full image-overlay--bg-shadow"
       }
     },
     "multi_column_e8aR4V": {
