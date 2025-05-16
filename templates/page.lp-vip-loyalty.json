@@ -128,7 +128,7 @@
       "settings": {
         "title": "Und so funktioniert es",
         "media_aspect_ratio": "2",
-        "media_width": 100,
+        "media_width": 60,
         "text_alignment": "center",
         "button_style": "primary",
         "color_scheme": "default"
@@ -255,7 +255,7 @@
           "settings": {
             "enable_media": false,
             "title": "50 OSCOINS",
-            "text": "<p>Folge Oldskull bei Facebook oder Instagram</p>",
+            "text": "<p>Folge Oldskull bei Facebook und/oder Instagram</p>",
             "button_label": "",
             "link": ""
           }
@@ -265,7 +265,7 @@
           "settings": {
             "enable_media": false,
             "title": "50 OSCOINS",
-            "text": "<p>Erhalte von uns zu deinem Geburtstag eine kleine Extraüberraschung</p>",
+            "text": "<p>Erhalte zusätzlich von uns zu deinem Geburtstag eine kleine Extraüberraschung</p>",
             "button_label": "",
             "link": ""
           }
@@ -427,6 +427,148 @@
         "mobile_overlay_under": false,
         "overlay_style": "full image-overlay--bg-shadow"
       }
+    },
+    "faq_header_JTtjQm": {
+      "type": "faq-header",
+      "name": "FAQ header",
+      "settings": {
+        "title": "OLDKSULL VIP CLUB - FAQ",
+        "use_h1": false,
+        "text": "<p>Hier findest du alle wichtigen Infos rund um unser Oldskull Loyalty Programm</p>",
+        "show_search": true,
+        "show_index": false,
+        "index_heading": "How can we help?"
+      }
+    },
+    "collapsible_tabs_3ciPNb": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_KGmbfk": {
+          "type": "question",
+          "settings": {
+            "title": "Auf welche Artikel gilt mein permanenter Rabatt ab Level Hero, Icon oder Icon?",
+            "answer": "<p>Deinen exklusiven Loyalty-Rabatt erhältst du per Email, sobald du eine der Stufen erreicht hast. Der Code gilt auf alle regulären Artikel, ausgenommen Giftcards. Bereits reduzierte Produkte oder andere Aktionen sind davon ausgeschlossen und können nicht mit dem Loyalty-Rabatt kombiniert werden.</p>"
+          }
+        },
+        "question_7Hb7Kw": {
+          "type": "question",
+          "settings": {
+            "title": "Wie werde ich Teil des Loyalty Clubs?",
+            "answer": "<p>Ganz einfach: Sobald du ein Kundenkonto bei uns anlegst, bist du automatisch dabei. Wenn du schon eins hast, bist du bereits Member – willkommen in der Crew!</p>"
+          }
+        },
+        "question_Yye3bf": {
+          "type": "question",
+          "settings": {
+            "title": "Wie sammle ich Punkte?",
+            "answer": "<p>Du bekommst 10 Punkte für jeden ausgegebenen Euro. Weitere Punkte kannst du dir z.B. durch das Abonnieren unseres Newsletters oder durch andere Special-Aktionen sichern.</p>"
+          }
+        },
+        "question_VnFh4W": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange bleibe ich in einem Level?",
+            "answer": "<p>Dein Status als OS Member ist immer aktiv, bis du aufsteigst. Ab dem OS Hero Level ist dein Status immer für das Jahr, in dem du aufsteigst und das darauffolgende Jahr aktiv. Wenn du in einem Kalenderjahr nicht genügend Punkte sammelst, fällst du im nächsten Jahr auf dein vorheriges Level zurück.</p>"
+          }
+        },
+        "question_DB7NDU": {
+          "type": "question",
+          "settings": {
+            "title": "Wo sehe ich meinen Punktestand?",
+            "answer": "<p>Du findest deine Punkte im <a href=\"#smile-home\" title=\"#smile-home\">Loyalty Dashboard</a> sowie in <a href=\"/account/login\" title=\"/account/login\">deinem Kundenkonto</a>.</p>"
+          }
+        },
+        "question_xDXt8M": {
+          "type": "question",
+          "settings": {
+            "title": "Wie nutze ich den kostenlosen Versand?",
+            "answer": "<p>Du erhältst deine Codes grundsätzlich per Email, die du dann im Checkout einlösen kannst. In der Stufe OS Legend wird dir der Unlimited Code auch in deinem <a href=\"#smile-home\" title=\"#smile-home\">Loyalty Dashboard</a> angezeigt.</p>"
+          }
+        },
+        "question_wJFTYk": {
+          "type": "question",
+          "settings": {
+            "title": "Wo finde ich meine Free Shipping & Birthday Codes?",
+            "answer": "<p>Deine Codes bekommst du per Mail. Schau zur Sicherheit auch in deinem Spam-Ordner.</p>"
+          }
+        },
+        "question_KpptKB": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe keine Codes erhalten. Was tun?",
+            "answer": "<p>Wichtig: Du musst für den Newsletter angemeldet sein. Falls du nichts bekommst, checke bitte deinen Spam-Ordner und stelle sicher, dass unsere Mails nicht blockiert werden.</p>"
+          }
+        },
+        "question_hPNcwc": {
+          "type": "question",
+          "settings": {
+            "title": "Neue E-Mail-Adresse oder kein Zugriff mehr?",
+            "answer": "<p>Schreib uns an s.os@oldskull.com – wir aktualisieren dein Kundenkonto für dich.</p>"
+          }
+        },
+        "question_CFC6gM": {
+          "type": "question",
+          "settings": {
+            "title": "Wann werden meine Punkte gutgeschrieben?",
+            "answer": "<p>Deine Punkte werden nach der Bezahlung sofort gutgeschrieben. Bitte beachte, dass im Falle einer Erstattung durch eine Retoure die betreffenden Punkte wieder abgezogen werden.</p>"
+          }
+        },
+        "question_gUxepc": {
+          "type": "question",
+          "settings": {
+            "title": "Was passiert bei einer Retoure oder Stornierung?",
+            "answer": "<p>Punkte für retournierte oder stornierte Bestellungen werden entsprechend abgezogen, auch nachträglich.</p>"
+          }
+        },
+        "question_eFdmnG": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange sind meine Codes gültig?",
+            "answer": "<p>Alle Codes sind ab Versand der Mail für 6 Monate gültig.</p>"
+          }
+        },
+        "question_tDAMyF": {
+          "type": "question",
+          "settings": {
+            "title": "Bekomme ich Punkte für vergangene Gästebestellungen?",
+            "answer": "<p>Ja! Wenn du ein Konto mit der gleichen E-Mailadresse anlegst, die du für deine Gästebestellungen verwendet hast, schreiben wir dir Punkte für bis zu 1 Jahr rückwirkend gut. Sollte etwas schief laufen, wende dich bitte an unseren Support.</p>"
+          }
+        },
+        "question_JHDxJX": {
+          "type": "question",
+          "settings": {
+            "title": "Wo kann ich mein Geburtsdatum eintragen?",
+            "answer": "<p>In deinem <a href=\"#smile-home\" title=\"#smile-home\">Loyalty Dashboard</a> findest du die Option, dein Geburtsdatum nachzutragen, um dir deinen Birthday Reward zu sichern.</p>"
+          }
+        },
+        "content_nceJJB": {
+          "type": "content",
+          "settings": {
+            "content": "<p><strong>Du hast Feedback oder ein Problem?</strong></p><p>Bei allen weiteren Fragen ist natürlich auch unser Support immer gerne für dich erreichbar, am besten erreichst du uns per E-Mail unter der s.os@oldskull.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_KGmbfk",
+        "question_7Hb7Kw",
+        "question_Yye3bf",
+        "question_VnFh4W",
+        "question_DB7NDU",
+        "question_xDXt8M",
+        "question_wJFTYk",
+        "question_KpptKB",
+        "question_hPNcwc",
+        "question_CFC6gM",
+        "question_gUxepc",
+        "question_eFdmnG",
+        "question_tDAMyF",
+        "question_JHDxJX",
+        "content_nceJJB"
+      ],
+      "name": "Collapsible tabs",
+      "settings": {
+        "title": "OLDKSULL VIP CLUB - FAQ"
+      }
     }
   },
   "order": [
@@ -436,6 +578,8 @@
     "key_features_YPjWEp",
     "multi_column_8EFYVe",
     "multi_column_nAVrja",
+    "faq_header_JTtjQm",
+    "collapsible_tabs_3ciPNb",
     "image_with_text_overlay_kcV4eE"
   ]
 }
