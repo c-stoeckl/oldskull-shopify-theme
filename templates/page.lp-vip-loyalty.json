@@ -557,7 +557,7 @@
           "type": "button",
           "settings": {
             "button_label": "Jetzt registrieren >",
-            "button_link": "https://oldskulleurope.com/account/register/#smile-home",
+            "button_link": "/account/register/#smile-home",
             "button_style": "primary"
           }
         }
