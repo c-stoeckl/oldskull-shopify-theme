@@ -308,7 +308,7 @@
         "text_XFwF3p": {
           "type": "text",
           "settings": {
-            "text": "<p>* Der permanente Rabatt gilt auf alle nicht nicht reduzierten Artikel. Der Rabatt ist nicht kombinierbar mit anderen Aktionen oder Discounts.</p>",
+            "text": "<p>* Der permanente Rabatt ist auf alle nicht nicht reduzierten Artikel anwendbar. Der Rabatt ist nicht kombinierbar mit anderen Aktionen oder Discounts.</p>",
             "enlarge_text": false
           }
         }
