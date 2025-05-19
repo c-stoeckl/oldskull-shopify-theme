@@ -29,7 +29,7 @@
             "button_label_1": "Mehr Infos zum VIP Club",
             "button_url_1": "shopify://pages/rewards",
             "button_label_2": "Jetzt registrieren",
-            "button_url_2": "/account/register/#smile-home",
+            "button_url_2": "/account/register/",
             "text_alignment": "bottom left"
           }
         },
