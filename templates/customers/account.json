@@ -9,6 +9,55 @@
  */
 {
   "sections": {
+    "image_with_text_BzPatM": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_HKUYJT": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Deine VIP Club Stufe"
+          }
+        },
+        "heading_x4Vz8h": {
+          "type": "heading",
+          "settings": {
+            "title": "OS Legend",
+            "use_h1": false
+          }
+        },
+        "text_Y4DXrc": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Early Access</li><li>Unlimited free shipping mit dem Code BLABLABLA</li><li>etc</li><li>pp</li></ul>",
+            "enlarge_text": false
+          }
+        },
+        "button_AmVmQg": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIP Club öffnen >",
+            "button_link": "#smile-home",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HKUYJT",
+        "heading_x4Vz8h",
+        "text_Y4DXrc",
+        "button_AmVmQg"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/vip-club-card-os-legend-tier.png",
+        "image_width": 240,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
     "rich_text_Ne8cTc": {
       "type": "rich-text",
       "blocks": {
@@ -53,6 +102,7 @@
       "block_order": [
         "smile_io_smile_points_on_account_page_L3gGCg"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "show_space": true
@@ -64,6 +114,7 @@
     }
   },
   "order": [
+    "image_with_text_BzPatM",
     "rich_text_Ne8cTc",
     "17474296475375b48f",
     "main"
