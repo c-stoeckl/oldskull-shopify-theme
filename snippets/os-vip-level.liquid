@@ -49,6 +49,16 @@
         <div class="feature-text-paired">
           <h2 class="majortitle in-content h1">{{ vip_level_label }}</h2>
           <div class="rte lightly-spaced-row">{{ vip_text }}</div>
+          {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+            <div class="lightly-spaced-row button-row">
+              <a
+                class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+                href="{{ section.settings.button_link }}"
+              >
+                {{- section.settings.button_label | escape -}}
+              </a>
+            </div>
+          {% endif %}
         </div>
       </div>
     </div>
