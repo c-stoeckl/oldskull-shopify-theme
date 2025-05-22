@@ -48,17 +48,6 @@
       <div class="column column--half align-ltr-{{ section.settings.text_alignment }}">
         <div class="feature-text-paired">
           <h3 class="majortitle in-content h3">{{ vip_level_label }}</h3>
-          {# To debug the correct Smile.io points metafield key, temporarily output all Smile.io metafields:
-          {% if customer and customer.metafields.smile %}
-            <pre>{{ customer.metafields.smile | json }}</pre>
-          {% endif %}
-          The default key is points_balance. Adjust below if your key is different. #}
-          {% if customer and customer.metafields.smile.points_balance %}
-            <div class="vip-points lightly-spaced-row">
-              <span class="vip-points-label">Punkte:</span>
-              <span class="vip-points-value">{{ customer.metafields.smile.points_balance.value }}</span>
-            </div>
-          {% endif %}
           <div class="rte lightly-spaced-row">{{ vip_text }}</div>
           {% if section.settings.button_label != blank and section.settings.button_link != blank %}
             <div class="lightly-spaced-row button-row">
