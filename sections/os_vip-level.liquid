@@ -3,7 +3,10 @@
 {%- assign vip_level = blank -%}
 {%- assign vip_text = blank -%}
 {%- assign vip_level_label = blank -%}
-{%- if customer and customer.metafields.smile.vip_tier_name and customer.metafields.smile.vip_tier_name.value != blank -%}
+{%- if customer
+  and customer.metafields.smile.vip_tier_name
+  and customer.metafields.smile.vip_tier_name.value != blank
+-%}
   {%- assign vip_level_label = customer.metafields.smile.vip_tier_name.value -%}
   {%- assign vip_level = vip_level_label | downcase -%}
   {%- case vip_level -%}
@@ -31,7 +34,10 @@
         {%- endif %}
         <div class="image-overlap" style="max-width: {{ section.settings.image_width }}px">
           <div class="image-overlap__image image-overlap__image-1">
-            <div class="fade-in-up" {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay=\"0.1s\"' -%}>
+            <div
+              class="fade-in-up"
+              {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay=\"0.1s\"' -%}
+            >
               {%- if dynamic_image == blank -%}
                 <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
               {%- else -%}
@@ -42,7 +48,10 @@
         </div>
         {% if section.settings.image_link != blank %}</a>{% endif %}
       </div>
-      <div class="column column--half align-ltr-{{ section.settings.text_alignment }}" {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
+      <div
+        class="column column--half align-ltr-{{ section.settings.text_alignment }}"
+        {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}
+      >
         <div class="feature-text-paired">
           {% assign skip_block_count = 0 %}
           {% for block in section.blocks %}
@@ -60,36 +69,58 @@
                   <h2 class="majortitle in-content h1" {{ block.shopify_attributes }}>{{ vip_level_label }}</h2>
                 {% endif %}
               {% when 'subheading' %}
-                <div class="subheading subheading--over lightish-spaced-row-above" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</div>
+                <div class="subheading subheading--over lightish-spaced-row-above" {{ block.shopify_attributes }}>
+                  {{ block.settings.subheading | escape }}
+                </div>
               {% when 'text' %}
-                <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ vip_text }}</div>
+                <div
+                  class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ vip_text }}
+                </div>
               {% when 'button' %}
                 <div class="lightly-spaced-row button-row" {{ block.shopify_attributes }}>
-                  <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+                  <a
+                    class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+                    href="{{ block.settings.button_link }}"
+                  >
+                    {{- block.settings.button_label | escape -}}
+                  </a>
                   {%- assign skip_block_count = 0 -%}
                   {%- for next_block in section.blocks offset: forloop.index -%}
                     {%- if next_block.type == 'button' -%}
                       {%- assign skip_block_count = skip_block_count | plus: 1 -%}
-                      <a class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ next_block.settings.button_link }}" {{ block.shopify_attributes }}>{{ next_block.settings.button_label | escape }}</a>
+                      <a
+                        class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+                        href="{{ next_block.settings.button_link }}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{- next_block.settings.button_label | escape -}}
+                      </a>
                     {%- else -%}
                       {%- break -%}
                     {%- endif -%}
                   {%- endfor -%}
                 </div>
               {% when 'image' %}
-                <div class="lightly-spaced-row lightish-spaced-row-above inline-width-container" style="width: {{ block.settings.image_width }}px" {{ block.shopify_attributes }}>
+                <div
+                  class="lightly-spaced-row lightish-spaced-row-above inline-width-container"
+                  style="width: {{ block.settings.image_width }}px"
+                  {{ block.shopify_attributes }}
+                >
                   {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
-                    {% if block.settings.image != blank %}
-                      {%- liquid
-                        assign image_sizes = block.settings.image_width | append: 'px'
-                        assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
-                        render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths
-                      -%}
-                    {% else %}
-                      <div class="placeholder-image">
-                        {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
-                      </div>
-                    {% endif %}
+                  {% if block.settings.image != blank %}
+                    {%- liquid
+                      assign image_sizes = block.settings.image_width | append: 'px'
+                      assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
+                      render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths
+                    -%}
+                  {% else %}
+                    <div class="placeholder-image">
+                      {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                    </div>
+                  {% endif %}
                   {% if block.settings.url != blank %}</a>{% endif %}
                 </div>
               {% when 'icon' %}
@@ -105,7 +136,10 @@
                     --countdown-desktop-size: {{ block.settings.number_size }}px;
                   }
                 {% endstyle %}
-                <div class="block-id-{{ block.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ block.settings.number_font }} countdown-divider-{{ block.settings.divider_type }}" {{ block.shopify_attributes }}>
+                <div
+                  class="block-id-{{ block.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ block.settings.number_font }} countdown-divider-{{ block.settings.divider_type }}"
+                  {{ block.shopify_attributes }}
+                >
                   {% render 'countdown-timer',
                     end_date: block.settings.end_date,
                     end_time: block.settings.end_time,
@@ -127,7 +161,6 @@
 {
   "name": "VIP Level Section",
   "settings": [
-
     {
       "type": "image_picker",
       "id": "image_os_legend",
@@ -224,28 +257,13 @@
           "label": "2"
         }
       ]
-    },
-
+    }
   ],
   "blocks": [
     {
       "type": "heading",
       "name": "Heading",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Heading",
-          "default": "Image with text"
-        },
-        {
-          "type": "checkbox",
-          "id": "use_h1",
-          "label": "Set as primary page heading",
-          "info": "Use <h1> tag. One per page recommended. [Read more](https://cleancanvas.co.uk/support/symmetry/section-h1-setting)",
-          "default": false
-        }
-      ]
+      "settings": []
     },
     {
       "type": "subheading",
@@ -362,7 +380,16 @@
       "name": "Image",
       "settings": [
         { "type": "image_picker", "id": "image", "label": "Image" },
-        { "type": "range", "id": "image_width", "min": 60, "max": 700, "step": 10, "unit": "px", "label": "Image width", "default": 260 },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 60,
+          "max": 700,
+          "step": 10,
+          "unit": "px",
+          "label": "Image width",
+          "default": 260
+        },
         { "type": "url", "id": "url", "label": "Link" }
       ]
     },
@@ -371,13 +398,50 @@
       "name": "Countdown timer",
       "settings": [
         { "type": "text", "id": "end_date", "label": "End date", "info": "Required. Format: YYYY-MM-DD." },
-        { "type": "text", "id": "end_time", "label": "End time (optional)", "info": "Format: 17:00 (24 hour clock). Uses the store's timezone." },
-        { "type": "richtext", "id": "end_text", "label": "End text", "info": "This shows when the date and time elapses." },
+        {
+          "type": "text",
+          "id": "end_time",
+          "label": "End time (optional)",
+          "info": "Format: 17:00 (24 hour clock). Uses the store's timezone."
+        },
+        {
+          "type": "richtext",
+          "id": "end_text",
+          "label": "End text",
+          "info": "This shows when the date and time elapses."
+        },
         { "type": "checkbox", "id": "hide_on_end", "label": "Hide section when ended", "default": false },
         { "type": "checkbox", "id": "show_timer_labels", "label": "Show timer labels", "default": false },
-        { "type": "select", "id": "number_font", "label": "Countdown number font", "default": "heading", "options": [ { "value": "heading", "label": "Heading" }, { "value": "body", "label": "Body" } ] },
-        { "type": "range", "id": "number_size", "label": "Countdown number size", "min": 20, "max": 80, "step": 2, "default": 48 },
-        { "type": "select", "id": "divider_type", "label": "Divider type", "default": "colon", "options": [ { "value": "colon", "label": ": (colon)" }, { "value": "dot", "label": ". (dot)" }, { "value": "space", "label": "(space)" } ] }
+        {
+          "type": "select",
+          "id": "number_font",
+          "label": "Countdown number font",
+          "default": "heading",
+          "options": [
+            { "value": "heading", "label": "Heading" },
+            { "value": "body", "label": "Body" }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "number_size",
+          "label": "Countdown number size",
+          "min": 20,
+          "max": 80,
+          "step": 2,
+          "default": 48
+        },
+        {
+          "type": "select",
+          "id": "divider_type",
+          "label": "Divider type",
+          "default": "colon",
+          "options": [
+            { "value": "colon", "label": ": (colon)" },
+            { "value": "dot", "label": ". (dot)" },
+            { "value": "space", "label": "(space)" }
+          ]
+        }
       ]
     }
   ],
