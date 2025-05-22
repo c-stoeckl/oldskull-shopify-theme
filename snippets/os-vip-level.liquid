@@ -25,25 +25,31 @@
   {%- endcase -%}
 {%- endif -%}
 
-<div class="vip-section">
-  <div class="flexible-layout valign-middle">
-    <div class="column column--half">
-      <div class="image-overlap" style="max-width: 260px">
-        <div class="image-overlap__image image-overlap__image-1">
-          <div class="fade-in-up">
-            {%- if dynamic_image == blank -%}
-              <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
-            {%- else -%}
-              {%- render 'image' with dynamic_image, size_cols_desktop: size_cols_desktop -%}
-            {%- endif -%}
+<div class="vip-section {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
+  <div class="container">
+    <div class="flexible-layout valign-middle">
+      <div class="column column--half {% if section.settings.image_position == 'right' %}column--order-push-desktop{% endif %}">
+        {% if section.settings.image_link != blank -%}
+          <a class="block-link" href="{{ section.settings.image_link }}">
+        {%- endif %}
+        <div class="image-overlap" style="max-width: {{ section.settings.image_width }}px">
+          <div class="image-overlap__image image-overlap__image-1">
+            <div class="fade-in-up">
+              {%- if dynamic_image == blank -%}
+                <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+              {%- else -%}
+                {%- render 'image' with dynamic_image, size_cols_desktop: size_cols_desktop -%}
+              {%- endif -%}
+            </div>
           </div>
         </div>
+        {% if section.settings.image_link != blank %}</a>{% endif %}
       </div>
-    </div>
-    <div class="column column--half">
-      <div class="feature-text-paired">
-        <h2 class="majortitle in-content h1">{{ vip_level_label }}</h2>
-        <div class="rte lightly-spaced-row">{{ vip_text }}</div>
+      <div class="column column--half align-ltr-{{ section.settings.text_alignment }}">
+        <div class="feature-text-paired">
+          <h2 class="majortitle in-content h1">{{ vip_level_label }}</h2>
+          <div class="rte lightly-spaced-row">{{ vip_text }}</div>
+        </div>
       </div>
     </div>
   </div>
