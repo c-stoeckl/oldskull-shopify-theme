@@ -176,9 +176,175 @@
       "label": "Text"
     }
   ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_h1",
+          "label": "Set as primary page heading",
+          "info": "Use <h1> tag. One per page recommended. [Read more](https://cleancanvas.co.uk/support/symmetry/section-h1-setting)",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "name": "Subheading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Subheading"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_text",
+          "label": "Enlarge text",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Consecutive buttons will show on the same row"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button",
+          "default": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "default": "primary",
+          "options": [
+            { "label": "Primary", "value": "primary" },
+            { "label": "Secondary", "value": "secondary" },
+            { "label": "Link", "value": "link" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "name": "Icon",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "default": "star",
+          "options": [
+            { "value": "award", "label": "Award" },
+            { "value": "box", "label": "Box" },
+            { "value": "briefcase", "label": "Briefcase" },
+            { "value": "calendar", "label": "Calendar" },
+            { "value": "chat_bubble", "label": "Chat bubble" },
+            { "value": "check_mark", "label": "Check mark" },
+            { "value": "check_mark_in_circle", "label": "Check mark in circle" },
+            { "value": "clock", "label": "Clock" },
+            { "value": "credit_card", "label": "Credit card" },
+            { "value": "dollar_sign", "label": "Dollar sign" },
+            { "value": "dryer", "label": "Dryer" },
+            { "value": "eye", "label": "Eye" },
+            { "value": "feather", "label": "Feather" },
+            { "value": "gift", "label": "Gift" },
+            { "value": "heart", "label": "Heart" },
+            { "value": "iron", "label": "Iron" },
+            { "value": "leaf", "label": "Leaf" },
+            { "value": "leather", "label": "Leather" },
+            { "value": "lock", "label": "Lock" },
+            { "value": "map_pin", "label": "Map pin" },
+            { "value": "pants", "label": "Pants" },
+            { "value": "percent", "label": "Percent" },
+            { "value": "plane", "label": "Plane" },
+            { "value": "price_tag", "label": "Price tag" },
+            { "value": "question_mark", "label": "Question mark" },
+            { "value": "return", "label": "Return" },
+            { "value": "ruler", "label": "Ruler" },
+            { "value": "scissors", "label": "Scissors" },
+            { "value": "shirt", "label": "Shirt" },
+            { "value": "shoe", "label": "Shoe" },
+            { "value": "silhouette", "label": "Silhouette" },
+            { "value": "star", "label": "Star" },
+            { "value": "truck", "label": "Truck" },
+            { "value": "washing", "label": "Washing" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "range", "id": "image_width", "min": 60, "max": 700, "step": 10, "unit": "px", "label": "Image width", "default": 260 },
+        { "type": "url", "id": "url", "label": "Link" }
+      ]
+    },
+    {
+      "type": "countdown",
+      "name": "Countdown timer",
+      "settings": [
+        { "type": "text", "id": "end_date", "label": "End date", "info": "Required. Format: YYYY-MM-DD." },
+        { "type": "text", "id": "end_time", "label": "End time (optional)", "info": "Format: 17:00 (24 hour clock). Uses the store's timezone." },
+        { "type": "richtext", "id": "end_text", "label": "End text", "info": "This shows when the date and time elapses." },
+        { "type": "checkbox", "id": "hide_on_end", "label": "Hide section when ended", "default": false },
+        { "type": "checkbox", "id": "show_timer_labels", "label": "Show timer labels", "default": false },
+        { "type": "select", "id": "number_font", "label": "Countdown number font", "default": "heading", "options": [ { "value": "heading", "label": "Heading" }, { "value": "body", "label": "Body" } ] },
+        { "type": "range", "id": "number_size", "label": "Countdown number size", "min": 20, "max": 80, "step": 2, "default": 48 },
+        { "type": "select", "id": "divider_type", "label": "Divider type", "default": "colon", "options": [ { "value": "colon", "label": ": (colon)" }, { "value": "dot", "label": ". (dot)" }, { "value": "space", "label": "(space)" } ] }
+      ]
+    }
+  ],
   "presets": [
     {
-      "name": "VIP Level Section"
+      "name": "VIP Level Section",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "button"
+        }
+      ]
     }
   ]
 }
