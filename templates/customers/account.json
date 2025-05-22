@@ -9,47 +9,6 @@
  */
 {
   "sections": {
-    "os_vip_level_XrEtVC": {
-      "type": "os_vip-level",
-      "blocks": {
-        "heading_miMXU8": {
-          "type": "heading",
-          "settings": {}
-        },
-        "text_Mn9baJ": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false
-          }
-        },
-        "button_iCmYcX": {
-          "type": "button",
-          "settings": {
-            "button_label": "VIP Club öffnen >",
-            "button_link": "#smile-home",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_miMXU8",
-        "text_Mn9baJ",
-        "button_iCmYcX"
-      ],
-      "name": "VIP Level Section",
-      "settings": {
-        "text_os_legend": "",
-        "text_os_icon": "",
-        "text_os_hero": "",
-        "image_os_member": "shopify://shop_images/vip-club-card-os-member-tier.png",
-        "text_os_member": "<ul><li>Test</li><li>2</li><li>3</li></ul>",
-        "image_width": 250,
-        "image_link": "",
-        "image_position": "left",
-        "text_alignment": "left",
-        "color_scheme": "default"
-      }
-    },
     "image_with_text_BzPatM": {
       "type": "image-with-text",
       "blocks": {
@@ -137,7 +96,7 @@
         "button_label": "VIP Club öffnen >",
         "button_link": "#smile-home",
         "button_style": "primary",
-        "image_width": 240,
+        "image_width": 280,
         "image_link": "",
         "image_position": "left",
         "text_alignment": "left",
@@ -146,7 +105,6 @@
     }
   },
   "order": [
-    "os_vip_level_XrEtVC",
     "image_with_text_BzPatM",
     "17474296475375b48f",
     "main"
