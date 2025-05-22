@@ -25,7 +25,7 @@
   {%- endcase -%}
 {%- endif -%}
 
-<div class="vip-section {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--small{% else %}fully-spaced-row--small{% endif %}">
+<div class="vip-section {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--small{% else %}fully-spaced-row--small fully-spaced-row--not-mobile{% endif %}">
   <div class="flexible-layout valign-middle">
     <div class="column column--half {% if section.settings.image_position == 'right' %}column--order-push-desktop{% endif %}">
       {% if section.settings.image_link != blank -%}
@@ -46,7 +46,7 @@
     </div>
     <div class="column column--half align-ltr-{{ section.settings.text_alignment }}">
       <div class="feature-text-paired">
-        <div class="subheading subheading--over lightish-spaced-row-above">{{ vip_subheading }}</div>
+        <div class="subheading subheading--over">{{ vip_subheading }}</div>
         <h3 class="majortitle in-content h3">{{ vip_level_label }}</h3>
         <div class="rte lightly-spaced-row">{{ vip_text }}</div>
         {% if section.settings.button_label != blank and section.settings.button_link != blank %}
