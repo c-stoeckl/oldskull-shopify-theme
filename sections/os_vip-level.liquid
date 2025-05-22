@@ -1,0 +1,108 @@
+{% if customer and customer.metafields.smile.vip_tier_name and customer.metafields.smile.vip_tier_name.value != blank %}
+  {% assign vip_level = customer.metafields.smile.vip_tier_name.value | downcase %}
+  {% assign vip_image = '' %}
+  {% assign vip_message = '' %}
+  {% case vip_level %}
+    {% when 'os legend' %}
+      {% if section.settings.image_os_legend %}
+        {% assign vip_image = section.settings.image_os_legend
+          | image_url: width: section.settings.image_os_legend.width
+        %}
+        {% assign vip_image_alt = 'OS Legend' %}
+        {% assign vip_image_width = section.settings.image_os_legend.width %}
+        {% assign vip_image_height = section.settings.image_os_legend.height %}
+      {% endif %}
+      {% assign vip_message = 'Welcome, OS Legend!' %}
+    {% when 'os icon' %}
+      {% if section.settings.image_os_icon %}
+        {% assign vip_image = section.settings.image_os_icon | image_url: width: section.settings.image_os_icon.width %}
+        {% assign vip_image_alt = 'OS Icon' %}
+        {% assign vip_image_width = section.settings.image_os_icon.width %}
+        {% assign vip_image_height = section.settings.image_os_icon.height %}
+      {% endif %}
+      {% assign vip_message = 'Great to see you, OS Icon!' %}
+    {% when 'os hero' %}
+      {% if section.settings.image_os_hero %}
+        {% assign vip_image = section.settings.image_os_hero | image_url: width: section.settings.image_os_hero.width %}
+        {% assign vip_image_alt = 'OS Hero' %}
+        {% assign vip_image_width = section.settings.image_os_hero.width %}
+        {% assign vip_image_height = section.settings.image_os_hero.height %}
+      {% endif %}
+      {% assign vip_message = ",You're shining bright, OS Hero!" %}
+    {% when 'os member' %}
+      {% if section.settings.image_os_member %}
+        {% assign vip_image = section.settings.image_os_member
+          | image_url: width: section.settings.image_os_member.width
+        %}
+        {% assign vip_image_alt = 'OS Member' %}
+        {% assign vip_image_width = section.settings.image_os_member.width %}
+        {% assign vip_image_height = section.settings.image_os_member.height %}
+      {% endif %}
+      {% assign vip_message = 'Welcome, OS Member!' %}
+    {% else %}
+      {% if section.settings.fallback_image %}
+        {% assign vip_image = section.settings.fallback_image
+          | image_url: width: section.settings.fallback_image.width
+        %}
+        {% assign vip_image_alt = 'VIP' %}
+        {% assign vip_image_width = section.settings.fallback_image.width %}
+        {% assign vip_image_height = section.settings.fallback_image.height %}
+      {% endif %}
+      {% assign vip_message = section.settings.fallback_text %}
+  {% endcase %}
+  <div class="vip-status">
+    {% if vip_image != '' %}
+      <img
+        src="{{ vip_image }}"
+        alt="{{ vip_image_alt }}"
+        width="{{ vip_image_width }}"
+        height="{{ vip_image_height }}"
+      >
+    {% endif %}
+    <p>{{ vip_message }}</p>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "VIP Level Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_os_legend",
+      "label": "Image for OS Legend"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_os_icon",
+      "label": "Image for OS Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_os_hero",
+      "label": "Image for OS Hero"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_os_member",
+      "label": "Image for OS Member"
+    },
+    {
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "Fallback image for unknown VIP levels"
+    },
+    {
+      "type": "text",
+      "id": "fallback_text",
+      "label": "Fallback VIP message",
+      "default": "Welcome to the VIP Club!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "VIP Level Display"
+    }
+  ]
+}
+{% endschema %}
