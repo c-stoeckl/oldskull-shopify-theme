@@ -6,7 +6,7 @@
     <h2 class="title align-center">{{ 'customer.account.title' | t }}</h2>
   </div>
 
-  {% render 'os-vip-level' %}
+  {% render 'os-vip-level', vip_subheading: section.settings.vip_subheading %}
 
   <div class="cf">
     <div id="customer_sidebar" {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
@@ -114,12 +114,55 @@
     { "type": "richtext", "id": "text_os_member", "label": "Text for OS Member" },
     { "type": "text", "id": "button_label", "label": "Button label" },
     { "type": "url", "id": "button_link", "label": "Button link" },
-    { "type": "select", "id": "button_style", "label": "Button style", "default": "primary", "options": [ { "value": "primary", "label": "Primary" }, { "value": "secondary", "label": "Secondary" }, { "value": "link", "label": "Text link" } ] },
-    { "type": "range", "id": "image_width", "min": 150, "max": 700, "step": 10, "unit": "px", "label": "Image width", "default": 700 },
-    { "type": "url", "id": "image_link", "label": "Image link" },
-    { "type": "select", "id": "image_position", "label": "Image alignment", "default": "left", "options": [ { "value": "left", "label": "Left" }, { "value": "right", "label": "Right" } ] },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "default": "primary",
+      "options": [
+        { "value": "primary", "label": "Primary" },
+        { "value": "secondary", "label": "Secondary" },
+        { "value": "link", "label": "Text link" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "min": 150,
+      "max": 700,
+      "step": 10,
+      "unit": "px",
+      "label": "Image width",
+      "default": 700
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
     { "type": "text_alignment", "id": "text_alignment", "label": "Text alignment", "default": "left" },
-    { "type": "select", "id": "color_scheme", "label": "Color scheme", "default": "default", "options": [ { "value": "default", "label": "Default" }, { "value": "1", "label": "1" }, { "value": "2", "label": "2" } ] }
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        { "value": "default", "label": "Default" },
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "vip_subheading",
+      "label": "VIP Club Subheading",
+      "default": "Deine VIP Club Stufe"
+    }
   ]
 }
 {% endschema %}
