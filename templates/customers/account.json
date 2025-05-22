@@ -128,7 +128,21 @@
     },
     "main": {
       "type": "main-account",
-      "settings": {}
+      "settings": {
+        "text_os_legend": "",
+        "text_os_icon": "",
+        "text_os_hero": "",
+        "image_os_member": "shopify://shop_images/vip-club-card-os-member-tier.png",
+        "text_os_member": "<ul><li>Test</li><li>2</li><li>3</li></ul>",
+        "button_label": "VIP Club öffnen >",
+        "button_link": "#smile-home",
+        "button_style": "primary",
+        "image_width": 240,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
     }
   },
   "order": [
