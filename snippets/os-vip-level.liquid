@@ -25,7 +25,7 @@
   {%- endcase -%}
 {%- endif -%}
 
-<div class="vip-section {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
+<div class="vip-section {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--small{% else %}fully-spaced-row--small{% endif %}">
   <div class="container">
     <div class="flexible-layout valign-middle">
       <div class="column column--half {% if section.settings.image_position == 'right' %}column--order-push-desktop{% endif %}">
