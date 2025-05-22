@@ -99,3 +99,24 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Main Account",
+  "settings": [
+    { "type": "image_picker", "id": "image_os_legend", "label": "Image for OS Legend" },
+    { "type": "richtext", "id": "text_os_legend", "label": "Text for OS Legend" },
+    { "type": "image_picker", "id": "image_os_icon", "label": "Image for OS Icon" },
+    { "type": "richtext", "id": "text_os_icon", "label": "Text for OS Icon" },
+    { "type": "image_picker", "id": "image_os_hero", "label": "Image for OS Hero" },
+    { "type": "richtext", "id": "text_os_hero", "label": "Text for OS Hero" },
+    { "type": "image_picker", "id": "image_os_member", "label": "Image for OS Member" },
+    { "type": "richtext", "id": "text_os_member", "label": "Text for OS Member" },
+    { "type": "range", "id": "image_width", "min": 150, "max": 700, "step": 10, "unit": "px", "label": "Image width", "default": 700 },
+    { "type": "url", "id": "image_link", "label": "Image link" },
+    { "type": "select", "id": "image_position", "label": "Image alignment", "default": "left", "options": [ { "value": "left", "label": "Left" }, { "value": "right", "label": "Right" } ] },
+    { "type": "text_alignment", "id": "text_alignment", "label": "Text alignment", "default": "left" },
+    { "type": "select", "id": "color_scheme", "label": "Color scheme", "default": "default", "options": [ { "value": "default", "label": "Default" }, { "value": "1", "label": "1" }, { "value": "2", "label": "2" } ] }
+  ]
+}
+{% endschema %}
