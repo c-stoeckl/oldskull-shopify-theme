@@ -9,54 +9,6 @@
  */
 {
   "sections": {
-    "image_with_text_BzPatM": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_HKUYJT": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Deine VIP Club Stufe"
-          }
-        },
-        "heading_x4Vz8h": {
-          "type": "heading",
-          "settings": {
-            "title": "OS Legend",
-            "use_h1": false
-          }
-        },
-        "text_Y4DXrc": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Early Access</li><li>Unlimited free shipping mit dem Code BLABLABLA</li><li>etc</li><li>pp</li></ul>",
-            "enlarge_text": false
-          }
-        },
-        "button_AmVmQg": {
-          "type": "button",
-          "settings": {
-            "button_label": "VIP Club öffnen >",
-            "button_link": "#smile-home",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_HKUYJT",
-        "heading_x4Vz8h",
-        "text_Y4DXrc",
-        "button_AmVmQg"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/vip-club-card-os-legend-tier.png",
-        "image_width": 240,
-        "image_link": "",
-        "image_position": "left",
-        "text_alignment": "left",
-        "color_scheme": "default"
-      }
-    },
     "17474296475375b48f": {
       "type": "apps",
       "blocks": {
@@ -88,26 +40,25 @@
       "type": "main-account",
       "settings": {
         "image_os_legend": "shopify://shop_images/vip-club-card-os-legend-tier.png",
-        "text_os_legend": "<p>OS Legend text</p>",
+        "text_os_legend": "<ul><li>Early Access</li><li>Unlimited free shipping mit dem Code BLABLABLA</li><li>etc</li><li>pp</li></ul>",
         "image_os_icon": "shopify://shop_images/vip-club-card-os-icon-tier.png",
-        "text_os_icon": "<p>OS Icon text</p>",
+        "text_os_icon": "<ul><li>Early Access</li><li>Unlimited free shipping mit dem Code BLABLABLA</li><li>etc</li><li>pp</li></ul>",
         "image_os_hero": "shopify://shop_images/vip-club-card-os-hero-tier.png",
-        "text_os_hero": "<p>OS Hero text</p>",
+        "text_os_hero": "<ul><li>Early Access</li><li>Unlimited free shipping mit dem Code BLABLABLA</li><li>etc</li><li>pp</li></ul>",
         "image_os_member": "shopify://shop_images/vip-club-card-os-member-tier.png",
-        "text_os_member": "<p>OS Member text</p>",
+        "text_os_member": "<ul><li>Early Access</li><li>Unlimited free shipping mit dem Code BLABLABLA</li><li>etc</li><li>pp</li></ul>",
         "button_label": "VIP Club öffnen >",
         "button_link": "#smile-home",
         "button_style": "primary",
         "image_width": 280,
-        "image_link": "",
         "image_position": "left",
         "text_alignment": "left",
-        "color_scheme": "default"
+        "color_scheme": "default",
+        "vip_subheading": "Deine VIP Club Stufe"
       }
     }
   },
   "order": [
-    "image_with_text_BzPatM",
     "17474296475375b48f",
     "main"
   ]
