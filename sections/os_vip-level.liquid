@@ -1,28 +1,18 @@
-{% if customer and customer.metafields.smile.vip_tier_name %}
-  {% assign dynamic_image = section.settings.image %}
-  {% assign dynamic_image_2 = section.settings.image_2 %}
-  {% if customer
-    and customer.metafields.smile.vip_tier_name
-    and customer.metafields.smile.vip_tier_name.value != blank
-  %}
-    {% assign vip_level = customer.metafields.smile.vip_tier_name.value | downcase %}
-    {% case vip_level %}
-      {% when 'os legend' %}
-        {% assign dynamic_image = section.settings.image_os_legend %}
-      {% when 'os icon' %}
-        {% assign dynamic_image = section.settings.image_os_icon %}
-      {% when 'os hero' %}
-        {% assign dynamic_image = section.settings.image_os_hero %}
-      {% when 'os member' %}
-        {% assign dynamic_image = section.settings.image_os_member %}
-    {% endcase %}
-  {% endif %}
-  {% if dynamic_image != blank and dynamic_image_2 != blank %}
-    {% assign size_cols_desktop = 3 %}
-  {% else %}
-    {% assign size_cols_desktop = 2 %}
-  {% endif %}
-{% endif %}
+{%- assign dynamic_image = blank -%}
+{%- assign size_cols_desktop = 2 -%}
+{%- if customer and customer.metafields.smile.vip_tier_name and customer.metafields.smile.vip_tier_name.value != blank -%}
+  {%- assign vip_level = customer.metafields.smile.vip_tier_name.value | downcase -%}
+  {%- case vip_level -%}
+    {%- when 'os legend' -%}
+      {%- assign dynamic_image = section.settings.image_os_legend -%}
+    {%- when 'os icon' -%}
+      {%- assign dynamic_image = section.settings.image_os_icon -%}
+    {%- when 'os hero' -%}
+      {%- assign dynamic_image = section.settings.image_os_hero -%}
+    {%- when 'os member' -%}
+      {%- assign dynamic_image = section.settings.image_os_member -%}
+  {%- endcase -%}
+{%- endif -%}
 
 <div class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
   <div class="container">
@@ -33,10 +23,7 @@
         {%- endif %}
         <div class="image-overlap" style="max-width: {{ section.settings.image_width }}px">
           <div class="image-overlap__image image-overlap__image-1">
-            <div
-              class="fade-in-up"
-              {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay=\"0.1s\"' -%}
-            >
+            <div class="fade-in-up" {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay=\"0.1s\"' -%}>
               {%- if dynamic_image == blank -%}
                 <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
               {%- else -%}
@@ -44,31 +31,85 @@
               {%- endif -%}
             </div>
           </div>
-
-          {%- if dynamic_image == blank or dynamic_image_2 != blank -%}
-            <div class="image-overlap__image image-overlap__image-2">
-              <div
-                class="fade-in-up"
-                {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay=\"0.3s\"' -%}
-              >
-                {%- if dynamic_image_2 == blank -%}
-                  <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
-                {%- else -%}
-                  {%- render 'image' with dynamic_image_2, size_cols_desktop: size_cols_desktop -%}
-                {%- endif -%}
-              </div>
-            </div>
-          {%- endif -%}
         </div>
         {% if section.settings.image_link != blank %}</a>{% endif %}
       </div>
-      <div class="column column--half">
-        {% if section.settings.heading != blank %}
-          <h2>{{ section.settings.heading }}</h2>
-        {% endif %}
-        {% if section.settings.text != blank %}
-          <p>{{ section.settings.text }}</p>
-        {% endif %}
+      <div class="column column--half align-ltr-{{ section.settings.text_alignment }}" {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
+        <div class="feature-text-paired">
+          {% assign skip_block_count = 0 %}
+          {% for block in section.blocks %}
+            {%- liquid
+              if skip_block_count > 0
+                assign skip_block_count = skip_block_count | minus: 1
+                continue
+              endif
+            -%}
+            {% case block.type %}
+              {% when 'heading' %}
+                {% if block.settings.use_h1 %}
+                  <h1 class="majortitle in-content" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h1>
+                {% else %}
+                  <h2 class="majortitle in-content h1" {{ block.shopify_attributes }}>{{ block.settings.title | escape }}</h2>
+                {% endif %}
+              {% when 'subheading' %}
+                <div class="subheading subheading--over lightish-spaced-row-above" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</div>
+              {% when 'text' %}
+                <div class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              {% when 'button' %}
+                <div class="lightly-spaced-row button-row" {{ block.shopify_attributes }}>
+                  <a class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ block.settings.button_link }}">{{ block.settings.button_label | escape }}</a>
+                  {%- assign skip_block_count = 0 -%}
+                  {%- for next_block in section.blocks offset: forloop.index -%}
+                    {%- if next_block.type == 'button' -%}
+                      {%- assign skip_block_count = skip_block_count | plus: 1 -%}
+                      <a class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn" href="{{ next_block.settings.button_link }}" {{ block.shopify_attributes }}>{{ next_block.settings.button_label | escape }}</a>
+                    {%- else -%}
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              {% when 'image' %}
+                <div class="lightly-spaced-row lightish-spaced-row-above inline-width-container" style="width: {{ block.settings.image_width }}px" {{ block.shopify_attributes }}>
+                  {% if block.settings.url != blank %}<a href="{{ block.settings.url }}">{% endif %}
+                    {% if block.settings.image != blank %}
+                      {%- liquid
+                        assign image_sizes = block.settings.image_width | append: 'px'
+                        assign image_widths = block.settings.image_width | times: 2 | prepend: ', ' | prepend: block.settings.image_width
+                        render 'image' with block.settings.image, sizes: image_sizes, widths: image_widths
+                      -%}
+                    {% else %}
+                      <div class="placeholder-image">
+                        {{- 'image' | placeholder_svg_tag: 'placeholder-svg' -}}
+                      </div>
+                    {% endif %}
+                  {% if block.settings.url != blank %}</a>{% endif %}
+                </div>
+              {% when 'icon' %}
+                <div class="lightly-spaced-row" {{ block.shopify_attributes }}>
+                  <span class="large-light-icon">
+                    {% render 'icon', icon: block.settings.icon, size: 'medium' %}
+                  </span>
+                </div>
+              {%- when 'countdown' -%}
+                <script src="{{ 'countdown-timer.js' | asset_url }}" defer></script>
+                {% style %}
+                  .block-id-{{ block.id }} .countdown {
+                    --countdown-desktop-size: {{ block.settings.number_size }}px;
+                  }
+                {% endstyle %}
+                <div class="block-id-{{ block.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ block.settings.number_font }} countdown-divider-{{ block.settings.divider_type }}" {{ block.shopify_attributes }}>
+                  {% render 'countdown-timer',
+                    end_date: block.settings.end_date,
+                    end_time: block.settings.end_time,
+                    end_text: block.settings.end_text,
+                    end_midnight: true,
+                    hide_on_end: block.settings.hide_on_end,
+                    show_labels: block.settings.show_timer_labels
+                  %}
+                </div>
+            {% endcase %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
@@ -78,16 +119,7 @@
 {
   "name": "VIP Level Section",
   "settings": [
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "image_2",
-      "label": "Image 2"
-    },
+
     {
       "type": "image_picker",
       "id": "image_os_legend",
@@ -165,16 +197,7 @@
         }
       ]
     },
-    {
-      "type": "text",
-      "id": "heading",
-      "label": "Heading"
-    },
-    {
-      "type": "textarea",
-      "id": "text",
-      "label": "Text"
-    }
+
   ],
   "blocks": [
     {
