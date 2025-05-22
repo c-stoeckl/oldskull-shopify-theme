@@ -88,11 +88,14 @@
     "main": {
       "type": "main-account",
       "settings": {
-        "text_os_legend": "",
-        "text_os_icon": "",
-        "text_os_hero": "",
+        "image_os_legend": "shopify://shop_images/vip-club-card-os-legend-tier.png",
+        "text_os_legend": "<p>OS Legend text</p>",
+        "image_os_icon": "shopify://shop_images/vip-club-card-os-icon-tier.png",
+        "text_os_icon": "<p>OS Icon text</p>",
+        "image_os_hero": "shopify://shop_images/vip-club-card-os-hero-tier.png",
+        "text_os_hero": "<p>OS Hero text</p>",
         "image_os_member": "shopify://shop_images/vip-club-card-os-member-tier.png",
-        "text_os_member": "<ul><li>Test</li><li>2</li><li>3</li></ul>",
+        "text_os_member": "<p>OS Member text</p>",
         "button_label": "VIP Club öffnen >",
         "button_link": "#smile-home",
         "button_style": "primary",
