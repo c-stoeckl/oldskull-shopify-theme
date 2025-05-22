@@ -1,42 +1,78 @@
-{% if customer and customer.metafields.smile.vip_tier_name and customer.metafields.smile.vip_tier_name.value != blank %}
-  {% assign vip_level = customer.metafields.smile.vip_tier_name.value | downcase %}
-  {% assign found_block = false %}
-  {% for block in section.blocks %}
-    {% if block.settings.vip_level == vip_level %}
-      {% assign found_block = true %}
-      <div class="vip-status" {{ block.shopify_attributes }}>
-        {% if block.settings.image != blank %}
-          <img
-            src="{{ block.settings.image | image_url: width: block.settings.image.width }}"
-            alt="{{ block.settings.heading | escape }}"
-            width="{{ block.settings.image.width }}"
-            height="{{ block.settings.image.height }}"
-          >
+{% if customer and customer.metafields.smile.vip_tier_name %}
+  {% assign dynamic_image = section.settings.image %}
+  {% assign dynamic_image_2 = section.settings.image_2 %}
+  {% if customer
+    and customer.metafields.smile.vip_tier_name
+    and customer.metafields.smile.vip_tier_name.value != blank
+  %}
+    {% assign vip_level = customer.metafields.smile.vip_tier_name.value | downcase %}
+    {% case vip_level %}
+      {% when 'os legend' %}
+        {% assign dynamic_image = section.settings.image_os_legend %}
+      {% when 'os icon' %}
+        {% assign dynamic_image = section.settings.image_os_icon %}
+      {% when 'os hero' %}
+        {% assign dynamic_image = section.settings.image_os_hero %}
+      {% when 'os member' %}
+        {% assign dynamic_image = section.settings.image_os_member %}
+    {% endcase %}
+  {% endif %}
+  {% if dynamic_image != blank and dynamic_image_2 != blank %}
+    {% assign size_cols_desktop = 3 %}
+  {% else %}
+    {% assign size_cols_desktop = 2 %}
+  {% endif %}
+{% endif %}
+
+<div class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}">
+  <div class="container">
+    <div class="flexible-layout valign-middle">
+      <div class="column column--half {% if section.settings.image_position == 'right' %}column--order-push-desktop{% endif %}">
+        {% if section.settings.image_link != blank -%}
+          <a class="block-link" href="{{ section.settings.image_link }}">
+        {%- endif %}
+        <div class="image-overlap" style="max-width: {{ section.settings.image_width }}px">
+          <div class="image-overlap__image image-overlap__image-1">
+            <div
+              class="fade-in-up"
+              {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay=\"0.1s\"' -%}
+            >
+              {%- if dynamic_image == blank -%}
+                <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+              {%- else -%}
+                {%- render 'image' with dynamic_image, size_cols_desktop: size_cols_desktop -%}
+              {%- endif -%}
+            </div>
+          </div>
+
+          {%- if dynamic_image == blank or dynamic_image_2 != blank -%}
+            <div class="image-overlap__image image-overlap__image-2">
+              <div
+                class="fade-in-up"
+                {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay=\"0.3s\"' -%}
+              >
+                {%- if dynamic_image_2 == blank -%}
+                  <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                {%- else -%}
+                  {%- render 'image' with dynamic_image_2, size_cols_desktop: size_cols_desktop -%}
+                {%- endif -%}
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+        {% if section.settings.image_link != blank %}</a>{% endif %}
+      </div>
+      <div class="column column--half">
+        {% if section.settings.heading != blank %}
+          <h2>{{ section.settings.heading }}</h2>
         {% endif %}
-        {% if block.settings.heading != blank %}
-          <h2>{{ block.settings.heading }}</h2>
-        {% endif %}
-        {% if block.settings.text != blank %}
-          <p>{{ block.settings.text }}</p>
+        {% if section.settings.text != blank %}
+          <p>{{ section.settings.text }}</p>
         {% endif %}
       </div>
-      {% break %}
-    {% endif %}
-  {% endfor %}
-  {% unless found_block %}
-    <div class="vip-status">
-      {% if section.settings.fallback_image %}
-        <img
-          src="{{ section.settings.fallback_image | image_url: width: section.settings.fallback_image.width }}"
-          alt="VIP"
-          width="{{ section.settings.fallback_image.width }}"
-          height="{{ section.settings.fallback_image.height }}"
-        >
-      {% endif %}
-      <p>{{ section.settings.fallback_text }}</p>
     </div>
-  {% endunless %}
-{% endif %}
+  </div>
+</div>
 
 {% schema %}
 {
@@ -44,54 +80,100 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "fallback_image",
-      "label": "Fallback image for unknown VIP levels"
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_os_legend",
+      "label": "Image for OS Legend"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_os_icon",
+      "label": "Image for OS Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_os_hero",
+      "label": "Image for OS Hero"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_os_member",
+      "label": "Image for OS Member"
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "min": 150,
+      "max": 700,
+      "step": 10,
+      "unit": "px",
+      "label": "Image width",
+      "default": 700
+    },
+    {
+      "type": "url",
+      "id": "image_link",
+      "label": "Image link"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image alignment",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ]
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ]
     },
     {
       "type": "text",
-      "id": "fallback_text",
-      "label": "Fallback VIP message",
-      "default": "Welcome to the VIP Club!"
-    }
-  ],
-  "blocks": [
+      "id": "heading",
+      "label": "Heading"
+    },
     {
-      "type": "vip_level",
-      "name": "VIP Level",
-      "settings": [
-        {
-          "type": "select",
-          "id": "vip_level",
-          "label": "VIP Level",
-          "options": [
-            { "value": "os legend", "label": "OS Legend" },
-            { "value": "os icon", "label": "OS Icon" },
-            { "value": "os hero", "label": "OS Hero" },
-            { "value": "os member", "label": "OS Member" }
-          ]
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "VIP Image"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "label": "Heading"
-        },
-        {
-          "type": "textarea",
-          "id": "text",
-          "label": "Text"
-        }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "VIP Level Display",
-      "blocks": [{ "type": "vip_level" }, { "type": "vip_level" }]
+      "type": "textarea",
+      "id": "text",
+      "label": "Text"
     }
   ]
 }
