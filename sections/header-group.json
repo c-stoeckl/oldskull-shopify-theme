@@ -271,5 +271,5 @@
       }
     }
   },
-  "order": ["announcement-bar", "header", "store-messages"]
+  "order": ["announcement-bar", "os-header", "store-messages"]
 }
