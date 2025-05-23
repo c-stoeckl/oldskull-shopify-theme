@@ -1,0 +1,73 @@
+{% comment %}
+  Oldskull · VIP-Gate Section
+  – Used as the FIRST section in JSON templates to restrict collections or pages exclusively for customers with the "VIP" tag.
+
+  Flow
+  ───────────────────────────────────────────────
+  1. Check → {% render 'os-is-vip' %}
+  2. • VIP  → Section exits immediately (no output)
+     • Logged in, NOT VIP → Info screen
+     • Not logged in      → Show login button
+{% endcomment %}
+
+{%- render 'os-is-vip' -%}
+
+{%- if is_vip -%}
+  {%- break -%}
+  {% comment %} VIP → allow full page rendering {% endcomment %}
+{%- endif -%}
+
+<section class="os-vip-gate os-vip-gate--unauthorised">
+  <div class="container fully-spaced-row align-center">
+    <h2>{{ section.settings.heading }}</h2>
+    <p>{{ section.settings.info_text }}</p>
+    {%- if customer -%}
+      {% comment %} Logged in, but NOT VIP {% endcomment %}
+      <a href="/pages/rewards" class="btn btn--primary">{{ section.settings.learn_more }}</a>
+    {%- else -%}
+      {% comment %} Not logged in {% endcomment %}
+      {%- comment %}
+        routes.account_login_url does NOT automatically add ?return_url=<current URL>.
+        We manually append ?return_url={{ request.path | url_encode }} so that after login, the customer will return to this page (legacy accounts).
+      {%- endcomment %}
+      <a class="btn" href="{{ routes.account_login_url }}?return_url={{ request.path | url_encode }}">
+        {{ section.settings.login_to_access }}
+      </a>
+    {%- endif -%}
+  </div>
+</section>
+{% break %}
+
+{% schema %}
+{
+  "name": "VIP Gate",
+  "tag": "section",
+  "presets": [{ "name": "VIP Gate" }],
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Überschrift",
+      "default": "VIP Bereich"
+    },
+    {
+      "type": "textarea",
+      "id": "info_text",
+      "label": "Infotext",
+      "default": "Dieser Bereich ist nur für VIP-Kunden zugänglich."
+    },
+    {
+      "type": "text",
+      "id": "learn_more",
+      "label": "Button-Text (Mehr erfahren)",
+      "default": "Mehr erfahren"
+    },
+    {
+      "type": "text",
+      "id": "login_to_access",
+      "label": "Button-Text (Login)",
+      "default": "Login für Zugang"
+    }
+  ]
+}
+{% endschema %}
