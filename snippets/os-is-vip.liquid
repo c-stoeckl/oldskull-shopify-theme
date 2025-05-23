@@ -1,0 +1,7 @@
+{%- assign is_vip = false -%}
+{%- if customer -%}
+  {# Customer is VIP if 'member' tag is present #}
+  {%- if customer.tags contains 'member' -%}
+    {%- assign is_vip = true -%}
+  {%- endif -%}
+{%- endif -%}

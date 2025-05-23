@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "type": "header",
+  "type": "os-header",
   "name": "Header Group",
   "sections": {
     "announcement-bar": {
@@ -87,9 +87,7 @@
         "announcement_TDRj7c",
         "announcement_KWybDz"
       ],
-      "custom_css": [
-        "a {text-decoration: none !important;}"
-      ],
+      "custom_css": ["a {text-decoration: none !important;}"],
       "settings": {
         "message_font_size": 11,
         "announcement_bar_col": "#000000",
@@ -260,9 +258,7 @@
           }
         }
       },
-      "block_order": [
-        "1601308127822"
-      ],
+      "block_order": ["1601308127822"],
       "disabled": true,
       "settings": {
         "head_not_home_only": true,
@@ -275,9 +271,5 @@
       }
     }
   },
-  "order": [
-    "announcement-bar",
-    "header",
-    "store-messages"
-  ]
+  "order": ["announcement-bar", "header", "store-messages"]
 }
