@@ -1,3 +1,10 @@
+{%- assign is_vip = false -%}
+{%- if customer -%}
+  {%- if customer.tags contains 'member' -%}
+    {%- assign is_vip = true -%}
+  {%- endif -%}
+{%- endif -%}
+
 <ul class="navigation__tier-1">
   {% for link in linklists[link_list].links %}
     {%- liquid
@@ -180,6 +187,9 @@
                   </li>
                 {% else %}
                   {% for child_link in link.links %}
+                    {% if child_link.url contains '/collections/vip-early-access' and is_vip == false %}
+                      {% continue %}
+                    {% endif %}
                     <li class="navigation__item{% if child_link.links != blank %} navigation__item--with-children{% endif %}{% if use_columns %} navigation__column{% endif %}{% if featured_links contains child_link.title %} featured-link{% endif %}">
                       <a
                         href="{{ child_link.url }}"

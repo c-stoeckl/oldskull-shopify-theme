@@ -90,11 +90,7 @@
                 </span>
               </a>
             {% endif %}
-            {{
-              '<!-- DEBUG: Before menu_layout inline check. menu_layout = '
-              | append: section.settings.menu_layout
-              | append: ' -->'
-            }}
+
             {% if section.settings.menu_layout contains 'inline' %}
               <div
                 id="proxy-nav"
@@ -102,23 +98,9 @@
                 role="navigation"
                 aria-label="{{ 'accessibility.main_navigation' | t }}"
               >
-                {%- assign is_vip = false -%}
-                {%- if customer -%}
-                  {%- if customer.tags contains 'member' -%}
-                    {%- assign is_vip = true -%}
-                  {%- endif -%}
-                {%- endif -%}
                 <div class="navigation__tier-1-container">
                   <ul class="navigation__tier-1">
-                    {{
-                      '<!-- DEBUG: Entered menu link loop. featured_links = '
-                      | append: featured_links
-                      | append: ' -->'
-                    }}
                     {% for link in linklists[section.settings.menu_linklist].links %}
-                      {% if link.url contains '/collections/vip-early-access' and is_vip == false %}
-                        {% continue %}
-                      {% endif %}
                       {%- liquid
                         assign has_dropdown = false
                         if link.links != blank
@@ -138,15 +120,7 @@
                           endfor
                         endif
                       -%}
-                      {{-
-                        '<!-- DEBUG: '
-                        | append: link.title
-                        | append: ' - '
-                        | append: link.url
-                        | append: ' | is_vip = '
-                        | append: is_vip
-                        | append: ' -->'
-                      -}}
+
                       <li class="navigation__item{% if has_dropdown %} navigation__item--with-children {% if use_columns %}navigation__item--with-mega-menu{% else %}navigation__item--with-small-menu{% endif %}{% endif %}{% if featured_links contains link.title %} featured-link{% endif %}{% if link.active %} navigation__item--active{% endif %}">
                         <a
                           href="{{ link.url }}"
@@ -484,7 +458,7 @@
     <main-navigation id="main-nav" class="desktop-only" data-proxy-nav="proxy-nav">
       <div class="navigation navigation--main" role="navigation" aria-label="{{ 'accessibility.main_navigation' | t }}">
         <div class="navigation__tier-1-container">
-          {% render 'main-nav-links',
+          {% render 'os-main-nav-links',
             link_list: section.settings.menu_linklist,
             mobile: false,
             featured_links: featured_links
@@ -502,7 +476,7 @@
                 <span class="mobile-nav-title"></span>
                 <a href="#" class="mobile-nav-toggle"  aria-label="{{ 'general.navigation.close' | t }}">{% render 'icon-close', stroke_width: 1.3 %}</a>
               </div>
-              {% render 'main-nav-links', link_list: mobile_linklist, mobile: true, featured_links: featured_links %}
+              {% render 'os-main-nav-links', link_list: mobile_linklist, mobile: true, featured_links: featured_links %}
               {% if section.settings.enable_nav_mob_products %}
                 <div class="navigation__mobile-products">
                   <div class="navigation__mobile-products-title">{{ section.settings.nav_mob_products_title | escape }}</div>
