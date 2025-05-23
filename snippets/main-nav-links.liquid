@@ -7,6 +7,15 @@
 
 <ul class="navigation__tier-1">
   {% for link in linklists[link_list].links %}
+    {{-
+      '<!-- DEBUG: '
+      | append: link.title
+      | append: ' - '
+      | append: link.url
+      | append: ' | is_vip = '
+      | append: is_vip
+      | append: ' -->'
+    -}}
     {% if link.url contains '/collections/vip-early-access' and is_vip == false %}
       {% continue %}
     {% endif %}

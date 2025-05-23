@@ -138,7 +138,7 @@
                           endfor
                         endif
                       -%}
-                      {{
+                      {{-
                         '<!-- DEBUG: '
                         | append: link.title
                         | append: ' - '
@@ -146,7 +146,7 @@
                         | append: ' | is_vip = '
                         | append: is_vip
                         | append: ' -->'
-                      }}
+                      -}}
                       <li class="navigation__item{% if has_dropdown %} navigation__item--with-children {% if use_columns %}navigation__item--with-mega-menu{% else %}navigation__item--with-small-menu{% endif %}{% endif %}{% if featured_links contains link.title %} featured-link{% endif %}{% if link.active %} navigation__item--active{% endif %}">
                         <a
                           href="{{ link.url }}"
