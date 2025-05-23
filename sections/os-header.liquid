@@ -90,6 +90,11 @@
                 </span>
               </a>
             {% endif %}
+            {{
+              '<!-- DEBUG: Before menu_layout inline check. menu_layout = '
+              | append: section.settings.menu_layout
+              | append: ' -->'
+            }}
             {% if section.settings.menu_layout contains 'inline' %}
               <div
                 id="proxy-nav"
@@ -170,6 +175,7 @@
               {%- endif -%}
 
               <a class="logo__link" href="{{ routes.root_url }}" title="{{ shop.name }}">
+                BLAAAAAAAAAAAAAAAAAAAAAAAAA
                 {%- if section.settings.logo != blank -%}
                   {%- assign logo_width_x2 = section.settings.logo_img_width_int | times: 2 -%}
                   <img
@@ -556,7 +562,7 @@
 
 {% schema %}
 {
-  "name": "Header",
+  "name": "OS Header",
   "class": "section-header",
   "settings": [
     {

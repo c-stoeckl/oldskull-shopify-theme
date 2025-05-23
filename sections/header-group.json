@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "type": "os-header",
+  "type": "header",
   "name": "Header Group",
   "sections": {
     "announcement-bar": {
@@ -99,8 +99,8 @@
         "enable_language_selector": true
       }
     },
-    "header": {
-      "type": "header",
+    "os-header": {
+      "type": "os-header",
       "blocks": {
         "menu_promotion_small_hdbmWi": {
           "type": "menu-promotion-small",
