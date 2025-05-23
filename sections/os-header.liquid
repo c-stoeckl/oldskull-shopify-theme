@@ -97,8 +97,13 @@
                 role="navigation"
                 aria-label="{{ 'accessibility.main_navigation' | t }}"
               >
+                {%- assign is_vip = false -%}
+                {%- if customer -%}
+                  {%- if customer.tags contains 'VIP' -%}
+                    {%- assign is_vip = true -%}
+                  {%- endif -%}
+                {%- endif -%}
                 <div class="navigation__tier-1-container">
-                  {% render 'os-is-vip' %}
                   <ul class="navigation__tier-1">
                     {% for link in linklists[section.settings.menu_linklist].links %}
                       {% if link.url contains '/collections/vip-early-access' and is_vip == false %}
