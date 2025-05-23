@@ -1,0 +1,7 @@
+{%- render 'os-is-vip' -%}
+
+{%- if is_vip -%}
+  {% section 'main-collection' %}
+{%- else -%}
+  {% section 'os-vip-gate' %}
+{%- endif -%}
