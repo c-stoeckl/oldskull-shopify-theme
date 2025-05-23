@@ -25,9 +25,240 @@
         "enable_title_overlay": false,
         "overlay_style": "shadow"
       }
+    },
+    "image_with_text_qHqcHD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zDJfEw": {
+          "type": "heading",
+          "settings": {
+            "title": "BALI BREEZE",
+            "use_h1": false
+          }
+        },
+        "text_LcJ9ee": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ein Sonnenuntergang zwischen Palmen, Surfer in der Brandung – das Shirt für alle, die nie ganz zurückkommen wollen.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_4WhhU8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Bali Breeze Hoodie",
+            "button_link": "shopify://products/bali-breeze-bp-hoodie-off-white",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zDJfEw",
+        "text_LcJ9ee",
+        "button_4WhhU8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/OS03EXHX5162OW_M2_FREE_STL_BA.jpg",
+        "image_2": "shopify://shop_images/OS01EXHX5160OW_L_DET_FR.jpg",
+        "image_width": 350,
+        "image_link": "shopify://products/bali-breeze-bp-hoodie-off-white",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_xVCKhF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_E4MXgc": {
+          "type": "heading",
+          "settings": {
+            "title": "VICE CITY",
+            "use_h1": false
+          }
+        },
+        "text_NyCQ6G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Flamingo trifft Palmenstrand – inspiriert vom neongetränkten Miami-Vice-Feeling. Für alle, die wissen: <em>Life is better at the beach</em>.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_mggHV8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Vice City T-Shirt",
+            "button_link": "shopify://products/vice-city-tshirt-black",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_E4MXgc",
+        "text_NyCQ6G",
+        "button_mggHV8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/OS01EXHX5120BK_M2_FREE_STL_FR.jpg",
+        "image_2": "shopify://shop_images/OS01EXHX5120WH_C_STL_02.jpg",
+        "image_width": 350,
+        "image_link": "shopify://products/vice-city-tshirt-black",
+        "image_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_9W4gAc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DwhwjU": {
+          "type": "heading",
+          "settings": {
+            "title": "OCEAN DRIFT",
+            "use_h1": false
+          }
+        },
+        "text_Pc9Afn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heute surfen, morgen träumen. Retro-Vibes, Sonnenuntergangsfarben & Beach-Feeling nonstop – ein Shirt wie ein Endless Summer.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_qKDAzm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Ocean Drift Hoodie",
+            "button_link": "shopify://products/ocean-drift-bp-hoodie-heather-grey",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DwhwjU",
+        "text_Pc9Afn",
+        "button_qKDAzm"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/OS01EXHX5130OW_M2_FREE_STL_FR_2.jpg",
+        "image_2": "shopify://shop_images/OS03EXHX5132HG_M2_FREE_STL_BA_BP.jpg",
+        "image_width": 350,
+        "image_link": "shopify://products/ocean-drift-bp-hoodie-heather-grey",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_RUTVBY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QbfgNw": {
+          "type": "heading",
+          "settings": {
+            "title": "ALOHA LEGEND",
+            "use_h1": false
+          }
+        },
+        "text_xnqYaU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Magnum Memories & Aloha Spirit – mit rotem Klassiker und Tropenvibes im Gepäck. Mehr 80s-Feeling geht nicht.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_WCRPCj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Aloha Legend Hoodie",
+            "button_link": "shopify://products/aloha-legend-bp-hoodie-navy-blue",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QbfgNw",
+        "text_xnqYaU",
+        "button_WCRPCj"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/OS03EXHX5142NB_M2_FREE_STL_BA_BP.jpg",
+        "image_2": "shopify://shop_images/OS01EXHX5140NB_M_DET_FR.jpg",
+        "image_width": 350,
+        "image_link": "shopify://products/aloha-legend-bp-hoodie-navy-blue",
+        "image_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_yRtBje": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_D7QKKa": {
+          "type": "heading",
+          "settings": {
+            "title": "GOLDEN HOUR",
+            "use_h1": false
+          }
+        },
+        "text_TkdTyH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Golden Hour im Spiegel – Catch the wave, chase the dream. Ein Design wie eine Postkarte aus Kalifornien, direkt auf Stoff gebracht.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_PHQjt3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Golden Hour T-Shirt",
+            "button_link": "shopify://products/golden-hour-tshirt-dark-grey",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D7QKKa",
+        "text_TkdTyH",
+        "button_PHQjt3"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/OS01EXHX5150DG_C_STL_01.jpg",
+        "image_2": "shopify://shop_images/OS01EXHX5150DG_M_DET_FR.jpg",
+        "image_width": 350,
+        "image_link": "shopify://products/golden-hour-tshirt-dark-grey",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_apd6PX": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Hier deine Summer Dreams entdecken",
+        "collection": "oldskull-drop",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_qHqcHD",
+    "image_with_text_xVCKhF",
+    "image_with_text_9W4gAc",
+    "image_with_text_RUTVBY",
+    "image_with_text_yRtBje",
+    "featured_collection_apd6PX"
   ]
 }
