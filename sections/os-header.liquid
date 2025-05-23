@@ -99,13 +99,27 @@
               >
                 {%- assign is_vip = false -%}
                 {%- if customer -%}
-                  {%- if customer.tags contains 'VIP' -%}
+                  {%- if customer.tags contains 'member' -%}
                     {%- assign is_vip = true -%}
                   {%- endif -%}
                 {%- endif -%}
                 <div class="navigation__tier-1-container">
                   <ul class="navigation__tier-1">
+                    {{
+                      '<!-- DEBUG: Entered menu link loop. featured_links = '
+                      | append: featured_links
+                      | append: ' -->'
+                    }}
                     {% for link in linklists[section.settings.menu_linklist].links %}
+                      {{
+                        '<!-- DEBUG: '
+                        | append: link.title
+                        | append: ' - '
+                        | append: link.url
+                        | append: ' | is_vip = '
+                        | append: is_vip
+                        | append: ' -->'
+                      }}
                       {% if link.url contains '/collections/vip-early-access' and is_vip == false %}
                         {% continue %}
                       {% endif %}
