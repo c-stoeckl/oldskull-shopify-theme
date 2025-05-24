@@ -4,13 +4,16 @@
 
   Flow
   ───────────────────────────────────────────────
-  1. Check → {% render 'os-is-vip' %}
+  1. Check → if customer is logged in and has the "member" (VIP) tag
   2. • VIP  → Section exits immediately (no output)
      • Logged in, NOT VIP → Info screen
      • Not logged in      → Show login button
 {% endcomment %}
 
-{%- render 'os-is-vip' -%}
+{%- assign is_vip = false -%}
+{%- if customer and customer.tags contains 'member' -%}
+  {%- assign is_vip = true -%}
+{%- endif -%}
 
 {%- if is_vip -%}
   {%- break -%}
@@ -22,10 +25,8 @@
     <h2>{{ section.settings.heading }}</h2>
     <p>{{ section.settings.info_text }}</p>
     {%- if customer -%}
-      {% comment %} Logged in, but NOT VIP {% endcomment %}
       <a href="/pages/rewards" class="btn btn--primary">{{ section.settings.learn_more }}</a>
     {%- else -%}
-      {% comment %} Not logged in {% endcomment %}
       {%- comment %}
         routes.account_login_url does NOT automatically add ?return_url=<current URL>.
         We manually append ?return_url={{ request.path | url_encode }} so that after login, the customer will return to this page (legacy accounts).
