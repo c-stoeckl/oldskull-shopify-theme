@@ -10,7 +10,10 @@
      • Not logged in      → Show login button
 {% endcomment %}
 
-{%- render 'os-is-vip' -%}
+{%- assign is_vip = false -%}
+{%- if customer and customer.tags contains 'member' -%}
+  {%- assign is_vip = true -%}
+{%- endif -%}
 
 {%- if is_vip -%}
   {%- break -%}

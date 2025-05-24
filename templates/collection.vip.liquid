@@ -1,5 +1,4 @@
-{%- render 'os-is-vip' -%}
-{%- if is_vip -%}
+{%- if customer and customer.tags contains 'member' -%}
   {% section 'main-collection' %}
 {%- else -%}
   {% section 'os-vip-gate' %}
