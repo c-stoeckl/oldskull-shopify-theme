@@ -1,0 +1,68 @@
+{%- assign dynamic_image = blank -%}
+{%- assign size_cols_desktop = 2 -%}
+{%- assign vip_level = blank -%}
+{%- assign vip_text = blank -%}
+{%- assign vip_level_label = blank -%}
+{%- if customer
+  and customer.metafields.smile.vip_tier_name
+  and customer.metafields.smile.vip_tier_name.value != blank
+-%}
+  {%- assign vip_level_label = customer.metafields.smile.vip_tier_name.value -%}
+  {%- assign vip_level = vip_level_label | downcase -%}
+  {%- case vip_level -%}
+    {%- when 'os legend' -%}
+      {%- assign dynamic_image = section.settings.image_os_legend -%}
+      {%- assign vip_text = section.settings.text_os_legend -%}
+    {%- when 'os icon' -%}
+      {%- assign dynamic_image = section.settings.image_os_icon -%}
+      {%- assign vip_text = section.settings.text_os_icon -%}
+    {%- when 'os hero' -%}
+      {%- assign dynamic_image = section.settings.image_os_hero -%}
+      {%- assign vip_text = section.settings.text_os_hero -%}
+    {%- when 'os member' -%}
+      {%- assign dynamic_image = section.settings.image_os_member -%}
+      {%- assign vip_text = section.settings.text_os_member -%}
+  {%- endcase -%}
+{%- endif -%}
+
+<div class="vip-section {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--small{% else %}fully-spaced-row--small fully-spaced-row--not-mobile{% endif %}">
+  <div class="flexible-layout valign-middle">
+    <div class="column column--half {% if section.settings.image_position == 'right' %}column--order-push-desktop{% endif %}">
+      {% if section.settings.image_link != blank -%}
+        <a class="block-link" href="{{ section.settings.image_link }}">
+      {%- endif %}
+      <div class="image-overlap" style="max-width: {{ section.settings.image_width }}px">
+        <div class="image-overlap__image image-overlap__image-1">
+          <div class="fade-in-up">
+            {%- if dynamic_image == blank -%}
+              <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+            {%- else -%}
+              {%- render 'image' with dynamic_image, size_cols_desktop: size_cols_desktop -%}
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+      {% if section.settings.image_link != blank %}</a>{% endif %}
+    </div>
+    <div class="column column--half align-ltr-{{ section.settings.text_alignment }}">
+      <div class="feature-text-paired">
+        <div class="subheading subheading--over">{{ vip_subheading }}</div>
+        <h3 class="majortitle in-content h3">{{ vip_level_label }}</h3>
+        <div class="rte lightly-spaced-row">{{ vip_text }}</div>
+        {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+          <div class="lightly-spaced-row button-row">
+            <a
+              class="{% if section.settings.button_style != 'link' %}btn btn--{{ section.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+              href="{{ section.settings.button_link }}"
+            >
+              {{- section.settings.button_label | escape -}}
+            </a>
+          </div>
+        {% endif %}
+        {% if section.settings.vip_asterisk_text != blank %}
+          <div class="vip-asterisk-text small-text">{{ section.settings.vip_asterisk_text }}</div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

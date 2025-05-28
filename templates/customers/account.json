@@ -9,78 +9,6 @@
  */
 {
   "sections": {
-    "image_with_text_BzPatM": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_HKUYJT": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Deine VIP Club Stufe"
-          }
-        },
-        "heading_x4Vz8h": {
-          "type": "heading",
-          "settings": {
-            "title": "OS Legend",
-            "use_h1": false
-          }
-        },
-        "text_Y4DXrc": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>Early Access</li><li>Unlimited free shipping mit dem Code BLABLABLA</li><li>etc</li><li>pp</li></ul>",
-            "enlarge_text": false
-          }
-        },
-        "button_AmVmQg": {
-          "type": "button",
-          "settings": {
-            "button_label": "VIP Club öffnen >",
-            "button_link": "#smile-home",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_HKUYJT",
-        "heading_x4Vz8h",
-        "text_Y4DXrc",
-        "button_AmVmQg"
-      ],
-      "disabled": true,
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/vip-club-card-os-legend-tier.png",
-        "image_width": 240,
-        "image_link": "",
-        "image_position": "left",
-        "text_alignment": "left",
-        "color_scheme": "default"
-      }
-    },
-    "rich_text_Ne8cTc": {
-      "type": "rich-text",
-      "blocks": {
-        "button_qYDqfn": {
-          "type": "button",
-          "settings": {
-            "button_label": "VIP Club öffnen >",
-            "button_link": "#smile-home",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "button_qYDqfn"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "height": "small",
-        "text_alignment": "center",
-        "full_width": true,
-        "color_scheme": "default"
-      }
-    },
     "17474296475375b48f": {
       "type": "apps",
       "blocks": {
@@ -110,12 +38,28 @@
     },
     "main": {
       "type": "main-account",
-      "settings": {}
+      "settings": {
+        "image_os_legend": "shopify://shop_images/vip-club-card-os-legend-tier.png",
+        "text_os_legend": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li><strong>Unlimited Free Shipping</strong> mit dem Code<br/><strong>VIPFREESHIPPING</strong></li><li><strong>Kostenfreie Retouren</strong> (EU weit)</li><li><strong>15% permanenter Rabatt*</strong> mit dem Code<br/><strong>OSLEGEND15OFF</strong></li><li>Early Access für Drops und Sonderaktionen (mehr Infos per Email)</li></ul><p>Um sicher zu gehen, dass du alle Nachrichten zu deinem Status erhältst, abonniere bitte unseren <a href=\"/pages/newsletter\" title=\"Oldskull Newsletter\">Newsletter</a>.</p>",
+        "image_os_icon": "shopify://shop_images/vip-club-card-os-icon-tier.png",
+        "text_os_icon": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li><strong>3x Free Shipping</strong> mit den Codes<br/><strong>OSICONSHIPPING1<br/>OSICONSHIPPING2<br/>OSICONSHIPPING3</strong></li><li><strong>10% permanenter Rabatt*</strong> mit dem Code<br/><strong>OSICON10OFF</strong></li><li>Early Access für Drops und Sonderaktionen (mehr Infos per Email)</li></ul><p>Um sicher zu gehen, dass du alle Nachrichten zu deinem Status erhältst, abonniere bitte unseren <a href=\"/pages/newsletter\" title=\"Oldskull Newsletter\">Newsletter</a>.</p>",
+        "image_os_hero": "shopify://shop_images/vip-club-card-os-hero-tier.png",
+        "text_os_hero": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li><strong>2x Free Shipping</strong> mit den Codes<br/><strong>OSHEROSHIPPING1<br/>OSHEROSHIPPING2</strong></li><li><strong>5% permanenter Rabatt* </strong>mit dem Code<strong><br/>OSHERO5OFF</strong></li><li>Early Access für Drops und Sonderaktionen (mehr Infos per Email)</li></ul><p>Um sicher zu gehen, dass du alle Nachrichten zu deinem Status erhältst, abonniere bitte unseren <a href=\"/pages/newsletter\" title=\"Oldskull Newsletter\">Newsletter</a>.</p>",
+        "image_os_member": "shopify://shop_images/vip-club-card-os-member-tier.png",
+        "text_os_member": "<ul><li>Exklusive Aktionen nur für Mitglieder</li><li><strong>1x Free Shipping</strong>, dein Code wurde dir <strong>per Email</strong> übermittelt</li></ul><p>Um sicher zu gehen, dass du alle Nachrichten zu deinem Status erhältst, abonniere bitte unseren <a href=\"/pages/newsletter\" title=\"Oldskull Newsletter\">Newsletter</a>.</p>",
+        "button_label": "VIP Club öffnen >",
+        "button_link": "#smile-home",
+        "button_style": "primary",
+        "image_width": 280,
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default",
+        "vip_subheading": "Deine VIP Club Stufe",
+        "vip_asterisk_text": "* Der permanente Rabatt ist auf alle nicht reduzierten Artikel anwendbar. Der Rabatt ist nicht kombinierbar mit anderen Aktionen oder Discounts."
+      }
     }
   },
   "order": [
-    "image_with_text_BzPatM",
-    "rich_text_Ne8cTc",
     "17474296475375b48f",
     "main"
   ]

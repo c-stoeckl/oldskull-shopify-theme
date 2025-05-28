@@ -6,24 +6,32 @@
     <h2 class="title align-center">{{ 'customer.account.title' | t }}</h2>
   </div>
 
+  {% render 'os-vip-level', vip_subheading: section.settings.vip_subheading %}
+
   <div class="cf">
     <div id="customer_sidebar" {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
       <div id="customer_detail" class="group">
         <h5 class="name">{{ customer.name }}</h5>
         <p class="email note">{{ customer.email }}</p>
         <div class="address note lightly-spaced-row">
-          {% if customer.default_address != nil %}
+          {% if customer.default_address != null %}
             <p>{{ customer.default_address.address1 }}</p>
-            {% if customer.default_address.address2 != "" %}
+            {% if customer.default_address.address2 != '' %}
               <p>{{ customer.default_address.address2 }}</p>
             {% endif %}
-            <p>{{ customer.default_address.city }}, {% if address.province_code %}{{ customer.default_address.province_code }}, {% endif %}{{ customer.default_address.country }}</p>
+            <p>
+              {{ customer.default_address.city }},
+              {% if address.province_code %}{{ customer.default_address.province_code }}, {% endif -%}
+              {{- customer.default_address.country }}
+            </p>
             <p>{{ customer.default_address.zip }}</p>
             <p class="address-phone">{{ customer.default_address.phone }}</p>
           {% endif %}
         </div>
 
-        <a class="underline" href="{{ routes.account_addresses_url }}">{{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a>
+        <a class="underline" href="{{ routes.account_addresses_url }}">
+          {{- 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})</a
+        >
       </div>
     </div>
 
@@ -45,39 +53,39 @@
               </thead>
               <tbody>
                 {% for order in customer.orders %}
-                <tr class="{% if order.cancelled %}cancelled_order{% endif %}">
-                  <td class="responsive-table__cell-head">
-                    <span class="responsive-table__cell-label">{{ 'customer.orders.order_number' | t }}</span>
-                    <a class="underline" href="{{ order.customer_url }}">{{ order.name }}</a>
-                    <span class="mobile-only">- {{ order.created_at | date: format: 'date' }}</span>
-                    <span class="responsive-table__cell-head__icon">{% render 'icon-chevron-right' %}</span>
-                  </td>
-                  <td class="desktop-only">
-                    <span class="note">{{ order.created_at | date: format: 'date' }}</span>
-                  </td>
-                  <td class="responsive-table__first-mobile-cell">
-                    <span class="responsive-table__cell-label">{{ 'customer.orders.payment_status' | t }}</span>
-                    <span class="status_{{ order.financial_status }}">{{ order.financial_status_label }}</span>
-                  </td>
-                  <td>
-                    <span class="responsive-table__cell-label">{{ 'customer.orders.fulfillment_status' | t }}</span>
-                    <span class="status_{{ order.fulfillment_status }}">{{ order.fulfillment_status_label }}</span>
-                  </td>
-                  <td>
-                    <span class="responsive-table__cell-label">{{ 'customer.orders.total' | t }}</span>
-                    <span class="total">
-                      {%- if settings.cart_currency_code_enabled -%}
-                        {{- order.total_price | money_with_currency -}}
-                      {%- else -%}
-                        {{- order.total_price | money -}}
-                      {%- endif -%}
-                    </span>
+                  <tr class="{% if order.cancelled %}cancelled_order{% endif %}">
+                    <td class="responsive-table__cell-head">
+                      <span class="responsive-table__cell-label">{{ 'customer.orders.order_number' | t }}</span>
+                      <a class="underline" href="{{ order.customer_url }}">{{ order.name }}</a>
+                      <span class="mobile-only">- {{ order.created_at | date: format: 'date' }}</span>
+                      <span class="responsive-table__cell-head__icon">{% render 'icon-chevron-right' %}</span>
+                    </td>
+                    <td class="desktop-only">
+                      <span class="note">{{ order.created_at | date: format: 'date' }}</span>
+                    </td>
+                    <td class="responsive-table__first-mobile-cell">
+                      <span class="responsive-table__cell-label">{{ 'customer.orders.payment_status' | t }}</span>
+                      <span class="status_{{ order.financial_status }}">{{ order.financial_status_label }}</span>
+                    </td>
+                    <td>
+                      <span class="responsive-table__cell-label">{{ 'customer.orders.fulfillment_status' | t }}</span>
+                      <span class="status_{{ order.fulfillment_status }}">{{ order.fulfillment_status_label }}</span>
+                    </td>
+                    <td>
+                      <span class="responsive-table__cell-label">{{ 'customer.orders.total' | t }}</span>
+                      <span class="total">
+                        {%- if settings.cart_currency_code_enabled -%}
+                          {{- order.total_price | money_with_currency -}}
+                        {%- else -%}
+                          {{- order.total_price | money -}}
+                        {%- endif -%}
+                      </span>
 
-                    <div class="responsive-table__more">
-                      <a href="{{ order.customer_url }}" class="underline">{{ 'customer.orders.view_order' | t }}</a>
-                    </div>
-                  </td>
-                </tr>
+                      <div class="responsive-table__more">
+                        <a href="{{ order.customer_url }}" class="underline">{{ 'customer.orders.view_order' | t }}</a>
+                      </div>
+                    </td>
+                  </tr>
                 {% endfor %}
               </tbody>
             </table>
@@ -91,3 +99,76 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Main Account",
+  "settings": [
+    { "type": "image_picker", "id": "image_os_legend", "label": "Image for OS Legend" },
+    { "type": "richtext", "id": "text_os_legend", "label": "Text for OS Legend" },
+    { "type": "image_picker", "id": "image_os_icon", "label": "Image for OS Icon" },
+    { "type": "richtext", "id": "text_os_icon", "label": "Text for OS Icon" },
+    { "type": "image_picker", "id": "image_os_hero", "label": "Image for OS Hero" },
+    { "type": "richtext", "id": "text_os_hero", "label": "Text for OS Hero" },
+    { "type": "image_picker", "id": "image_os_member", "label": "Image for OS Member" },
+    { "type": "richtext", "id": "text_os_member", "label": "Text for OS Member" },
+    { "type": "text", "id": "button_label", "label": "Button label" },
+    { "type": "url", "id": "button_link", "label": "Button link" },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button style",
+      "default": "primary",
+      "options": [
+        { "value": "primary", "label": "Primary" },
+        { "value": "secondary", "label": "Secondary" },
+        { "value": "link", "label": "Text link" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "min": 150,
+      "max": 700,
+      "step": 10,
+      "unit": "px",
+      "label": "Image width",
+      "default": 700
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image alignment",
+      "default": "left",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    { "type": "text_alignment", "id": "text_alignment", "label": "Text alignment", "default": "left" },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        { "value": "default", "label": "Default" },
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "vip_subheading",
+      "label": "VIP Club Subheading",
+      "default": "Deine VIP Club Stufe"
+    },
+    {
+      "type": "text",
+      "id": "vip_asterisk_text",
+      "label": "VIP asterisk text",
+      "default": "* Teilnahmebedingungen gelten"
+    }
+  ]
+}
+{% endschema %}
