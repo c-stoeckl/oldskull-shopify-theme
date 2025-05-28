@@ -59,6 +59,9 @@
             </a>
           </div>
         {% endif %}
+        {% if section.settings.vip_asterisk_text != blank %}
+          <div class="vip-asterisk-text small-text">{{ section.settings.vip_asterisk_text }}</div>
+        {% endif %}
       </div>
     </div>
   </div>
