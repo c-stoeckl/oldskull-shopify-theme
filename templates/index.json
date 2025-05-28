@@ -12,6 +12,27 @@
     "16359276425da8ce46": {
       "type": "slideshow",
       "blocks": {
+        "image_K6JRcd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oldskull-10th-birthday-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-10th-birthday-teaser-banner-mobile.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "Celebrate good times!",
+            "heading_max_width": 40,
+            "title_size": 60,
+            "title_size_mobile": 30,
+            "use_h1": false,
+            "text": "<p>Feier unseren Geburtstag mit uns! Oldskull wird 10 Jahre alt und schlüpft damit aus den Kinderschuhen. Sichere dir jetzt 20 % Rabatt auf (fast) alle Artikel und erhalte ab 149€ einen Gratisartikel als Geburtstagsgeschenk für dich!</p>",
+            "enlarge_text": true,
+            "button_label_1": "Zum Shop >",
+            "button_url_1": "shopify://collections/shop-all",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center left"
+          }
+        },
         "16359276425da8ce46-0": {
           "type": "image",
           "settings": {
@@ -53,34 +74,12 @@
             "button_url_2": "/account/register/",
             "text_alignment": "bottom left"
           }
-        },
-        "image_K6JRcd": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/oldskull_4for3-tshirts-may25_teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull_4for3-tshirts-may25_teaser-banner-mobile.png",
-            "slide_link": "",
-            "subheading": "",
-            "title": "FREE T-SHIRT",
-            "heading_max_width": 40,
-            "title_size": 60,
-            "title_size_mobile": 30,
-            "use_h1": false,
-            "text": "<p>Artikel im Wert von 119€ + ein weiteres T-Shirt in den Warenkorb legen und das günstigste T-Shirt geschenkt bekommen*</p>",
-            "enlarge_text": true,
-            "button_label_1": "Zum Shop >",
-            "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "",
-            "button_url_2": "",
-            "text_alignment": "bottom left"
-          }
         }
       },
       "block_order": [
+        "image_K6JRcd",
         "16359276425da8ce46-0",
-        "image_ER4WXB",
-        "image_K6JRcd"
+        "image_ER4WXB"
       ],
       "settings": {
         "height": "adapt",
@@ -92,7 +91,7 @@
         "transition": "zoom-fade",
         "navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 12,
+        "autoplay_speed": 10,
         "accessibility_info": ""
       }
     },

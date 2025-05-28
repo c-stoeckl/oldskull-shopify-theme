@@ -414,7 +414,7 @@
     "nav_featured_col": "#c40000",
     "image_overlay_text": "#ffffff",
     "image_overlay_bg": "#000000",
-    "image_overlay_opacity": 10,
+    "image_overlay_opacity": 30,
     "image_overlay_shadow_opacity": 15,
     "image_overlay_box_opacity": 88,
     "image_overlay_box_scheme": "page",

@@ -84,6 +84,17 @@
             "show_in_quickbuy": true
           }
         },
+        "richtext_7Lknxh": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p><strong>BIRTHDAY SPECIAL: 20% und mehr auf (fast) alles + dein Gratis Artikel ab 149€</strong></p>",
+            "icon": "gift",
+            "icon_size": "large",
+            "enable_box": true,
+            "box_color": "#c40000",
+            "show_in_quickbuy": false
+          }
+        },
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -104,18 +115,6 @@
             "should_show_points_label": true,
             "points_text_logged_in": "<p>Erhalte <strong>[points_amount]</strong> beim Kauf dieses Artikels.</p>",
             "points_text_logged_out": "<p>Mitglieder erhalten <strong>[points_amount]</strong> beim Kauf dieses Artikels. <a href=\"/account/register/\" title=\"/account/register/\">Jetzt registrieren</a> oder <a href=\"/account/login/\" title=\"/account/login/\">einloggen</a>.</p>"
-          }
-        },
-        "richtext_7Lknxh": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "richtext": "<p><strong>May Day Sale: </strong>Spare 50% auf jeden 2. Artikel (<a href=\"/pages/may-day-sale\" title=\"May Day Sale\">klicke für mehr Infos</a>)  </p>",
-            "icon": "dollar_sign",
-            "icon_size": "large",
-            "enable_box": true,
-            "box_color": "#c40000",
-            "show_in_quickbuy": false
           }
         },
         "custom_liquid_QxcBqA": {
@@ -211,9 +210,9 @@
         "variant-picker",
         "inventory_level_kBELfj",
         "text_Cdz8rb",
+        "richtext_7Lknxh",
         "buy-buttons",
         "smile_io_smile_points_on_product_page_teRnWW",
-        "richtext_7Lknxh",
         "custom_liquid_QxcBqA",
         "countdown_TTUkbf",
         "accordion_RCmMBi",
