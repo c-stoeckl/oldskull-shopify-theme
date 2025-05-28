@@ -30,7 +30,7 @@
         "announcement_text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BIRTHDAY SPECIAL: 20% und mehr auf (fast) alles + dein Gratis Artikel ab 149€</strong></a>",
         "announcement_icon": "gift",
         "announcement_icon_size": "large",
-        "announcement_enable_box": true,
+        "announcement_enable_box": false,
         "announcement_box_color": "#c40000",
         "empty_icon": "bag",
         "empty_heading": "Dein Warenkorb ist leer",

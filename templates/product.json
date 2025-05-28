@@ -90,7 +90,7 @@
             "richtext": "<p><strong>BIRTHDAY SPECIAL: 20% und mehr auf (fast) alles + dein Gratis Artikel ab 149€</strong></p>",
             "icon": "gift",
             "icon_size": "large",
-            "enable_box": true,
+            "enable_box": false,
             "box_color": "#c40000",
             "show_in_quickbuy": false
           }
