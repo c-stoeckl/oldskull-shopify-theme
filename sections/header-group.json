@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "type": "os-header",
+  "type": "header",
   "name": "Header Group",
   "sections": {
     "announcement-bar": {
@@ -16,6 +16,7 @@
       "blocks": {
         "announcement-2": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
             "show_countdown": false,
@@ -87,7 +88,9 @@
         "announcement_TDRj7c",
         "announcement_KWybDz"
       ],
-      "custom_css": ["a {text-decoration: none !important;}"],
+      "custom_css": [
+        "a {text-decoration: none !important;}"
+      ],
       "settings": {
         "message_font_size": 11,
         "announcement_bar_col": "#000000",
@@ -104,6 +107,7 @@
       "blocks": {
         "menu_promotion_small_hdbmWi": {
           "type": "menu-promotion-small",
+          "disabled": true,
           "settings": {
             "dropdown_link_title": "Basics",
             "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
@@ -113,6 +117,7 @@
         },
         "menu_promotion_small_n7jTMf": {
           "type": "menu-promotion-small",
+          "disabled": true,
           "settings": {
             "dropdown_link_title": "Prints",
             "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
@@ -258,7 +263,9 @@
           }
         }
       },
-      "block_order": ["1601308127822"],
+      "block_order": [
+        "1601308127822"
+      ],
       "disabled": true,
       "settings": {
         "head_not_home_only": true,
@@ -271,5 +278,9 @@
       }
     }
   },
-  "order": ["announcement-bar", "header", "store-messages"]
+  "order": [
+    "announcement-bar",
+    "header",
+    "store-messages"
+  ]
 }
