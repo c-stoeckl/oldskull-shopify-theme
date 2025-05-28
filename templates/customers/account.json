@@ -54,7 +54,8 @@
         "image_position": "left",
         "text_alignment": "left",
         "color_scheme": "default",
-        "vip_subheading": "Deine VIP Club Stufe"
+        "vip_subheading": "Deine VIP Club Stufe",
+        "vip_asterisk_text": "* Der permanente Rabatt ist auf alle nicht reduzierten Artikel anwendbar. Der Rabatt ist nicht kombinierbar mit anderen Aktionen oder Discounts."
       }
     }
   },
