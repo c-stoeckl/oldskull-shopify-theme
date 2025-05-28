@@ -1,1 +1,144 @@
-{"sections":{"countdown_timer_KhzGpD":{"type":"countdown-timer","blocks":{"subheading_xt9F7H":{"type":"subheading","settings":{"subheading":"Verpasse nicht unseren May Day Sale!"}},"countdown_E4NXm6":{"type":"countdown","settings":{"end_date":"2025-05-04","end_time":"23:59","end_text":"","hide_on_end":false,"number_size":20,"number_font":"base","divider_type":"colon","show_timer_labels":true}},"button_fWxU7L":{"type":"button","settings":{"button_label":"Mehr Infos >","button_link":"shopify:\/\/pages\/may-day-sale","button_style":"secondary"}}},"block_order":["subheading_xt9F7H","countdown_E4NXm6","button_fWxU7L"],"disabled":true,"custom_css":[".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"],"name":"Countdown timer","settings":{"show_image":false,"image_link":"","show_image_space":false,"image_position":"left","text_alignment":"center","color_scheme":"default"}},"main":{"type":"main-collection","settings":{"show_title":true,"show_image_behind_heading":false,"heading_image_height":"medium","overlay_style":"full image-overlay--bg-shadow","coll_desc_pos":"below","coll_num_per_page_int":48,"grid":4,"show_vendor":false,"show_total":false,"enable_filtering":true,"collapse_tag_sidebar_by_default":true,"collapse_filters_method":"over-12","show_filter_counts":true,"filter_two_columns":false,"button_grid_filter_name":"Size,Taille,Größe","auto_apply_hide_unavailable":true,"enable_sticky_filter":false,"show_sort":true,"sort_show_featured":false,"sort_show_best":true,"sort_show_alpha":true,"sort_show_price":true,"sort_show_date":true,"related_collections":["basics","print-t-shirts","sweatshirts","hoodies","zip-hoodies","sweatpants"],"related_collections_style":"buttons","rel_coll_gall_aspect_ratio":"1","image_position":"center center","rel_coll_gall_enable_margin":false,"rel_coll_gall_full_width":true,"rel_coll_gall_overlay_style":"full image-overlay--bg-shadow","rel_coll_gall_text_alignment":"bottom right","rel_coll_grid_mobile":"2"}}},"order":["countdown_timer_KhzGpD","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_MPzNWn": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_W73kbn": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Celebrate good times!"
+          }
+        },
+        "text_JarzAX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BIRTHDAY SPECIAL:</strong> Shoppen und <strong>20–50 % bei fast allen Artikeln im Shop sparen</strong>. Ab einem Einkaufswert von <strong>149€</strong> kannst du dir zusätzlich eines unserer <strong>Geburtstagsgeschenke </strong>aussuchen und deiner Bestellung hinzufügen. Die Geschenkeartikel sind mit <strong>„Free from 149€”</strong> markiert. Du kannst auch einfach danach filtern oder <a href=\"/collections/shop-all?filter.v.availability=1&filter.p.m.products.gift=Free%20from%20149%E2%82%AC&sort_by=manual\" title=\"/collections/shop-all?filter.v.availability=1&filter.p.m.products.gift=Free%20from%20149%E2%82%AC&sort_by=manual\"><strong>hier klicken</strong></a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_W73kbn",
+        "text_JarzAX"
+      ],
+      "custom_css": [
+        ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
+        ".lightly-spaced-row {font-size: 12px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "small",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "countdown_timer_KhzGpD": {
+      "type": "countdown-timer",
+      "blocks": {
+        "subheading_xt9F7H": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Verpasse nicht unseren May Day Sale!"
+          }
+        },
+        "countdown_E4NXm6": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2025-05-04",
+            "end_time": "23:59",
+            "end_text": "",
+            "hide_on_end": false,
+            "number_size": 20,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        },
+        "button_fWxU7L": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr Infos >",
+            "button_link": "shopify://pages/may-day-sale",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xt9F7H",
+        "countdown_E4NXm6",
+        "button_fWxU7L"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
+      ],
+      "settings": {
+        "show_image": false,
+        "image_link": "",
+        "show_image_space": false,
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "full image-overlay--bg-shadow",
+        "coll_desc_pos": "below",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": true,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": true,
+        "enable_sticky_filter": false,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "basics",
+          "print-t-shirts",
+          "sweatshirts",
+          "hoodies",
+          "zip-hoodies",
+          "sweatpants"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": false,
+        "rel_coll_gall_full_width": true,
+        "rel_coll_gall_overlay_style": "full image-overlay--bg-shadow",
+        "rel_coll_gall_text_alignment": "bottom right",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "rich_text_MPzNWn",
+    "countdown_timer_KhzGpD",
+    "main"
+  ]
+}
