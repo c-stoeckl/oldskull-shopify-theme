@@ -12,6 +12,27 @@
     "16359276425da8ce46": {
       "type": "slideshow",
       "blocks": {
+        "16359276425da8ce46-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oldskull-summer-drop7-2025-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-summer-drop7-2025-teaser-banner-mobile.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "JAPANESE TRADITION DROP",
+            "heading_max_width": 40,
+            "title_size": 60,
+            "title_size_mobile": 30,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "Zu den Neuheiten >",
+            "button_url_1": "shopify://collections/new-arrivals",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "bottom left"
+          }
+        },
         "image_K6JRcd": {
           "type": "image",
           "settings": {
@@ -31,27 +52,6 @@
             "button_label_2": "",
             "button_url_2": "",
             "text_alignment": "center left"
-          }
-        },
-        "16359276425da8ce46-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/home-summer-drop6-2025-banner.jpg",
-            "mobile_image": "shopify://shop_images/home-summer-drop6-2025-banner-mobile.jpg",
-            "slide_link": "",
-            "subheading": "",
-            "title": "NEW SUMMER DREAMS ONLINE",
-            "heading_max_width": 40,
-            "title_size": 60,
-            "title_size_mobile": 30,
-            "use_h1": false,
-            "text": "",
-            "enlarge_text": false,
-            "button_label_1": "Mehr Infos zum Drop >",
-            "button_url_1": "shopify://blogs/news/summer-dreams-drop-is-here",
-            "button_label_2": "Zu den Neuheiten >",
-            "button_url_2": "shopify://collections/new-arrivals",
-            "text_alignment": "bottom left"
           }
         },
         "image_ER4WXB": {
@@ -77,8 +77,8 @@
         }
       },
       "block_order": [
-        "image_K6JRcd",
         "16359276425da8ce46-0",
+        "image_K6JRcd",
         "image_ER4WXB"
       ],
       "settings": {
