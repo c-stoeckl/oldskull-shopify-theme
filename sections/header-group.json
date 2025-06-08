@@ -35,10 +35,10 @@
           "type": "announcement",
           "settings": {
             "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BIRTHDAY SPECIAL: 20% und mehr auf (fast) alles + dein Gratis Artikel ab 149€</strong></a>",
-            "show_countdown": false,
+            "show_countdown": true,
             "hide_on_end": false,
-            "end_date": "",
-            "end_time": "",
+            "end_date": "2025-06-10",
+            "end_time": "00:00",
             "number_font": "heading",
             "countdown_separator": "space",
             "use_custom_colors": false,

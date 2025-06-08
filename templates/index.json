@@ -101,23 +101,15 @@
         "text_9KqGh3": {
           "type": "text",
           "settings": {
-            "text": "<p>KAUFE <strong>4 T-SHIRTS</strong> UND ERHALTE DAS <strong>GÜNSTIGSTE GESCHENKT</strong>*</p>",
+            "text": "<p>Letzte Chance für unseren Geburtstags-Sale</p>",
             "enlarge_text": true
-          }
-        },
-        "text_pzYcVc": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>24h Extension!</strong></p>",
-            "enlarge_text": false
           }
         },
         "countdown_HbjezN": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-05-12",
-            "end_time": "12:00",
+            "end_date": "2025-06-10",
+            "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
             "number_size": 30,
@@ -125,23 +117,12 @@
             "divider_type": "colon",
             "show_timer_labels": true
           }
-        },
-        "button_dKQ3Em": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zu den T-Shirts >",
-            "button_link": "shopify://collections/print-t-shirts",
-            "button_style": "secondary"
-          }
         }
       },
       "block_order": [
         "text_9KqGh3",
-        "text_pzYcVc",
-        "countdown_HbjezN",
-        "button_dKQ3Em"
+        "countdown_HbjezN"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],

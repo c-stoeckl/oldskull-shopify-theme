@@ -48,14 +48,14 @@
         "subheading_6CrYQP": {
           "type": "subheading",
           "settings": {
-            "subheading": "KAUFE 4 T-SHIRTS UND ERHALTE DAS GÜNSTIGSTE GESCHENKT*"
+            "subheading": "Letzte Chance für unseren Geburtstags-Sale"
           }
         },
         "countdown_XD4g3J": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-05-12",
-            "end_time": "12:00",
+            "end_date": "2025-06-10",
+            "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
             "number_size": 20,
@@ -63,23 +63,12 @@
             "divider_type": "colon",
             "show_timer_labels": true
           }
-        },
-        "button_pEiW9p": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Mehr Infos >",
-            "button_link": "shopify://pages/may-day-sale",
-            "button_style": "secondary"
-          }
         }
       },
       "block_order": [
         "subheading_6CrYQP",
-        "countdown_XD4g3J",
-        "button_pEiW9p"
+        "countdown_XD4g3J"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
       ],

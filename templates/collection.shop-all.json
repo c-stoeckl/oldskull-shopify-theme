@@ -48,37 +48,27 @@
         "subheading_xt9F7H": {
           "type": "subheading",
           "settings": {
-            "subheading": "Verpasse nicht unseren May Day Sale!"
+            "subheading": "Letzte Chance für unseren Geburtstags-Sale"
           }
         },
         "countdown_E4NXm6": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-05-04",
-            "end_time": "23:59",
+            "end_date": "2025-06-10",
+            "end_time": "00:00",
             "end_text": "",
-            "hide_on_end": false,
+            "hide_on_end": true,
             "number_size": 20,
             "number_font": "base",
             "divider_type": "colon",
             "show_timer_labels": true
           }
-        },
-        "button_fWxU7L": {
-          "type": "button",
-          "settings": {
-            "button_label": "Mehr Infos >",
-            "button_link": "shopify://pages/may-day-sale",
-            "button_style": "secondary"
-          }
         }
       },
       "block_order": [
         "subheading_xt9F7H",
-        "countdown_E4NXm6",
-        "button_fWxU7L"
+        "countdown_E4NXm6"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
       ],
