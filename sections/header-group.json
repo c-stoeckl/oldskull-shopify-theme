@@ -106,26 +106,25 @@
       "blocks": {
         "menu_promotion_small_hdbmWi": {
           "type": "menu-promotion-small",
-          "disabled": true,
           "settings": {
             "dropdown_link_title": "Basics",
             "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
-            "title": "Erhalte ein Oldskull Basic T-Shirt für deine Bestellung ab 119€ als Geschenk*",
+            "title": "Erhalte ein Oldskull T-Shirt für deine Bestellung ab 119€ als Geschenk*",
             "link_url": "shopify://collections/basics"
           }
         },
         "menu_promotion_small_n7jTMf": {
           "type": "menu-promotion-small",
-          "disabled": true,
           "settings": {
             "dropdown_link_title": "Prints",
             "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
-            "title": "Erhalte ein Oldskull Basic T-Shirt für deine Bestellung ab 119€ als Geschenk*",
+            "title": "Erhalte ein Oldskull T-Shirt für deine Bestellung ab 119€ als Geschenk*",
             "link_url": "shopify://collections/basics"
           }
         },
         "menu_promotion_large_EBnqXa": {
           "type": "menu-promotion-large",
+          "disabled": true,
           "settings": {
             "dropdown_link_title": "Basics",
             "desktop_image": "shopify://shop_images/oldskull-10th-birthday-teaser-banner.png",
@@ -156,6 +155,7 @@
         },
         "menu_promotion_large_PAaJBT": {
           "type": "menu-promotion-large",
+          "disabled": true,
           "settings": {
             "dropdown_link_title": "Prints",
             "desktop_image": "shopify://shop_images/oldskull-10th-birthday-teaser-banner.png",
