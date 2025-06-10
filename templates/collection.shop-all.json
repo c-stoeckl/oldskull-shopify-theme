@@ -30,6 +30,7 @@
         "subheading_W73kbn",
         "text_JarzAX"
       ],
+      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
         ".lightly-spaced-row {font-size: 12px;}"
@@ -69,6 +70,7 @@
         "subheading_xt9F7H",
         "countdown_E4NXm6"
       ],
+      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
       ],

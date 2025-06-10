@@ -25,7 +25,7 @@
         "show_inventory_notice": "low",
         "show_inventory_count": "low",
         "inventory_threshold": 3,
-        "show_announcement": true,
+        "show_announcement": false,
         "announcement_position": "below-items",
         "announcement_text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BIRTHDAY SPECIAL: 20% und mehr auf (fast) alles + dein Gratis Artikel ab 149€</strong></a>",
         "announcement_icon": "gift",

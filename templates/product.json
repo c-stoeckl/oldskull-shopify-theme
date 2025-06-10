@@ -86,6 +86,7 @@
         },
         "richtext_7Lknxh": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "richtext": "<p><strong>BIRTHDAY SPECIAL: 20% und mehr auf (fast) alles + dein Gratis Artikel ab 149€</strong></p>",
             "icon": "gift",
