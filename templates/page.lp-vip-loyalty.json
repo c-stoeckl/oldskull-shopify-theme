@@ -82,6 +82,38 @@
         "overlay_style": "full image-overlay--bg-shadow"
       }
     },
+    "rich_text_ncNyq9": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_9AUzcQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Exklusives 3-for-2 Angebot an diesem Wochenende"
+          }
+        },
+        "text_44Kdi8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Als VIP-Kunde kannst du dieses Wochenende extra sparen</strong></p><ol><li><strong>Erstelle jetzt dein Oldskull Kundenkonto</strong> und werde sofort VIP-Kunde. Profitiere sofort von Sonderaktionen, Dauerrabatten oder kostenlosem Versand.</li><li>Nachdem du dein Konto aktiviert hast, schicken wir dir eine <strong>E-Mail mit dem aktuellen Rabattcode</strong>.</li><li>Wenn du zwei Artikel aus unserer Basics-Kollektion kaufst, bekommst du einen Gratisartikel dazu. Leg einfach <strong>zwei Artikel aus unserer Basics-Kollektion und einen weiteren Artikel, der mit \"VIP OFFER 3FOR2\" gekennzeichnet ist</strong> (den du in der Kategorie <a href=\"/collections/basics\" title=\"Basics\">Basics</a> oder <a href=\"/collections/outlet\" title=\"Outlet\">Outlet</a> findest), in deinen Warenkorb.</li><li><strong>Melde dich mit deinem Kundenkonto an</strong> und verwende den <strong>Code an der Kasse</strong>.</li></ol>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9AUzcQ",
+        "text_44Kdi8"
+      ],
+      "custom_css": [
+        ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": true,
+        "color_scheme": "1"
+      }
+    },
     "multi_column_e8aR4V": {
       "type": "multi-column",
       "blocks": {
@@ -603,6 +635,7 @@
   "order": [
     "main",
     "image_with_text_overlay_pnHRgT",
+    "rich_text_ncNyq9",
     "multi_column_e8aR4V",
     "multi_column_knM8gW",
     "rich_text_emRM3Q",
