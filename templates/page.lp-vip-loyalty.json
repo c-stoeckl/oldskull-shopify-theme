@@ -244,6 +244,14 @@
             "enlarge_text": false
           }
         },
+        "button_HYbzbX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt registrieren >",
+            "button_link": "/account/register",
+            "button_style": "primary"
+          }
+        },
         "button_UJh3WH": {
           "type": "button",
           "settings": {
@@ -255,6 +263,7 @@
       },
       "block_order": [
         "text_XFwF3p",
+        "button_HYbzbX",
         "button_UJh3WH"
       ],
       "name": "Rich text",
