@@ -103,9 +103,7 @@
         "subheading_9AUzcQ",
         "text_44Kdi8"
       ],
-      "custom_css": [
-        ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
-      ],
+      "custom_css": [],
       "name": "Rich text",
       "settings": {
         "height": "medium",
