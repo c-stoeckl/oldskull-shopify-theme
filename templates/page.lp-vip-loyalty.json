@@ -494,21 +494,21 @@
           "type": "question",
           "settings": {
             "title": "Wie nutze ich den kostenlosen Versand?",
-            "answer": "<p>Du erhältst deine Codes grundsätzlich per Email, die du dann im Checkout einlösen kannst. In der Stufe OS Legend wird dir der Unlimited Code auch in deinem <a href=\"#smile-home\" title=\"#smile-home\">Loyalty Dashboard</a> angezeigt.</p>"
+            "answer": "<p>Du erhältst deine Codes grundsätzlich per Email, die du dann im Checkout einlösen kannst. In der Stufe OS Legend wird dir der Unlimited Code auch in deinem <a href=\"#smile-home\" title=\"#smile-home\">Loyalty Dashboard</a> angezeigt. Bitte beachte, dass der kostenlose Versand nur für Lieferungen innerhalb der EU anwendbar ist (exkl. CH oder UK).</p>"
           }
         },
         "question_wJFTYk": {
           "type": "question",
           "settings": {
             "title": "Wo finde ich meine Free Shipping & Birthday Codes?",
-            "answer": "<p>Deine Codes bekommst du per Mail. Schau zur Sicherheit auch in deinem Spam-Ordner.</p>"
+            "answer": "<p>Deine Codes bekommst du per Mail. Schau zur Sicherheit auch in deinem Spam-Ordner. Außerdem sind die Codes nach Anmeldung auch in deinem Account zu sehen.</p>"
           }
         },
         "question_KpptKB": {
           "type": "question",
           "settings": {
             "title": "Ich habe keine Codes erhalten. Was tun?",
-            "answer": "<p>Wichtig: Du musst für den Newsletter angemeldet sein. Falls du nichts bekommst, checke bitte deinen Spam-Ordner und stelle sicher, dass unsere Mails nicht blockiert werden.</p>"
+            "answer": "<p>Wichtig: Du musst für den <a href=\"/pages/newsletter\" title=\"Oldskull Newsletter\">Newsletter</a> angemeldet sein. Falls du nichts bekommst, checke bitte deinen Spam-Ordner und stelle sicher, dass unsere Mails nicht blockiert werden.</p>"
           }
         },
         "question_hPNcwc": {
