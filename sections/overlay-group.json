@@ -30,7 +30,7 @@
         "announcement_text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
         "announcement_icon": "gift",
         "announcement_icon_size": "large",
-        "announcement_enable_box": false,
+        "announcement_enable_box": true,
         "announcement_box_color": "#c40000",
         "empty_icon": "bag",
         "empty_heading": "Dein Warenkorb ist leer",
