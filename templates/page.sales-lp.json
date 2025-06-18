@@ -32,6 +32,29 @@
         "full_width": false
       }
     },
+    "rich_text_YwkgNx": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3ggpmm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt shoppen >",
+            "button_link": "shopify://collections/shop-all",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "button_3ggpmm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
     "rich_text_48ypKN": {
       "type": "rich-text",
       "blocks": {
@@ -135,6 +158,7 @@
   "order": [
     "image_with_text_overlay_ETqpw3",
     "main",
+    "rich_text_YwkgNx",
     "rich_text_48ypKN",
     "rich_text_iLiKjt"
   ]
