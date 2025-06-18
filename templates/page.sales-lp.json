@@ -1,1 +1,141 @@
-{"sections":{"image_with_text_overlay_ETqpw3":{"type":"image-with-text-overlay","blocks":{"subheading_bXHEdL":{"type":"subheading","disabled":true,"settings":{"subheading":"Tell your story"}},"heading_MfziC8":{"type":"heading","disabled":true,"settings":{"title":"Image with text overlay","heading_max_width":15,"title_size":84,"title_size_mobile":32,"use_h1":false}},"text_hMEG8e":{"type":"text","disabled":true,"settings":{"text":"<p>Promote your brand or products with this feature section<\/p>","enlarge_text":true}}},"block_order":["subheading_bXHEdL","heading_MfziC8","text_hMEG8e"],"disabled":true,"name":"Image with text overlay","settings":{"image":"shopify:\/\/shop_images\/oldskull_easter-sale-25_landingpage-banner.png","mobile_image":"shopify:\/\/shop_images\/oldskull_easter-sale-25_landingpage-banner-mobile.png","height":"fixed","height_desktop":600,"height_mobile":460,"image_link":"","full_width":true,"text_alignment":"center center","mobile_overlay_under":false,"overlay_style":"shadow"}},"main":{"type":"main-page","settings":{"show_page_title":true,"full_width":false}},"rich_text_48ypKN":{"type":"rich-text","blocks":{"heading_DkcFpy":{"type":"heading","settings":{"title":"Ready to hunt?","use_h1":false}},"text_NnECCg":{"type":"text","settings":{"text":"<p>Willkommen beim <strong>OS-Ter Special<\/strong> – T-Shirts stapeln, Sweats halbieren, Freebie kassieren.<br\/>Alles drin. Mix, match & mach dein Ding.<\/p>","enlarge_text":true}},"button_jfX9Lq":{"type":"button","disabled":true,"settings":{"button_label":"Zu den T-Shirts >","button_link":"shopify:\/\/collections\/print-t-shirts","button_style":"primary"}},"text_dn387y":{"type":"text","disabled":true,"settings":{"text":"<p><br\/>🔥 <strong>50 % auf Multipacks<br\/><\/strong>Unsere 2er-Packs (Sweatshirt oder Longsleeve) jetzt zum halben Preis.<\/p>","enlarge_text":true}},"button_GyiCz4":{"type":"button","disabled":true,"settings":{"button_label":"Zu den Basics >","button_link":"shopify:\/\/collections\/basics","button_style":"primary"}},"text_FEgRaT":{"type":"text","settings":{"text":"<p><br\/>🎁 <strong>Gratis T-Shirt ab 119€<br\/><\/strong>Mix, wie du willst – ob Hoodie, Jogger oder Sweater. Ab 119€ im Warenkorb legen wir ein Basic T-Shirt oben drauf.* Kein Code nötig.<\/p>","enlarge_text":true}},"button_zanzjk":{"type":"button","settings":{"button_label":"Zum Shop >","button_link":"shopify:\/\/collections\/shop","button_style":"primary"}}},"block_order":["heading_DkcFpy","text_NnECCg","button_jfX9Lq","text_dn387y","button_GyiCz4","text_FEgRaT","button_zanzjk"],"disabled":true,"name":"Rich text","settings":{"height":"small","text_alignment":"center","full_width":true,"color_scheme":"default"}},"rich_text_iLiKjt":{"type":"rich-text","blocks":{"text_cbPKXU":{"type":"text","settings":{"text":"<p><a href=\"\/pages\/hinweis-fur-den-fall-des-teil-widerrufs\" target=\"_blank\" title=\"Hinweis für den Fall des (Teil-)Widerrufs\"><em>* <\/em>Bitte beachte unseren Hinweis für den Fall des (Teil-)Widerrufs!<\/a><\/p>","enlarge_text":false}}},"block_order":["text_cbPKXU"],"name":"Rich text","settings":{"height":"small","text_alignment":"center","full_width":true,"color_scheme":"default"}}},"order":["image_with_text_overlay_ETqpw3","main","rich_text_48ypKN","rich_text_iLiKjt"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_ETqpw3": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-summersale-June-25-overview-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-summersale-June-25-overview-banner-mobile.png",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "rich_text_48ypKN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DkcFpy": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready to hunt?",
+            "use_h1": false
+          }
+        },
+        "text_NnECCg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Willkommen beim <strong>OS-Ter Special</strong> – T-Shirts stapeln, Sweats halbieren, Freebie kassieren.<br/>Alles drin. Mix, match & mach dein Ding.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_jfX9Lq": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Zu den T-Shirts >",
+            "button_link": "shopify://collections/print-t-shirts",
+            "button_style": "primary"
+          }
+        },
+        "text_dn387y": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><br/>🔥 <strong>50 % auf Multipacks<br/></strong>Unsere 2er-Packs (Sweatshirt oder Longsleeve) jetzt zum halben Preis.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_GyiCz4": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Zu den Basics >",
+            "button_link": "shopify://collections/basics",
+            "button_style": "primary"
+          }
+        },
+        "text_FEgRaT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>🎁 <strong>Gratis T-Shirt ab 119€<br/></strong>Mix, wie du willst – ob Hoodie, Jogger oder Sweater. Ab 119€ im Warenkorb legen wir ein Basic T-Shirt oben drauf.* Kein Code nötig.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_zanzjk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Shop >",
+            "button_link": "shopify://collections/shop",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DkcFpy",
+        "text_NnECCg",
+        "button_jfX9Lq",
+        "text_dn387y",
+        "button_GyiCz4",
+        "text_FEgRaT",
+        "button_zanzjk"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_iLiKjt": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cbPKXU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/hinweis-fur-den-fall-des-teil-widerrufs\" target=\"_blank\" title=\"Hinweis für den Fall des (Teil-)Widerrufs\"><em>* </em>Bitte beachte unseren Hinweis für den Fall des (Teil-)Widerrufs!</a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_cbPKXU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_ETqpw3",
+    "main",
+    "rich_text_48ypKN",
+    "rich_text_iLiKjt"
+  ]
+}
