@@ -17,7 +17,7 @@
         "announcement-2": {
           "type": "announcement",
           "settings": {
-            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong> ODER <strong>SPARE 50% AUF JEDEN 2.ARTIKEL</strong> IN UNSEREM <strong>SUMMER SALE</strong></a>",
+            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>SPARE 50% AUF JEDEN 2.ARTIKEL</strong> IN UNSEREM <strong>SUMMER SALE</strong> ODER ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
             "end_date": "",
