@@ -11,39 +11,10 @@
   "sections": {
     "4062590b-8a4b-4bf1-a5cc-525eb3d0f86c": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "template--15244363104304__4062590b-8a4b-4bf1-a5cc-525eb3d0f86c-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Tell your story"
-          }
-        },
-        "template--15244363104304__4062590b-8a4b-4bf1-a5cc-525eb3d0f86c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Sale now on!",
-            "heading_max_width": 15,
-            "title_size": 72,
-            "title_size_mobile": 34,
-            "use_h1": true
-          }
-        },
-        "5668b4ea-05bf-4da7-8abf-700140741dfb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Promote your brand or products with this feature section</p>",
-            "enlarge_text": true
-          }
-        }
-      },
-      "block_order": [
-        "template--15244363104304__4062590b-8a4b-4bf1-a5cc-525eb3d0f86c-subheading-1",
-        "template--15244363104304__4062590b-8a4b-4bf1-a5cc-525eb3d0f86c-heading-1",
-        "5668b4ea-05bf-4da7-8abf-700140741dfb"
-      ],
-      "disabled": true,
       "settings": {
-        "height": "fixed",
+        "image": "shopify://shop_images/oldskull-summersale-June-25-overview-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-summersale-June-25-overview-banner-mobile.png",
+        "height": "adapt",
         "height_desktop": 560,
         "height_mobile": 320,
         "image_link": "",
@@ -59,8 +30,8 @@
         "text_dBUpAq": {
           "type": "text",
           "settings": {
-            "text": "Your scrolling text here",
-            "color": "rgba(0,0,0,0)",
+            "text": "Lege Artikel aus dieser Kollektion in deinen Warenkorb und spare auf jeden zweiten Artikel 50%",
+            "color": "#000000",
             "link": "",
             "use_h1": false,
             "stencil_all_text": false,
@@ -71,11 +42,10 @@
       "block_order": [
         "text_dBUpAq"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "color_scheme": "default",
-        "text_size": 50,
+        "text_size": 28,
         "vertical_padding": 20,
         "speed": 35,
         "direction": "left",
