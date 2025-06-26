@@ -117,11 +117,20 @@
             "divider_type": "colon",
             "show_timer_labels": true
           }
+        },
+        "button_rtJNpM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Direkt zum Summer Sale",
+            "button_link": "shopify://collections/summer-sale",
+            "button_style": "primary"
+          }
         }
       },
       "block_order": [
         "text_9KqGh3",
-        "countdown_HbjezN"
+        "countdown_HbjezN",
+        "button_rtJNpM"
       ],
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
