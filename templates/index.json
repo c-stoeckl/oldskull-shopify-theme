@@ -101,14 +101,14 @@
         "text_9KqGh3": {
           "type": "text",
           "settings": {
-            "text": "<p>Letzte Chance für unseren Geburtstags-Sale</p>",
+            "text": "<p>Letzte Chance für unseren Summer-Sale</p>",
             "enlarge_text": true
           }
         },
         "countdown_HbjezN": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-06-10",
+            "end_date": "2025-06-27",
             "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
@@ -123,7 +123,6 @@
         "text_9KqGh3",
         "countdown_HbjezN"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],

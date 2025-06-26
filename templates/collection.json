@@ -49,13 +49,13 @@
         "subheading_6CrYQP": {
           "type": "subheading",
           "settings": {
-            "subheading": "Letzte Chance für unseren Geburtstags-Sale"
+            "subheading": "Letzte Chance für unseren Summer-Sale"
           }
         },
         "countdown_XD4g3J": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-06-10",
+            "end_date": "2025-06-27",
             "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
@@ -70,7 +70,6 @@
         "subheading_6CrYQP",
         "countdown_XD4g3J"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
       ],

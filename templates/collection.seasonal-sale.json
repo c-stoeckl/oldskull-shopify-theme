@@ -53,6 +53,46 @@
         "space": 50
       }
     },
+    "countdown_timer_pyGtaM": {
+      "type": "countdown-timer",
+      "blocks": {
+        "subheading_kYML8K": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Letzte Chance für unseren Summer-Sale"
+          }
+        },
+        "countdown_DiYT7D": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2025-06-27",
+            "end_time": "00:00",
+            "end_text": "",
+            "hide_on_end": true,
+            "number_size": 20,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_kYML8K",
+        "countdown_DiYT7D"
+      ],
+      "custom_css": [
+        ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
+      ],
+      "name": "Countdown timer",
+      "settings": {
+        "show_image": false,
+        "image_link": "",
+        "show_image_space": false,
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -142,6 +182,7 @@
   "order": [
     "4062590b-8a4b-4bf1-a5cc-525eb3d0f86c",
     "scrolling_banner_7mNnb6",
+    "countdown_timer_pyGtaM",
     "main",
     "cc876185-7a78-4562-bad9-83b80a1117bf"
   ]
