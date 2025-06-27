@@ -11,10 +11,32 @@
   "sections": {
     "image_with_text_overlay_zpRALH": {
       "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_XVj4kx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "brand-new"
+          }
+        },
+        "heading_UtbMm9": {
+          "type": "heading",
+          "settings": {
+            "title": "PIXELMANIA DROP",
+            "heading_max_width": 15,
+            "title_size": 50,
+            "title_size_mobile": 40,
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XVj4kx",
+        "heading_UtbMm9"
+      ],
       "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/blog-post-summer-drop6-2025-banner.jpg",
-        "mobile_image": "shopify://shop_images/blog-post-summer-drop6-2025-banner-mobile.jpg",
+        "image": "shopify://shop_images/oldskull-summer-drop8-teaser-banner.jpg",
+        "mobile_image": "shopify://shop_images/oldskull-summer-drop8-teaser-banner-mobile.jpg",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
@@ -22,7 +44,7 @@
         "full_width": true,
         "text_alignment": "bottom left",
         "mobile_overlay_under": false,
-        "overlay_style": "full image-overlay--bg-shadow"
+        "overlay_style": "shadow"
       }
     },
     "rich_text_Mcgk4q": {
