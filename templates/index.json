@@ -132,6 +132,7 @@
         "countdown_HbjezN",
         "button_rtJNpM"
       ],
+      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],
