@@ -42,6 +42,7 @@
       "block_order": [
         "text_dBUpAq"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "color_scheme": "default",
@@ -80,6 +81,7 @@
         "subheading_kYML8K",
         "countdown_DiYT7D"
       ],
+      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
       ],
