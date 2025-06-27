@@ -70,6 +70,7 @@
         "subheading_6CrYQP",
         "countdown_XD4g3J"
       ],
+      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
       ],
