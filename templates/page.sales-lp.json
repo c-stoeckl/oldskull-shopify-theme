@@ -11,6 +11,7 @@
   "sections": {
     "image_with_text_overlay_ETqpw3": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "image": "shopify://shop_images/oldskull-summersale-June-25-overview-banner.png",
