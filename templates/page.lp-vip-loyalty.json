@@ -18,68 +18,69 @@
         "full_width": false
       }
     },
-    "image_with_text_overlay_pnHRgT": {
-      "type": "image-with-text-overlay",
+    "slideshow_gyMKFC": {
+      "type": "slideshow",
       "blocks": {
-        "subheading_Tyr8xr": {
-          "type": "subheading",
+        "image_qp9XeP": {
+          "type": "image",
           "settings": {
-            "subheading": "Earn it with loyalty. Wear it with pride."
-          }
-        },
-        "heading_MTaPXk": {
-          "type": "heading",
-          "settings": {
+            "image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1900x900_c2114a37-239a-4c2b-82da-de21b0c93fe9.jpg",
+            "mobile_image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1080x1350_266a0196-b208-4fb4-b6b4-4c12dd7226e2.jpg",
+            "slide_link": "",
+            "subheading": "Earn it with loyalty. Wear it with pride.",
             "title": "OLDSKULL VIP CLUB",
             "heading_max_width": 15,
             "title_size": 64,
             "title_size_mobile": 32,
-            "use_h1": true
-          }
-        },
-        "text_NKRR6j": {
-          "type": "text",
-          "settings": {
+            "use_h1": false,
             "text": "<p>Werde kostenlos Oldskull Member und sichere dir <strong>150 OSCOINS</strong> + einen <strong>Free Shipping Code</strong>. Mit jedem Einkauf sammelst du Punkte für exklusive Vorteile, limitierte Drops und dauerhafte Rabatte.</p>",
-            "enlarge_text": true
+            "enlarge_text": true,
+            "button_label_1": "Jetzt registrieren >",
+            "button_url_1": "/account/register/#smile-home",
+            "button_label_2": "Du hast schon einen Account? Login >",
+            "button_url_2": "/account/login/#smile-home",
+            "text_alignment": "center left"
           }
         },
-        "button_KA89JT": {
-          "type": "button",
+        "image_JEKWeT": {
+          "type": "image",
           "settings": {
-            "button_label": "Jetzt registrieren >",
-            "button_link": "/account/register/#smile-home",
-            "button_style": "primary"
-          }
-        },
-        "button_XWtWfU": {
-          "type": "button",
-          "settings": {
-            "button_label": "Du hast schon einen Account? Login >",
-            "button_link": "/account/login/#smile-home",
-            "button_style": "secondary"
+            "image": "shopify://shop_images/oldskull-summer-vip-special-july-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-summer-vip-special-july-teaser-banner-mobile.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
           }
         }
       },
       "block_order": [
-        "subheading_Tyr8xr",
-        "heading_MTaPXk",
-        "text_NKRR6j",
-        "button_KA89JT",
-        "button_XWtWfU"
+        "image_qp9XeP",
+        "image_JEKWeT"
       ],
-      "name": "Image with text overlay",
+      "name": "Slideshow",
       "settings": {
-        "image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1900x900_c2114a37-239a-4c2b-82da-de21b0c93fe9.jpg",
-        "mobile_image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1080x1350_266a0196-b208-4fb4-b6b4-4c12dd7226e2.jpg",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
-        "image_link": "",
         "full_width": true,
-        "text_alignment": "center left",
         "mobile_overlay_under": false,
-        "overlay_style": "full image-overlay--bg-shadow"
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
       }
     },
     "rich_text_ncNyq9": {
@@ -642,7 +643,7 @@
   },
   "order": [
     "main",
-    "image_with_text_overlay_pnHRgT",
+    "slideshow_gyMKFC",
     "rich_text_ncNyq9",
     "multi_column_e8aR4V",
     "multi_column_knM8gW",
