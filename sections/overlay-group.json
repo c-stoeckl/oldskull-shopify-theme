@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
+        "announcement_text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">ERHALTE EIN <strong>GRATIS T-SHIRT</strong> (markiert mit \"Gift from 119€\") FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
         "announcement_icon": "shirt",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,
