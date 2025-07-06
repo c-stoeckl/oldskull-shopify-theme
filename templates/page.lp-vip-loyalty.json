@@ -44,6 +44,7 @@
         },
         "image_JEKWeT": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/oldskull-summer-vip-special-july-teaser-banner.png",
             "mobile_image": "shopify://shop_images/oldskull-summer-vip-special-july-teaser-banner-mobile.png",
