@@ -194,6 +194,20 @@
     "16359278676808bea5": {
       "type": "featured-collection",
       "settings": {
+        "title": "Oldskull Bestseller",
+        "collection": "hot-selling-products",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_xprFgE": {
+      "type": "featured-collection",
+      "settings": {
         "title": "Pixelmania Drop",
         "collection": "oldskull-drop",
         "show_vendor": false,
@@ -433,6 +447,7 @@
     "16359276425da8ce46",
     "countdown_timer_qcJAMQ",
     "16359278676808bea5",
+    "featured_collection_xprFgE",
     "rich_text_DqqJyc",
     "16359279164ff7d3f3",
     "hotspots_3mP3Ud",
