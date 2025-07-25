@@ -15,9 +15,9 @@
         "image_BpJURd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-summer-outlet-50-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-summer-outlet-50-teaser-banner-mobile.png",
-            "slide_link": "shopify://collections/outlet",
+            "image": "shopify://shop_images/oldskull-Summer-Deals-25-overlay-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-Summer-Deals-25-overlay-banner-mobile.png",
+            "slide_link": "shopify://pages/summer-deals",
             "subheading": "",
             "title": "",
             "heading_max_width": 15,
@@ -26,11 +26,11 @@
             "use_h1": false,
             "text": "",
             "enlarge_text": true,
-            "button_label_1": "Direkt zum Outlet >",
-            "button_url_1": "shopify://collections/outlet",
-            "button_label_2": "",
-            "button_url_2": "",
-            "text_alignment": "bottom center"
+            "button_label_1": "Mehr Infos >",
+            "button_url_1": "shopify://pages/summer-deals",
+            "button_label_2": "Zum Shop >",
+            "button_url_2": "shopify://collections/shop-all",
+            "text_alignment": "center center"
           }
         },
         "image_cTj6VD": {
