@@ -66,7 +66,7 @@
         "heading_YNDfHh": {
           "type": "heading",
           "settings": {
-            "title": "Mix. Match. Save.",
+            "title": "Mix. Match. Save!",
             "use_h1": false
           }
         },
@@ -124,7 +124,7 @@
         "heading_EDx6k7": {
           "type": "heading",
           "settings": {
-            "title": "Mehr im Warenkorb - mehr im Paket.",
+            "title": "Mehr im Warenkorb - mehr im Paket!",
             "use_h1": false
           }
         },
@@ -169,6 +169,55 @@
         "color_scheme": "default"
       }
     },
+    "image_with_text_MGEkbb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KYcATc": {
+          "type": "heading",
+          "settings": {
+            "title": "🎯 Summer Outlet: Spare bis zu 50%",
+            "use_h1": false
+          }
+        },
+        "heading_xfnTQh": {
+          "type": "heading",
+          "settings": {
+            "title": "Restgrößen. Rare Pieces. Real Deals!",
+            "use_h1": false
+          }
+        },
+        "text_KiJUN4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die letzte Chance auf Pieces, die nicht wiederkommen. Ältere Drops, Sommer-Styles, limitierte Größen - nur solange der Vorrat reicht.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_Yr4bAY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Letzte Teile sichern, bevor sie weg sind >",
+            "button_link": "shopify://collections/outlet",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KYcATc",
+        "heading_xfnTQh",
+        "text_KiJUN4",
+        "button_Yr4bAY"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-Summer-Deals-25-outlet-banner.png",
+        "image_width": 500,
+        "image_link": "shopify://collections/shop-all",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
     "featured_collection_Lzp994": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -182,85 +231,6 @@
         "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
-      }
-    },
-    "rich_text_WETpVK": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_HR9MQM": {
-          "type": "heading",
-          "settings": {
-            "title": "🔥 So einfach sparst du beim Oldskull May Day Sale",
-            "use_h1": false
-          }
-        },
-        "heading_GUUA4C": {
-          "type": "heading",
-          "settings": {
-            "title": "2 Teile? Spare 50 % auf den günstigeren Artikel",
-            "use_h1": false
-          }
-        },
-        "text_7GqaRA": {
-          "type": "text",
-          "settings": {
-            "text": "<p>🎯 Mix & Match – dein zweites Teil gibt’s zum halben Preis.</p>",
-            "enlarge_text": true
-          }
-        },
-        "heading_yhxYj7": {
-          "type": "heading",
-          "settings": {
-            "title": "4 Teile? Spare 50 % auf zwei deiner Artikel",
-            "use_h1": false
-          }
-        },
-        "text_UPi8Jg": {
-          "type": "text",
-          "settings": {
-            "text": "<p>🧢 Doppelt kombiniert = doppelt gespart. Obendrauf erhältst du <strong>eine unserer limitierten Tassen als Geschenk</strong>*</p>",
-            "enlarge_text": true
-          }
-        },
-        "heading_m47z3T": {
-          "type": "heading",
-          "settings": {
-            "title": "6 Teile? Spare 50 % auf drei deiner Artikel",
-            "use_h1": false
-          }
-        },
-        "text_xAhzYi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>🚀 Mehr Style, mehr Chill, maximaler Deal.<br/>Der Deal gilt in gleicher Form auch für 8, 10, 12 oder auch 20 Artikel - du hast die Wahl.</p>",
-            "enlarge_text": true
-          }
-        },
-        "button_eUBpgr": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zum Shop >",
-            "button_link": "shopify://collections/shop-all",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_HR9MQM",
-        "heading_GUUA4C",
-        "text_7GqaRA",
-        "heading_yhxYj7",
-        "text_UPi8Jg",
-        "heading_m47z3T",
-        "text_xAhzYi",
-        "button_eUBpgr"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "height": "medium",
-        "text_alignment": "center",
-        "full_width": false,
-        "color_scheme": "default"
       }
     },
     "rich_text_iLiKjt": {
@@ -298,8 +268,8 @@
     "rich_text_48ypKN",
     "image_with_text_bcR8Cd",
     "image_with_text_ezi4cF",
+    "image_with_text_MGEkbb",
     "featured_collection_Lzp994",
-    "rich_text_WETpVK",
     "rich_text_iLiKjt",
     "main"
   ]
