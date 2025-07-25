@@ -218,6 +218,34 @@
         "color_scheme": "default"
       }
     },
+    "rich_text_iLiKjt": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cVYpNR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Wichtiger Hinweis: Die beiden Bundles sind nicht miteinander kombinierbar, unser Shop wählt immer den besseren Deal für dich aus. Du kannst aber Artikel aus dem Outlet mit der \"Gift from 119€\" Aktion kombinieren."
+          }
+        },
+        "text_cbPKXU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/hinweis-fur-den-fall-des-teil-widerrufs\" target=\"_blank\" title=\"Hinweis für den Fall des (Teil-)Widerrufs\"><em>* </em>Bitte beachte unseren Hinweis für den Fall des (Teil-)Widerrufs!</a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cVYpNR",
+        "text_cbPKXU"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
     "featured_collection_Lzp994": {
       "type": "featured-collection",
       "name": "Featured collection",
@@ -231,27 +259,6 @@
         "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
-      }
-    },
-    "rich_text_iLiKjt": {
-      "type": "rich-text",
-      "blocks": {
-        "text_cbPKXU": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"/pages/hinweis-fur-den-fall-des-teil-widerrufs\" target=\"_blank\" title=\"Hinweis für den Fall des (Teil-)Widerrufs\"><em>* </em>Bitte beachte unseren Hinweis für den Fall des (Teil-)Widerrufs!</a></p>",
-            "enlarge_text": false
-          }
-        }
-      },
-      "block_order": [
-        "text_cbPKXU"
-      ],
-      "settings": {
-        "height": "small",
-        "text_alignment": "center",
-        "full_width": true,
-        "color_scheme": "default"
       }
     },
     "main": {
@@ -269,8 +276,8 @@
     "image_with_text_bcR8Cd",
     "image_with_text_ezi4cF",
     "image_with_text_MGEkbb",
-    "featured_collection_Lzp994",
     "rich_text_iLiKjt",
+    "featured_collection_Lzp994",
     "main"
   ]
 }
