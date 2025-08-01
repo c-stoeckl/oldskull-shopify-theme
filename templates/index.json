@@ -147,14 +147,14 @@
         "text_9KqGh3": {
           "type": "text",
           "settings": {
-            "text": "<p>Letzte Chance für unseren Summer-Sale</p>",
+            "text": "<p>Letzte Chance für unsere Summer Deals</p>",
             "enlarge_text": true
           }
         },
         "countdown_HbjezN": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-06-27",
+            "end_date": "2025-08-04",
             "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
@@ -167,8 +167,8 @@
         "button_rtJNpM": {
           "type": "button",
           "settings": {
-            "button_label": "Direkt zum Summer Sale",
-            "button_link": "shopify://collections/summer-sale",
+            "button_label": "Direkt zu den Summer Deals",
+            "button_link": "shopify://pages/summer-deals",
             "button_style": "primary"
           }
         }
@@ -178,7 +178,6 @@
         "countdown_HbjezN",
         "button_rtJNpM"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],
