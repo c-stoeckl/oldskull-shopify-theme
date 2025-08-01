@@ -18,9 +18,9 @@
           "type": "announcement",
           "settings": {
             "text": "<a href=\"/pages/summer-deals\" title=\"Summer Deals\"><strong>SUMMER DEALS</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
-            "show_countdown": false,
+            "show_countdown": true,
             "hide_on_end": false,
-            "end_date": "2025-06-27",
+            "end_date": "2025-08-04",
             "end_time": "00:00",
             "number_font": "base",
             "countdown_separator": "dot",
