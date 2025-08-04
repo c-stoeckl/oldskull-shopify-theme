@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\">Verpasse nicht unsere Oldskull Summer Deals! Klicke für mehr Informationen</a>",
+        "announcement_text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULLBUNDLE</strong>: Shoppe für 119€ und suche dir ein <strong>Gratis T-Shirt</strong> dazu aus! Klicke für mehr Informationen</a>",
         "announcement_icon": "shirt",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,
