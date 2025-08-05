@@ -14,11 +14,10 @@
       "blocks": {
         "image_BpJURd": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/oldskull-Summer-Deals-25-overlay-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-Summer-Deals-25-overlay-banner-mobile.png",
-            "slide_link": "shopify://pages/summer-deals",
+            "image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-banner-mobile.png",
+            "slide_link": "shopify://pages/freebie-week",
             "subheading": "",
             "title": "",
             "heading_max_width": 15,
@@ -28,10 +27,10 @@
             "text": "",
             "enlarge_text": true,
             "button_label_1": "Mehr Infos >",
-            "button_url_1": "shopify://pages/summer-deals",
+            "button_url_1": "shopify://pages/freebie-week",
             "button_label_2": "Zum Shop >",
             "button_url_2": "shopify://collections/shop-all",
-            "text_alignment": "center center"
+            "text_alignment": "center right"
           }
         },
         "image_cTj6VD": {
