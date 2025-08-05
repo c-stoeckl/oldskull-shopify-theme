@@ -12,8 +12,8 @@
     "image_with_text_overlay_ETqpw3": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-Summer-Deals-25-teaser-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-Summer-Deals-25-teaser-banner-mobile.png",
+        "image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-banner-mobile.png",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
@@ -30,14 +30,14 @@
         "heading_DkcFpy": {
           "type": "heading",
           "settings": {
-            "title": "☀️ Oldskull Summer Deals ☀️",
+            "title": "🎁 FREEBIE WEEK is ON 🎁",
             "use_h1": false
           }
         },
         "text_NnECCg": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Three Ways to Save - One Way to Style</strong></p><p>Der Sommer läuft auf Hochtouren - und wir legen nach. Bei unseren <strong>Summer Deals</strong> profitierst du von <strong>drei starken Bundles</strong>, bei denen du selbst entscheidest, wie du am liebsten sparst:</p>",
+            "text": "<p><strong>The More You Shop, The Bigger Your Gift</strong></p><p>Diese Woche gibt's keine halben Sachen - sondern ganze Pieces. For free.</p><p>Je höher dein Warenkorb, desto größer dein Geschenk.<br/>Und das Beste: Du kannst dir deinen Warenkorb aus dem <a href=\"/collections/shop-all\" title=\"Shop all\"><strong>gesamten Oldskull-Sortiment</strong></a> zusammenstellen inklusive <a href=\"/collections/outlet\" title=\"Outlet\"><strong>Outlet-Teile</strong></a> - wähle dann je nach Freebie-Level deinen Favoriten aus unserer <a href=\"/collections/basics\" title=\"Basics\"><strong>Premium-Basic-Line</strong></a> gratis dazu.</p>",
             "enlarge_text": true
           }
         }
@@ -59,51 +59,43 @@
         "heading_9JUdGp": {
           "type": "heading",
           "settings": {
-            "title": "🎯 3 T-Shirts für 89€",
-            "use_h1": false
-          }
-        },
-        "heading_YNDfHh": {
-          "type": "heading",
-          "settings": {
-            "title": "Mix. Match. Save!",
+            "title": "🎯 So funktioniert's",
             "use_h1": false
           }
         },
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<p>Stell dir dein eigenes Set aus <strong>allen regulären Oldskull T-Shirts (</strong><a href=\"/collections/new-arrivals\" title=\"New Arrivals\"><strong>New Arrivals</strong></a><strong> & </strong><a href=\"/collections/hot-selling-products\" title=\"HOT SELLING PRODUCTS\"><strong>Bestseller</strong></a><strong>)</strong> zusammen - Your Choice!<br/><strong>Kein Code nötig. Automatischer Rabatt im Warenkorb.</strong></p>",
+            "text": "<ol><li>Leg deine Lieblingsstyles aus dem gesamten Sortiment in den Warenkorb</li><li>Erreiche eine Freebie-Stufe (ab 99 €, 149 € oder 189 €) und wähle deinen Gratisartikel* passend zum Warenkorbwert</li><li>Bestellung abschließen – und dein Premium Basic kommt gratis mit*<br/></li></ol>",
             "enlarge_text": true
           }
         },
         "button_7PhLWr": {
           "type": "button",
           "settings": {
-            "button_label": "Zu den New Arrivals >",
-            "button_link": "shopify://collections/new-arrivals",
+            "button_label": "Zum Shop >",
+            "button_link": "shopify://collections/shop-all",
             "button_style": "primary"
           }
         },
         "button_n3LBUP": {
           "type": "button",
           "settings": {
-            "button_label": "Zu den Bestsellern >",
-            "button_link": "shopify://collections/hot-selling-products",
+            "button_label": "Zu den Basics >",
+            "button_link": "shopify://collections/basics",
             "button_style": "primary"
           }
         }
       },
       "block_order": [
         "heading_9JUdGp",
-        "heading_YNDfHh",
         "text_wF7pNE",
         "button_7PhLWr",
         "button_n3LBUP"
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/oldskull-Summer-Deals-25-89-tshirt-bundle-banner.png",
+        "image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-overview-banner.png",
         "image_width": 500,
         "image_link": "shopify://collections/shop-all",
         "image_position": "left",
@@ -159,6 +151,7 @@
         "button_QXtYHV",
         "button_9qViEV"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/oldskull-Summer-Deals-25-119-tshirt-bundle-banner.png",
@@ -208,6 +201,7 @@
         "text_KiJUN4",
         "button_Yr4bAY"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/oldskull-Summer-Deals-25-outlet-banner.png",
@@ -224,7 +218,7 @@
         "subheading_cVYpNR": {
           "type": "subheading",
           "settings": {
-            "subheading": "Wichtiger Hinweis: Die beiden Bundles sind nicht miteinander kombinierbar, unser Shop wählt immer den besseren Deal für dich aus. Du kannst aber Artikel aus dem Outlet mit der \"Gift from 119€\" Aktion kombinieren."
+            "subheading": "Wichtiger Hinweis: Die einzelnen Stufen sind nicht miteinander kombinierbar, unser Shop wählt immer den besseren Deal für dich aus."
           }
         },
         "text_cbPKXU": {
