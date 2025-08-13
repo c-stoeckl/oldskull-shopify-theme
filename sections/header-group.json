@@ -16,7 +16,6 @@
       "blocks": {
         "announcement-2": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULLBUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
             "show_countdown": true,
@@ -33,6 +32,7 @@
         },
         "announcement_4f4E8j": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/freebie-week\" title=\"Freebie Week\"><strong>FREEBIE WEEK:</strong> Wähle deinen Gratisartikel je nach Bestellwert</a>",
             "show_countdown": true,
