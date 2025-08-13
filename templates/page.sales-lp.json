@@ -43,10 +43,19 @@
             "button_link": "shopify://collections/shop-all",
             "button_style": "primary"
           }
+        },
+        "button_znkFrb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zu den Outlet T-Shirts >",
+            "button_link": "shopify://collections/outlet-t-shirts",
+            "button_style": "primary"
+          }
         }
       },
       "block_order": [
-        "button_3ggpmm"
+        "button_3ggpmm",
+        "button_znkFrb"
       ],
       "name": "Rich text",
       "settings": {
