@@ -14,12 +14,14 @@
       "blocks": {
         "subheading_XVj4kx": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "brand-new"
           }
         },
         "heading_UtbMm9": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "PIXELMANIA DROP",
             "heading_max_width": 15,
@@ -35,8 +37,8 @@
       ],
       "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-summer-drop8-teaser-banner.jpg",
-        "mobile_image": "shopify://shop_images/oldskull-summer-drop8-teaser-banner-mobile.jpg",
+        "image": "shopify://shop_images/oldskull-drop-9-freedom-collection-teaser-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-drop-9-freedom-collection-teaser-banner-mobile.png",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
