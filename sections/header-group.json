@@ -65,22 +65,6 @@
             "text_color": "#ffffff"
           }
         },
-        "announcement_KWybDz": {
-          "type": "announcement",
-          "settings": {
-            "text": "<a href=\"/pages/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER</strong> UND ERHALTE EINEN <strong>10% RABATTCODE</strong></a>",
-            "show_countdown": false,
-            "hide_on_end": false,
-            "end_date": "",
-            "end_time": "",
-            "number_font": "base",
-            "countdown_separator": "box",
-            "use_custom_colors": false,
-            "bg_color": "#4a4a4a",
-            "bg_gradient": "",
-            "text_color": "#ffffff"
-          }
-        },
         "announcement_Ygyfrd": {
           "type": "announcement",
           "settings": {
@@ -96,14 +80,30 @@
             "bg_gradient": "",
             "text_color": "#ffffff"
           }
+        },
+        "announcement_KWybDz": {
+          "type": "announcement",
+          "settings": {
+            "text": "<a href=\"/pages/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER</strong> UND ERHALTE EINEN <strong>10% RABATTCODE</strong></a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
         }
       },
       "block_order": [
         "announcement-2",
         "announcement_4f4E8j",
         "announcement_TDRj7c",
-        "announcement_KWybDz",
-        "announcement_Ygyfrd"
+        "announcement_Ygyfrd",
+        "announcement_KWybDz"
       ],
       "custom_css": [
         "a {text-decoration: none !important;}"
