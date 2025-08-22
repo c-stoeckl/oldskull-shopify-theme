@@ -54,7 +54,7 @@
         "countdown_UwVwKj"
       ],
       "custom_css": [
-        ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 10;}"
+        ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 3;}"
       ],
       "name": "Countdown timer",
       "settings": {
