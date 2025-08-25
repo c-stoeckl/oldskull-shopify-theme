@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "localization": {
@@ -6,8 +15,13 @@
       "language_label": "Language",
       "update": "Update"
     },
-    "icon_labels": { "close": "Close", "play": "Play" },
-    "labels": { "please_select": "Please select" },
+    "icon_labels": {
+      "close": "Close",
+      "play": "Play"
+    },
+    "labels": {
+      "please_select": "Please select"
+    },
     "navigation": {
       "menu": "Menu",
       "show_links": "Show links",
@@ -19,7 +33,10 @@
       "home": "Home",
       "collections": "Collections"
     },
-    "pagination": { "next": "Next", "previous": "Previous" },
+    "pagination": {
+      "next": "Next",
+      "previous": "Previous"
+    },
     "search": {
       "title": "Search",
       "input_label": "Search",
@@ -36,7 +53,11 @@
       "pages": "Pages",
       "view_all": "View all search results"
     },
-    "slider": { "next": "Next", "previous": "Previous", "of": "of" },
+    "slider": {
+      "next": "Next",
+      "previous": "Previous",
+      "of": "of"
+    },
     "social": {
       "share_heading": "Share",
       "share_on_facebook": "Share on Facebook",
@@ -44,7 +65,10 @@
       "share_on_pinterest": "Pin on Pinterest",
       "follow_shop": "{{ shop_name }} on {{ social_platform }}"
     },
-    "meta": { "page": "Page {{ page }}", "tags": "Tagged \"{{ tags }}\"" }
+    "meta": {
+      "page": "Page {{ page }}",
+      "tags": "Tagged \"{{ tags }}\""
+    }
   },
   "accessibility": {
     "skip_to_content": "Skip to content",
@@ -85,7 +109,10 @@
       },
       "preorder": "Pre-order",
       "prev_product": "Previous",
-      "price": { "unit_price": "Unit price", "unit_price_separator": " / " },
+      "price": {
+        "unit_price": "Unit price",
+        "unit_price_separator": " / "
+      },
       "product_variants": "Product variants",
       "quantity": "Quantity",
       "quick_buy": "Quick buy",
@@ -114,7 +141,9 @@
       "min_price_label": "From",
       "max_price_label": "To"
     },
-    "sorting": { "sort_by_label": "Sort by" },
+    "sorting": {
+      "sort_by_label": "Sort by"
+    },
     "inventory": {
       "in_stock": "In stock",
       "low_stock": "Low stock",
@@ -133,7 +162,11 @@
     }
   },
   "sections": {
-    "header": { "account": "Account", "search": "Search", "cart": "Cart" },
+    "header": {
+      "account": "Account",
+      "search": "Search",
+      "cart": "Cart"
+    },
     "footer": {
       "copyright_html": "&copy; {{ year }} <a href=\"{{ shop_url }}\">{{ shop_name }}</a>."
     },
@@ -158,7 +191,9 @@
       "seconds_short": "Sec",
       "end_date": "Ends {{ date }}"
     },
-    "featured_collection": { "view_all": "View all" },
+    "featured_collection": {
+      "view_all": "View all"
+    },
     "slideshow": {
       "load_slide": "Load slide",
       "carousel": "Carousel",
@@ -226,12 +261,17 @@
       "success": "Your comment was posted successfully! Thank you!",
       "error_heading": "Please correct the following errors:"
     },
-    "filtering": { "all": "All", "filter_by": "Filter by" },
+    "filtering": {
+      "all": "All",
+      "filter_by": "Filter by"
+    },
     "pagination": {
       "newer_articles": "Newer articles",
       "older_articles": "Older articles"
     },
-    "tags": { "label": "Tagged" }
+    "tags": {
+      "label": "Tagged"
+    }
   },
   "cart": {
     "general": {
@@ -256,7 +296,9 @@
       "total": "Subtotal",
       "quantity_error": "You can only add {{ quantity }} of this item to your cart."
     },
-    "note": { "label": "Order note" },
+    "note": {
+      "label": "Order note"
+    },
     "shipping_calculator": {
       "show": "Estimate shipping",
       "hide": "Hide shipping calculator",
@@ -414,7 +456,9 @@
     "blog": {
       "empty": "You don't have any articles yet! Once you've written one, it will show up here."
     },
-    "collection": { "title": "Collection" },
+    "collection": {
+      "title": "Collection"
+    },
     "product": {
       "title": "Product title",
       "vendor": "Product vendor",
@@ -426,6 +470,10 @@
     "checkout": {
       "alternative_payment_method_banner": {
         "or": "👇 Alternative payment methods below 👇"
+      },
+      "order_review_requirement": {
+        "checkout_to_draft": "The company site is set up so that all orders are submitted as drafts for review.",
+        "missing_address": "No shipping address available: The company location address is missing and one-time address use is disabled."
       }
     }
   }
