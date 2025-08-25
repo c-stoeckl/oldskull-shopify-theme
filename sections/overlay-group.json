@@ -25,7 +25,7 @@
         "show_inventory_notice": "low",
         "show_inventory_count": "low",
         "inventory_threshold": 3,
-        "show_announcement": true,
+        "show_announcement": false,
         "announcement_position": "below-items",
         "announcement_text": "<a href=\"/collections/3for2-flash-sale\" title=\"3FOR2 SALE\">Lege bis Montag Abend <strong>2 Artikel</strong> aus unserem Shop in deinen Warenkorb und wähle einen Artikel aus der <strong>3-for-2 Flash Sale Kategorie als Geschenk</strong>* dazu aus.</a>",
         "announcement_icon": "shirt",
