@@ -31,21 +31,20 @@
             "text_color": "#4c4c4b"
           }
         },
-        "announcement_4f4E8j": {
+        "announcement_Jgan7f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/pages/freebie-week\" title=\"Freebie Week\"><strong>FREEBIE WEEK:</strong> Wähle deinen Gratisartikel je nach Bestellwert</a>",
+            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>END OF SUMMER BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 129€</strong></a>",
             "show_countdown": true,
             "hide_on_end": false,
-            "end_date": "2025-06-10",
+            "end_date": "2025-08-04",
             "end_time": "00:00",
-            "number_font": "heading",
-            "countdown_separator": "space",
+            "number_font": "base",
+            "countdown_separator": "dot",
             "use_custom_colors": false,
-            "bg_color": "#4a4a4a",
+            "bg_color": "#f4f6f8",
             "bg_gradient": "",
-            "text_color": "#ffffff"
+            "text_color": "#4c4c4b"
           }
         },
         "announcement_TDRj7c": {
@@ -58,22 +57,6 @@
             "end_date": "2025-05-12",
             "end_time": "12:00",
             "number_font": "heading",
-            "countdown_separator": "box",
-            "use_custom_colors": false,
-            "bg_color": "#4a4a4a",
-            "bg_gradient": "",
-            "text_color": "#ffffff"
-          }
-        },
-        "announcement_Ygyfrd": {
-          "type": "announcement",
-          "settings": {
-            "text": "<a href=\"/collections/3for2-flash-sale\" title=\"3FOR2 SALE\"><strong>3-FOR-2 FLASH SALE</strong></a>",
-            "show_countdown": true,
-            "hide_on_end": true,
-            "end_date": "2025-08-26",
-            "end_time": "00:00",
-            "number_font": "base",
             "countdown_separator": "box",
             "use_custom_colors": false,
             "bg_color": "#4a4a4a",
@@ -100,9 +83,8 @@
       },
       "block_order": [
         "announcement-2",
-        "announcement_4f4E8j",
+        "announcement_Jgan7f",
         "announcement_TDRj7c",
-        "announcement_Ygyfrd",
         "announcement_KWybDz"
       ],
       "custom_css": [
