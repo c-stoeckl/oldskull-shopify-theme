@@ -11,6 +11,7 @@
   "sections": {
     "4062590b-8a4b-4bf1-a5cc-525eb3d0f86c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/oldskull-summersale-June-25-overview-banner.png",
         "mobile_image": "shopify://shop_images/oldskull-summersale-June-25-overview-banner-mobile.png",
@@ -24,74 +25,25 @@
         "overlay_style": "shadow"
       }
     },
-    "scrolling_banner_7mNnb6": {
-      "type": "scrolling-banner",
+    "rich_text_MLGhn6": {
+      "type": "rich-text",
       "blocks": {
-        "text_dBUpAq": {
+        "text_C9LXqM": {
           "type": "text",
           "settings": {
-            "text": "Lege Artikel aus dieser Kollektion in deinen Warenkorb und spare auf jeden zweiten Artikel 50%*",
-            "color": "#000000",
-            "link": "",
-            "use_h1": false,
-            "stencil_all_text": false,
-            "stencil_text": ""
+            "text": "<p>Letzte Chance! Diese Artikel verlassen uns, sobald sie ausverkauft sind. Stöbere hier durch und verwende am besten unsere Filter, um schnell deinen gewünschten Artikel zu finden.</p>",
+            "enlarge_text": false
           }
         }
       },
       "block_order": [
-        "text_dBUpAq"
+        "text_C9LXqM"
       ],
-      "disabled": true,
+      "name": "Rich text",
       "settings": {
+        "height": "small",
+        "text_alignment": "left",
         "full_width": true,
-        "color_scheme": "default",
-        "text_size": 28,
-        "vertical_padding": 20,
-        "speed": 35,
-        "direction": "left",
-        "font": "heading",
-        "space": 50
-      }
-    },
-    "countdown_timer_pyGtaM": {
-      "type": "countdown-timer",
-      "blocks": {
-        "subheading_kYML8K": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Letzte Chance für unseren Summer-Sale"
-          }
-        },
-        "countdown_DiYT7D": {
-          "type": "countdown",
-          "settings": {
-            "end_date": "2025-06-27",
-            "end_time": "00:00",
-            "end_text": "",
-            "hide_on_end": true,
-            "number_size": 20,
-            "number_font": "base",
-            "divider_type": "colon",
-            "show_timer_labels": true
-          }
-        }
-      },
-      "block_order": [
-        "subheading_kYML8K",
-        "countdown_DiYT7D"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".fully-spaced-row--medium {margin-top: 10px; margin-bottom: 0;}"
-      ],
-      "name": "Countdown timer",
-      "settings": {
-        "show_image": false,
-        "image_link": "",
-        "show_image_space": false,
-        "image_position": "left",
-        "text_alignment": "center",
         "color_scheme": "default"
       }
     },
@@ -131,61 +83,11 @@
         "rel_coll_gall_text_alignment": "center center",
         "rel_coll_grid_mobile": "2"
       }
-    },
-    "cc876185-7a78-4562-bad9-83b80a1117bf": {
-      "type": "gallery",
-      "blocks": {
-        "template--15243877580848__cc876185-7a78-4562-bad9-83b80a1117bf-media-1": {
-          "type": "media",
-          "settings": {
-            "enlarge_media": false,
-            "subheading": "Gallery",
-            "title": "Tell your story",
-            "button_label": "",
-            "link": "",
-            "text_alignment": "bottom left"
-          }
-        },
-        "template--15243877580848__cc876185-7a78-4562-bad9-83b80a1117bf-media-2": {
-          "type": "media",
-          "settings": {
-            "enlarge_media": false,
-            "subheading": "Gallery",
-            "title": "Tell your story",
-            "button_label": "",
-            "link": "",
-            "text_alignment": "bottom left"
-          }
-        }
-      },
-      "block_order": [
-        "template--15243877580848__cc876185-7a78-4562-bad9-83b80a1117bf-media-1",
-        "template--15243877580848__cc876185-7a78-4562-bad9-83b80a1117bf-media-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "grid_desktop": 2,
-        "grid_mobile": "1",
-        "height": "fixed",
-        "desktop_image_height": 460,
-        "mobile_image_height": 400,
-        "title_size": 30,
-        "title_size_mobile": 22,
-        "enable_margin": true,
-        "enable_row_spacing": true,
-        "full_width": false,
-        "color_scheme": "default",
-        "enable_carousel": true,
-        "overlay_style": "full",
-        "button_style": "primary"
-      }
     }
   },
   "order": [
     "4062590b-8a4b-4bf1-a5cc-525eb3d0f86c",
-    "scrolling_banner_7mNnb6",
-    "countdown_timer_pyGtaM",
-    "main",
-    "cc876185-7a78-4562-bad9-83b80a1117bf"
+    "rich_text_MLGhn6",
+    "main"
   ]
 }
