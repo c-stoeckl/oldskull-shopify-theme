@@ -31,8 +31,8 @@
         "text_C9LXqM": {
           "type": "text",
           "settings": {
-            "text": "<p>Letzte Chance! Diese Artikel verlassen uns, sobald sie ausverkauft sind. Stöbere hier durch und verwende am besten unsere Filter, um schnell deinen gewünschten Artikel zu finden.</p>",
-            "enlarge_text": false
+            "text": "<p><strong>Letzte Chance!</strong> Diese Artikel verlassen uns, sobald sie ausverkauft sind. Stöbere hier durch und verwende am besten unsere Filter, um schnell deinen gewünschten Artikel zu finden.</p>",
+            "enlarge_text": true
           }
         }
       },
