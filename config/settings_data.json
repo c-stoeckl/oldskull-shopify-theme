@@ -542,6 +542,11 @@
         "type": "shopify://apps/selly-promotion-pricing/blocks/app-embed-block/351afe80-738d-4417-9b66-e345ff249052",
         "disabled": false,
         "settings": {}
+      },
+      "15351435345818755577": {
+        "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
