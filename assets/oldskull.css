@@ -13,3 +13,7 @@
 fieldset.option-selector[data-option="color"] {
   display: none;
 }
+
+.logo-area {
+  border-bottom: none;
+}
