@@ -246,7 +246,7 @@
   },
   "blogs": {
     "article": {
-      "back_to_blog": "Back to {{ title }}",
+      "back_to_blog": "Back to Blog",
       "no_matches": "You don't have any articles yet! Once you've written one, it will show up here.",
       "read_more": "Read more"
     },
