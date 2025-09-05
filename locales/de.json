@@ -246,7 +246,7 @@
   },
   "blogs": {
     "article": {
-      "back_to_blog": "Zurück zum {{ title }}",
+      "back_to_blog": "Zurück zum Blog",
       "no_matches": "Sie haben noch keine Artikel! Sobald Sie einen geschrieben haben, wird er hier angezeigt.",
       "read_more": "Weiterlesen"
     },
@@ -266,8 +266,8 @@
       "filter_by": "Filter"
     },
     "pagination": {
-      "newer_articles": "Neuere Artikle",
-      "older_articles": "Aeltere Artikel"
+      "newer_articles": "Neuere Artikel",
+      "older_articles": "Ältere Artikel"
     },
     "tags": {
       "label": "Getaggt"
