@@ -12,12 +12,12 @@
     "16359276425da8ce46": {
       "type": "slideshow",
       "blocks": {
-        "image_BpJURd": {
+        "image_hafHwB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-end-of-summer-sale-2025-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-end-of-summer-sale-2025-banner-mobile.png",
-            "slide_link": "shopify://collections/outlet",
+            "image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-mobile.png",
+            "slide_link": "shopify://collections/oldskull-drop",
             "subheading": "",
             "title": "",
             "heading_max_width": 15,
@@ -30,15 +30,15 @@
             "button_url_1": "",
             "button_label_2": "",
             "button_url_2": "",
-            "text_alignment": "center right"
+            "text_alignment": "bottom right"
           }
         },
-        "image_hafHwB": {
+        "image_BpJURd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-restock-august-25-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-restock-august-25-teaser-banner-mobile.png",
-            "slide_link": "shopify://collections/shop",
+            "image": "shopify://shop_images/oldskull-end-of-summer-sale-2025-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-end-of-summer-sale-2025-banner-mobile.png",
+            "slide_link": "shopify://collections/outlet",
             "subheading": "",
             "title": "",
             "heading_max_width": 15,
@@ -121,8 +121,8 @@
         }
       },
       "block_order": [
-        "image_BpJURd",
         "image_hafHwB",
+        "image_BpJURd",
         "16359276425da8ce46-0",
         "image_K6JRcd",
         "image_ER4WXB"

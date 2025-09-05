@@ -37,8 +37,8 @@
       ],
       "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-drop-9-freedom-collection-teaser-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-drop-9-freedom-collection-teaser-banner-mobile.png",
+        "image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-mobile.png",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
@@ -55,13 +55,13 @@
         "subheading_NLLVC6": {
           "type": "subheading",
           "settings": {
-            "subheading": "FRISCHE PRINTS, STARKE BASICS"
+            "subheading": "FRISCHE PRINTS"
           }
         },
         "text_cjq9cD": {
           "type": "text",
           "settings": {
-            "text": "<p>Neue Prints, cleane Basics und markante Designs – Oldskull startet in den Sommer. Die legendärsten Styles sind zurück, neue Hoodies und Sweater treffen auf Essentials mit perfektem Fit.</p>",
+            "text": "<p>Neue Prints mit markanten Designs – Oldskull startet in den Herbst. Entdecke neue Skulls, Kanji Fonts im Vintage Style oder Themen wie den Urban Jungle.</p>",
             "enlarge_text": false
           }
         }
