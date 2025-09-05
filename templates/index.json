@@ -15,22 +15,22 @@
         "image_hafHwB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-mobile.png",
+            "image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-clean.png",
+            "mobile_image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-clean-mobile.png",
             "slide_link": "shopify://collections/oldskull-drop",
             "subheading": "",
-            "title": "",
+            "title": "AUTUMN DROP",
             "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 46,
             "use_h1": false,
-            "text": "",
+            "text": "<p>PART I | AW25</p>",
             "enlarge_text": true,
-            "button_label_1": "",
-            "button_url_1": "",
+            "button_label_1": "Zum Drop >",
+            "button_url_1": "shopify://collections/oldskull-drop",
             "button_label_2": "",
             "button_url_2": "",
-            "text_alignment": "bottom right"
+            "text_alignment": "bottom center"
           }
         },
         "image_BpJURd": {
