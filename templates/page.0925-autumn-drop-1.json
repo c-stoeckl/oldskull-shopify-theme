@@ -9,14 +9,216 @@
  */
 {
   "sections": {
+    "image_with_text_overlay_Dh8e84": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-mobile.png",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
-        "full_width": false
+        "show_page_title": false,
+        "full_width": true
+      }
+    },
+    "image_with_text_Q3i8wy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7HChdW": {
+          "type": "heading",
+          "settings": {
+            "title": "URBAN JUNGLE",
+            "use_h1": false
+          }
+        },
+        "text_nU4Kg4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hier geht's um dystopische Stadtdesigns in Endzeitstimmung. Unser Designer hat sich von Filmen und Serien wie \"The Last of Us\" oder \"Planet der Affen\" inspirieren lassen und drei absolute Highlights entwickelt. Manche Details siehst du erst, wenn du dein neues Lieblingsteil in den eigenen Händen hältst.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_aKT46w": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Drop >",
+            "button_link": "shopify://collections/oldskull-drop",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7HChdW",
+        "text_nU4Kg4",
+        "button_aKT46w"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-autumn-drop1-2025-urban-jungle-teaser-banner.png",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_yfPJP6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3Wpaag": {
+          "type": "heading",
+          "settings": {
+            "title": "TRADITION DISRUPTED",
+            "use_h1": false
+          }
+        },
+        "text_KiPHNF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die drei starken Neuzugänge bei Oldskull zeigen dir, wie wir uns ein traditionelles Japan in der aktuellen Zeit oder nahen Zukunft vorstellen. Ein Motorradmotiv mit dezenten Farben, ein farbenfrohes Tuningauto-Motiv vor ikonischen Japanmotiven und ein schwebendes Izakaya direkt aus der Zukunft treffen voll unseren Geschmack.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_yVTrAC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Drop >",
+            "button_link": "shopify://collections/oldskull-drop",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3Wpaag",
+        "text_KiPHNF",
+        "button_yVTrAC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-autumn-drop1-2025-tradition-disrupted-teaser-banner.png",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_JVctNV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Qf99Cf": {
+          "type": "heading",
+          "settings": {
+            "title": "NEW SKULLS",
+            "use_h1": false
+          }
+        },
+        "text_rTdrJ3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir halten uns natürlich auch an unseren Namen und bringen dir 4 neue Totenkopf-Motive. Egal, ob Sugar-Skull, Samurai-Maske oder ein T-Shirt einer Rockband – wir lassen dir die Qual der Wahl.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_xr4pWi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Drop >",
+            "button_link": "shopify://collections/oldskull-drop",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qf99Cf",
+        "text_rTdrJ3",
+        "button_xr4pWi"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-autumn-drop1-2025-new-skulls-teaser-banner.png",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_fntBjf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nKtLQp": {
+          "type": "heading",
+          "settings": {
+            "title": "KANJI KINGS",
+            "use_h1": false
+          }
+        },
+        "text_wpVA6M": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Auch für alle Vintage-Fans von Oldskull haben wir etwas dabei: drei Neuzugänge mit dezenten, zweifarbigen Prints mit Kanji Schrift. Jeder Kobe-Fleischliebhaber wird von diesem Motiv begeistert sein. Und auch das Samurai-Motiv und das Schriftbasierte Sapporo-Motiv sind echte Hingucker.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_jrH4dz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Drop >",
+            "button_link": "shopify://collections/oldskull-drop",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nKtLQp",
+        "text_wpVA6M",
+        "button_jrH4dz"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-autumn-drop1-2025-kanji-kings-teaser-banner.png",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_XDnGNz": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Entdecke alle Teile aus unserem Autumn Drop I",
+        "collection": "oldskull-drop",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
       }
     }
   },
   "order": [
-    "main"
+    "image_with_text_overlay_Dh8e84",
+    "main",
+    "image_with_text_Q3i8wy",
+    "image_with_text_yfPJP6",
+    "image_with_text_JVctNV",
+    "image_with_text_fntBjf",
+    "featured_collection_XDnGNz"
   ]
 }
