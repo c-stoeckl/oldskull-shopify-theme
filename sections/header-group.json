@@ -16,9 +16,8 @@
       "blocks": {
         "announcement-2": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULLBUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
+            "text": "<a href=\"/collections/all-sweats\" title=\"All Sweats\"><strong>HELLO AUTUMN:</strong> SPARE <strong>10% EXTRA</strong> BEIM KAUF VON <strong>2 SWEAT-ARTIKELN</strong></a>",
             "show_countdown": true,
             "hide_on_end": false,
             "end_date": "2025-08-04",
