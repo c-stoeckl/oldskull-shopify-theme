@@ -12,6 +12,27 @@
     "16359276425da8ce46": {
       "type": "slideshow",
       "blocks": {
+        "16359276425da8ce46-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oldskull-season-switch-september-25-banner.jpg",
+            "mobile_image": "shopify://shop_images/oldskull-season-switch-september-25-banner-mobile.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "HELLO AUTUMN",
+            "heading_max_width": 40,
+            "title_size": 60,
+            "title_size_mobile": 30,
+            "use_h1": false,
+            "text": "<p>Spare 10% beim Kauf von 2 Sweat-Artikeln</p>",
+            "enlarge_text": true,
+            "button_label_1": "Zu den Sweats >",
+            "button_url_1": "shopify://collections/all-sweats",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "bottom left"
+          }
+        },
         "image_hafHwB": {
           "type": "image",
           "settings": {
@@ -52,28 +73,6 @@
             "button_label_2": "",
             "button_url_2": "",
             "text_alignment": "center right"
-          }
-        },
-        "16359276425da8ce46-0": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/oldskull-summer-drop7-2025-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-summer-drop7-2025-teaser-banner-mobile.png",
-            "slide_link": "",
-            "subheading": "",
-            "title": "BACK IN STOCK",
-            "heading_max_width": 40,
-            "title_size": 60,
-            "title_size_mobile": 30,
-            "use_h1": false,
-            "text": "<p>JAPANESE TRADITION DROP</p>",
-            "enlarge_text": false,
-            "button_label_1": "Zum Drop >",
-            "button_url_1": "/collections/new-arrivals?sort_by=best-selling",
-            "button_label_2": "",
-            "button_url_2": "",
-            "text_alignment": "bottom left"
           }
         },
         "image_K6JRcd": {
@@ -121,9 +120,9 @@
         }
       },
       "block_order": [
+        "16359276425da8ce46-0",
         "image_hafHwB",
         "image_BpJURd",
-        "16359276425da8ce46-0",
         "image_K6JRcd",
         "image_ER4WXB"
       ],
