@@ -11,6 +11,7 @@
   "sections": {
     "4062590b-8a4b-4bf1-a5cc-525eb3d0f86c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/oldskull-end-of-summer-sale-2025-banner.png",
         "mobile_image": "shopify://shop_images/oldskull-end-of-summer-sale-2025-banner-mobile.png",
