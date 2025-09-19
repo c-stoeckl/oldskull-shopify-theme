@@ -12,25 +12,24 @@
     "16359276425da8ce46": {
       "type": "slideshow",
       "blocks": {
-        "16359276425da8ce46-0": {
+        "image_PpAMWH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/oldskull-season-switch-september-25-banner.jpg",
-            "mobile_image": "shopify://shop_images/oldskull-season-switch-september-25-banner-mobile.jpg",
+            "image": "shopify://shop_images/oldskull-final-summer-deals-2025-50off-teaser-banner-2.png",
+            "mobile_image": "shopify://shop_images/oldskull-final-summer-deals-2025-50off-teaser-banner-mobile-3.png",
             "slide_link": "",
             "subheading": "",
-            "title": "HELLO AUTUMN",
-            "heading_max_width": 40,
-            "title_size": 60,
+            "title": "",
+            "heading_max_width": 10,
+            "title_size": 40,
             "title_size_mobile": 30,
             "use_h1": false,
-            "text": "<p>Spare 10% beim Kauf von 2 Sweat-Artikeln</p>",
+            "text": "<p>Spare bei <strong>jedem zweiten Artikel 50% extra</strong>.<br/>Das Angebot gilt für alle Artikel,<br/>auch in unserem Outlet!</p>",
             "enlarge_text": true,
-            "button_label_1": "Zu den Sweats >",
-            "button_url_1": "shopify://collections/all-sweats",
-            "button_label_2": "",
-            "button_url_2": "",
+            "button_label_1": "Zum Shop >",
+            "button_url_1": "shopify://collections/shop-all",
+            "button_label_2": "Zum Outlet >",
+            "button_url_2": "shopify://collections/outlet",
             "text_alignment": "bottom left"
           }
         },
@@ -122,7 +121,7 @@
         }
       },
       "block_order": [
-        "16359276425da8ce46-0",
+        "image_PpAMWH",
         "image_hafHwB",
         "image_BpJURd",
         "image_K6JRcd",
