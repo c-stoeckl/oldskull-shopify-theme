@@ -147,15 +147,20 @@
         "text_9KqGh3": {
           "type": "text",
           "settings": {
-            "text": "<p>Letzte Chance für unsere Summer Deals</p>",
+            "text": "<p><strong>FINAL SUMMER DEALS</strong></p>",
             "enlarge_text": true
+          }
+        },
+        "subheading_Xzn6x9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "50% EXTRA RABATT AUF JEDEN ZWEITEN ARTIKEL"
           }
         },
         "countdown_HbjezN": {
           "type": "countdown",
-          "disabled": true,
           "settings": {
-            "end_date": "2025-08-04",
+            "end_date": "2025-09-26",
             "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
@@ -167,6 +172,7 @@
         },
         "button_rtJNpM": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Direkt zu den Summer Deals",
             "button_link": "shopify://pages/summer-deals",
@@ -176,10 +182,10 @@
       },
       "block_order": [
         "text_9KqGh3",
+        "subheading_Xzn6x9",
         "countdown_HbjezN",
         "button_rtJNpM"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],
