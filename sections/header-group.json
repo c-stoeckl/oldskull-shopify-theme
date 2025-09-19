@@ -14,24 +14,9 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-2": {
-          "type": "announcement",
-          "settings": {
-            "text": "<a href=\"/collections/all-sweats\" title=\"All Sweats\"><strong>HELLO AUTUMN:</strong> SPARE <strong>10% EXTRA</strong> BEIM KAUF VON <strong>2 SWEAT-ARTIKELN</strong></a>",
-            "show_countdown": true,
-            "hide_on_end": false,
-            "end_date": "2025-08-04",
-            "end_time": "00:00",
-            "number_font": "base",
-            "countdown_separator": "dot",
-            "use_custom_colors": false,
-            "bg_color": "#f4f6f8",
-            "bg_gradient": "",
-            "text_color": "#4c4c4b"
-          }
-        },
         "announcement_Jgan7f": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>END OF SUMMER BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 129€</strong></a>",
             "show_countdown": true,
@@ -81,7 +66,6 @@
         }
       },
       "block_order": [
-        "announcement-2",
         "announcement_Jgan7f",
         "announcement_TDRj7c",
         "announcement_KWybDz"
