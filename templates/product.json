@@ -221,6 +221,22 @@
             "open_in_new_tab": false,
             "show_in_quickbuy": false
           }
+        },
+        "countdown_wFJBmJ": {
+          "type": "countdown",
+          "settings": {
+            "heading": "",
+            "end_date": "2025-09-26",
+            "end_time": "00:00",
+            "end_text": "",
+            "hide_on_end": true,
+            "box_color": "#ffffff",
+            "text_color": "#000000",
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": false,
+            "show_in_quickbuy": false
+          }
         }
       },
       "block_order": [
@@ -243,7 +259,8 @@
         "accordion_atMCmV",
         "related_products_WFY4rt",
         "richtext_X7FB7a",
-        "image_737acK"
+        "image_737acK",
+        "countdown_wFJBmJ"
       ],
       "custom_css": [
         "h1 {font-size: 20px;}"
