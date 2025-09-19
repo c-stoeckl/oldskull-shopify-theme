@@ -200,6 +200,27 @@
             "image_width": 80,
             "show_in_quickbuy": false
           }
+        },
+        "richtext_X7FB7a": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<h3>FINAL SUMMER DEALS</h3>",
+            "icon": "",
+            "icon_size": "large",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "image_737acK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oldskull-final-summer-deals-2025-50off-teaser.png",
+            "image_width": 700,
+            "url": "",
+            "open_in_new_tab": false,
+            "show_in_quickbuy": false
+          }
         }
       },
       "block_order": [
@@ -220,7 +241,9 @@
         "accordion_jMw8Pm",
         "accordion_RntUfH",
         "accordion_atMCmV",
-        "related_products_WFY4rt"
+        "related_products_WFY4rt",
+        "richtext_X7FB7a",
+        "image_737acK"
       ],
       "custom_css": [
         "h1 {font-size: 20px;}"
