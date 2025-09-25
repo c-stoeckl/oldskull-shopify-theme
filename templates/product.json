@@ -226,7 +226,7 @@
           "type": "countdown",
           "settings": {
             "heading": "",
-            "end_date": "2025-09-26",
+            "end_date": "2025-09-29",
             "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
