@@ -34,6 +34,27 @@
             "text_alignment": "bottom left"
           }
         },
+        "image_nWJaxP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/oldskull_drop11_2025_japan_food_banner.png",
+            "mobile_image": "shopify://shop_images/oldskull_drop11_2025_japan_food_banner_mobile.png",
+            "slide_link": "shopify://collections/oldskull-drop",
+            "subheading": "",
+            "title": "AUTUMN DROP",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>PART II | AW25</p>",
+            "enlarge_text": true,
+            "button_label_1": "Zum Drop >",
+            "button_url_1": "shopify://collections/oldskull-drop",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "top center"
+          }
+        },
         "image_hafHwB": {
           "type": "image",
           "settings": {
@@ -123,6 +144,7 @@
       },
       "block_order": [
         "image_PpAMWH",
+        "image_nWJaxP",
         "image_hafHwB",
         "image_BpJURd",
         "image_K6JRcd",
