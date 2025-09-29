@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>FINAL SUMMER DEALS: 50% EXTRA RABATT AUF JEDEN ZWEITEN ARTIKEL</strong></a>",
             "show_countdown": true,
@@ -32,10 +33,9 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>END OF SUMMER BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 129€</strong></a>",
-            "show_countdown": true,
+            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
+            "show_countdown": false,
             "hide_on_end": false,
             "end_date": "2025-08-04",
             "end_time": "00:00",
