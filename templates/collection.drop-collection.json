@@ -14,31 +14,37 @@
       "blocks": {
         "subheading_XVj4kx": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "subheading": "brand-new"
+            "subheading": "FOOD EDITION"
           }
         },
         "heading_UtbMm9": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "title": "PIXELMANIA DROP",
+            "title": "AUTUMN DROP",
             "heading_max_width": 15,
             "title_size": 50,
             "title_size_mobile": 40,
             "use_h1": false
           }
+        },
+        "text_VKxNax": {
+          "type": "text",
+          "settings": {
+            "text": "<p>PART II | AW25</p>",
+            "enlarge_text": true
+          }
         }
       },
       "block_order": [
         "subheading_XVj4kx",
-        "heading_UtbMm9"
+        "heading_UtbMm9",
+        "text_VKxNax"
       ],
       "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-mobile.png",
+        "image": "shopify://shop_images/oldskull_drop11_2025_japan_food_banner.png",
+        "mobile_image": "shopify://shop_images/oldskull_drop11_2025_japan_food_banner_mobile.png",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
