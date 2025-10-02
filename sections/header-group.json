@@ -106,6 +106,7 @@
       "blocks": {
         "menu_promotion_small_hdbmWi": {
           "type": "menu-promotion-small",
+          "disabled": true,
           "settings": {
             "dropdown_link_title": "Basics",
             "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
@@ -115,6 +116,7 @@
         },
         "menu_promotion_small_n7jTMf": {
           "type": "menu-promotion-small",
+          "disabled": true,
           "settings": {
             "dropdown_link_title": "Prints",
             "image": "shopify://shop_images/oldskull_easter-sale-25_basic-tshirt-bundle_banner.png",
