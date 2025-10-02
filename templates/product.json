@@ -86,14 +86,13 @@
         },
         "richtext_7Lknxh": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "richtext": "<p><strong>BIRTHDAY SPECIAL: 20% und mehr auf (fast) alles + dein Gratis Artikel ab 149€</strong></p>",
-            "icon": "gift",
-            "icon_size": "large",
-            "enable_box": false,
+            "richtext": "<p><strong>UNITY SALE: SHOPPE 3 TEILE UND BEZAHLE NUR 2</strong></p>",
+            "icon": "dollar_sign",
+            "icon_size": "small",
+            "enable_box": true,
             "box_color": "#c40000",
-            "show_in_quickbuy": false
+            "show_in_quickbuy": true
           }
         },
         "buy-buttons": {

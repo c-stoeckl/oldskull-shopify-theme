@@ -16,9 +16,8 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>FINAL SUMMER DEALS: 50% EXTRA RABATT AUF JEDEN ZWEITEN ARTIKEL</strong></a>",
+            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>UNITY SALE: SHOPPE 3 TEILE UND BEZAHLE NUR 2</strong></a>",
             "show_countdown": true,
             "hide_on_end": true,
             "end_date": "2025-09-29",
@@ -33,6 +32,7 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
             "show_countdown": false,
