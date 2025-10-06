@@ -518,11 +518,6 @@
     "cart_currency_code_enabled": true,
     "content_for_index": [],
     "blocks": {
-      "13180643132867056963": {
-        "type": "shopify://apps/gdpr-legal-cookie/blocks/bc-block/e49729f0-d37d-4e24-ac65-e0e2f472ac27",
-        "disabled": false,
-        "settings": {}
-      },
       "1513253815146976218": {
         "type": "shopify://apps/omnisend-email-marketing-sms/blocks/app-embed/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
@@ -545,6 +540,11 @@
       },
       "15351435345818755577": {
         "type": "shopify://apps/pandectes-gdpr/blocks/banner/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+        "disabled": false,
+        "settings": {}
+      },
+      "12634813005945594690": {
+        "type": "shopify://apps/mable/blocks/inject-log-script/369b4fed-dc17-45bb-b0b6-5cf0837c7ccb",
         "disabled": false,
         "settings": {}
       }
