@@ -170,20 +170,20 @@
         "text_9KqGh3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>FINAL SUMMER DEALS</strong></p>",
+            "text": "<p><strong>UNITY SALE: 3-FOR-2</strong></p>",
             "enlarge_text": true
           }
         },
         "subheading_Xzn6x9": {
           "type": "subheading",
           "settings": {
-            "subheading": "50% EXTRA RABATT AUF JEDEN ZWEITEN ARTIKEL"
+            "subheading": "Kaufe 3 Artikel aus dem kompletten Sortiment und bezahle nur 2*"
           }
         },
         "countdown_HbjezN": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-09-29",
+            "end_date": "2025-10-13",
             "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
@@ -209,12 +209,12 @@
         "countdown_HbjezN",
         "button_rtJNpM"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],
       "settings": {
         "show_image": false,
+        "image": "shopify://shop_images/oldskull-october-3for2-unity-sale-teaser-banner-mobile.png",
         "image_link": "",
         "show_image_space": false,
         "image_position": "left",
