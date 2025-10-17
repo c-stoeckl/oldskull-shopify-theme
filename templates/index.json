@@ -15,22 +15,22 @@
         "image_PpAMWH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-october-unity-sale-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-october-unity-sale-teaser-banner-mobile.png",
+            "image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner-mobile.png",
             "slide_link": "",
-            "subheading": "UNITY SALE",
-            "title": "3-FOR-2",
+            "subheading": "",
+            "title": "",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p>Shoppe jetzt deine Lieblingsteile für den Herbst in unserem <strong>3-für-2 UNITY SALE</strong>. Leg drei beliebige Artikel in deinen Warenkorb – der günstigste ist gratis!</p>",
+            "text": "",
             "enlarge_text": true,
-            "button_label_1": "Jetzt shoppen >",
-            "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "",
-            "button_url_2": "",
-            "text_alignment": "center center"
+            "button_label_1": "Zum Halloween Special >",
+            "button_url_1": "shopify://collections/halloween",
+            "button_label_2": "Zum Shop >",
+            "button_url_2": "shopify://collections/shop-all",
+            "text_alignment": "bottom left"
           }
         },
         "image_nWJaxP": {
@@ -156,7 +156,7 @@
         "height_mobile": 460,
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "full image-overlay--bg-shadow",
+        "overlay_style": "shadow",
         "transition": "zoom-fade",
         "navigation": "arrows",
         "autoplay": true,
