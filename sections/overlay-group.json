@@ -25,7 +25,7 @@
         "show_inventory_notice": "low",
         "show_inventory_count": "low",
         "inventory_threshold": 3,
-        "show_announcement": true,
+        "show_announcement": false,
         "announcement_position": "below-items",
         "announcement_text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>UNITY SALE: SHOPPE 3 TEILE UND BEZAHLE NUR 2</strong></a>",
         "announcement_icon": "dollar_sign",
