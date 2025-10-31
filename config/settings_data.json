@@ -516,6 +516,20 @@
     "free_shipping_bar_col_met": "#00800a",
     "product_currency_code_enabled": true,
     "cart_currency_code_enabled": true,
+    "sections": {
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo_width": 200
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "show_powered_by": false
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "1513253815146976218": {
