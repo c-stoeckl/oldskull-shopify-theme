@@ -17,7 +17,7 @@
         "announcement_dHyh8A": {
           "type": "announcement",
           "settings": {
-            "text": "<a href=\"/collections/halloween\" title=\"Halloween\"><strong>UNSER DEAL DES JAHRES: 25% UND MEHR AUF ALLES, DAZU DEIN GRATIS T-SHIRT AB 159€</strong></a>",
+            "text": "<a href=\"/pages/deal-of-the-year\" title=\"Unser Deal des Jahres!\"><strong>UNSER DEAL DES JAHRES: 25% UND MEHR AUF ALLES, DAZU DEIN GRATIS T-SHIRT AB 159€</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
             "end_date": "2025-10-13",
