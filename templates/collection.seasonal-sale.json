@@ -11,6 +11,7 @@
   "sections": {
     "4062590b-8a4b-4bf1-a5cc-525eb3d0f86c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner.png",
         "mobile_image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner-mobile.png",
@@ -30,7 +31,7 @@
         "text_C9LXqM": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>🎃 Trick or Treat? Wir sagen – Shop & Repeat</strong> <strong>🎃</strong><br/>Die Nächte werden dunkler – unsere Prints lauter. Spare jetzt bei unserem Halloween Special:<br/>🕸 <strong>20% Rabatt auf alle Skull & Spooky Motive</strong><br/>🎁 <strong>Gratis Shirt ab 119 €</strong>*<br/>The darker the night, the louder your style. Make it loud. Make it OS.</p>",
+            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 50%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 159€</strong> dein <strong>Gratis T-Shirt </strong>aus unserer Oldskull Gifts Kategorie</p>",
             "enlarge_text": false
           }
         }
