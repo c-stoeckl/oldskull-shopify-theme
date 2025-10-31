@@ -77,12 +77,21 @@
             "button_link": "shopify://collections/shop-all",
             "button_style": "primary"
           }
+        },
+        "button_YDU9cG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zu den Oldskull Gifts >",
+            "button_link": "shopify://collections/oldskull-gifts",
+            "button_style": "primary"
+          }
         }
       },
       "block_order": [
         "heading_9JUdGp",
         "text_wF7pNE",
-        "button_7PhLWr"
+        "button_7PhLWr",
+        "button_YDU9cG"
       ],
       "name": "Image with text",
       "settings": {
