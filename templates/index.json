@@ -462,12 +462,7 @@
     },
     "newsletter_EfdyYA": {
       "type": "newsletter",
-      "custom_css": [
-        ".signup-form__button[disabled] {background-color: grey; border-color: lightgrey; cursor: not-allowed;}",
-        ".signup-form__terms-container {margin-top: 1rem; font-size: 0.8571rem;}",
-        ".signup-form__terms-label {display: flex; justify-content: center; gap: 5px;}",
-        ".signup-form__terms-error {color: red;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Abonniere unseren Newsletter",
         "subheading": "<p>Werde über alle neuen Produkte, Trends & Sale Aktionen informiert.</p>",
