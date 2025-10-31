@@ -28,16 +28,27 @@
     "rich_text_MLGhn6": {
       "type": "rich-text",
       "blocks": {
+        "subheading_czPQhx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "OLDSKULL VIP SALE"
+          }
+        },
         "text_C9LXqM": {
           "type": "text",
           "settings": {
-            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 50%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 159€</strong> dein <strong>Gratis T-Shirt </strong>aus unserer Oldskull Gifts Kategorie</p>",
+            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 50%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 159€</strong> dein <strong>Gratis T-Shirt </strong>aus unserer Oldskull Gifts Kategorie. Die Geschenkeartikel sind mit <strong>„Free from 159€”</strong> markiert.</p>",
             "enlarge_text": false
           }
         }
       },
       "block_order": [
+        "subheading_czPQhx",
         "text_C9LXqM"
+      ],
+      "custom_css": [
+        ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
+        ".lightly-spaced-row {font-size: 12px;}"
       ],
       "name": "Rich text",
       "settings": {
