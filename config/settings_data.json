@@ -516,7 +516,7 @@
     "free_shipping_bar_col_met": "#00800a",
     "product_currency_code_enabled": true,
     "cart_currency_code_enabled": true,
-    "image_quality": "1.5",
+    "image_quality": "1",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
