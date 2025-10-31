@@ -12,8 +12,8 @@
     "image_with_text_overlay_ETqpw3": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-banner-mobile.png",
+        "image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner.png",
+        "mobile_image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner-mobile.png",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
@@ -30,14 +30,14 @@
         "heading_DkcFpy": {
           "type": "heading",
           "settings": {
-            "title": "🎁 FREEBIE WEEK is ON 🎁",
+            "title": "🎁 UNSER DEAL DES JAHRES 🎁",
             "use_h1": false
           }
         },
         "text_NnECCg": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>The More You Shop, The Bigger Your Gift</strong></p><p>Diese Woche gibt's keine halben Sachen - sondern ganze Pieces. For free.</p><p>Je höher dein Warenkorb, desto größer dein Geschenk.<br/>Und das Beste: Du kannst dir deinen Warenkorb aus dem <a href=\"/collections/shop-all\" title=\"Shop all\"><strong>gesamten Oldskull-Sortiment</strong></a> zusammenstellen inklusive <a href=\"/collections/outlet\" title=\"Outlet\"><strong>Outlet-Teile</strong></a> - wähle dann je nach Freebie-Level deinen Favoriten aus unserer <a href=\"/collections/basics\" title=\"Basics\"><strong>Premium-Basic-Line</strong></a> gratis dazu.</p>",
+            "text": "<p><strong>Black November is here!</strong></p>",
             "enlarge_text": true
           }
         }
@@ -66,7 +66,7 @@
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<ol><li>Leg deine Lieblingsstyles aus dem gesamten Sortiment in den Warenkorb</li><li>Erreiche eine Freebie-Stufe (ab 99 €, 149 € oder 189 €) und wähle deinen Gratisartikel* passend zum Warenkorbwert</li><li>Bestellung abschließen – und dein Premium Basic kommt gratis mit*<br/></li></ol>",
+            "text": "<p>Spare <strong>25% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 159€ eines unserer T-Shirts</strong> aus der <a href=\"/collections/oldskull-gifts\" title=\"Oldskull Gifts\"><strong>Oldskull Gifts Kategorie</strong></a> auswählen. Lege dazu Artikel im Wert von 159€ in deinen Warenkorb und suche dir dann in dieser Kategorie deinen Wunschartikel dazu aus. Der Preis für das günstigste T-Shirt aus dieser Kollektion wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
             "enlarge_text": true
           }
         },
@@ -77,25 +77,16 @@
             "button_link": "shopify://collections/shop-all",
             "button_style": "primary"
           }
-        },
-        "button_n3LBUP": {
-          "type": "button",
-          "settings": {
-            "button_label": "Zu den Basics >",
-            "button_link": "shopify://collections/basics",
-            "button_style": "primary"
-          }
         }
       },
       "block_order": [
         "heading_9JUdGp",
         "text_wF7pNE",
-        "button_7PhLWr",
-        "button_n3LBUP"
+        "button_7PhLWr"
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/oldskull-freebie-week-sale-august-25-overview-banner.png",
+        "image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser.jpg",
         "image_width": 500,
         "image_link": "shopify://collections/shop-all",
         "image_position": "left",
@@ -217,6 +208,7 @@
       "blocks": {
         "subheading_cVYpNR": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "Wichtiger Hinweis: Die einzelnen Stufen sind nicht miteinander kombinierbar, unser Shop wählt immer den besseren Deal für dich aus."
           }
