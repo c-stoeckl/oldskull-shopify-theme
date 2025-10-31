@@ -14,9 +14,8 @@
       "blocks": {
         "image_PpAMWH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner.png",
+            "image": "shopify://shop_images/oldskull_closed_shop_banner.jpg",
             "mobile_image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner-mobile.png",
             "slide_link": "",
             "subheading": "",
