@@ -87,9 +87,9 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a></p>",
-            "icon": "shirt",
-            "icon_size": "small",
+            "richtext": "<p><a href=\"/collections/halloween\" title=\"Halloween\"><strong>UNSER DEAL DES JAHRES: 25% UND MEHR AUF ALLES, DAZU DEIN GRATIS T-SHIRT AB 159€</strong></a></p>",
+            "icon": "dollar_sign",
+            "icon_size": "large",
             "enable_box": true,
             "box_color": "#c40000",
             "show_in_quickbuy": true

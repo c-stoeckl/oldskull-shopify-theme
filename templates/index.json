@@ -15,20 +15,20 @@
         "image_PpAMWH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull_closed_shop_banner.jpg",
-            "mobile_image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner-mobile.png",
+            "image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner-mobile.png",
             "slide_link": "",
             "subheading": "",
-            "title": "",
+            "title": "OLDSKULL VIP SALE",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "",
+            "text": "<p>Wir starten mit unserem <strong>Deal des Jahres</strong> in den Black November!<br/><strong>Spare mindestens 25%</strong> und wähle <strong>ab 159 € ein T-Shirt aus unserer Oldskull Gift Kategorie als Geschenk</strong>* dazu.</p>",
             "enlarge_text": true,
-            "button_label_1": "Zum Halloween Special >",
-            "button_url_1": "shopify://collections/halloween",
-            "button_label_2": "Zum Shop >",
+            "button_label_1": "Zum Shop >",
+            "button_url_1": "shopify://collections/shop-all",
+            "button_label_2": "Mehr zur Aktion >",
             "button_url_2": "shopify://collections/shop-all",
             "text_alignment": "bottom left"
           }
