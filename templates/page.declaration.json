@@ -9,14 +9,35 @@
  */
 {
   "sections": {
+    "1761950316c78fe9ee": {
+      "type": "apps",
+      "blocks": {
+        "pandectes_gdpr_declaration_U4c9XV": {
+          "type": "shopify://apps/pandectes-gdpr/blocks/declaration/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
+          "settings": {
+            "container_classes": "page-width page-width--narrow"
+          }
+        }
+      },
+      "block_order": [
+        "pandectes_gdpr_declaration_U4c9XV"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "show_page_title": true,
         "full_width": false
       }
     }
   },
   "order": [
+    "1761950316c78fe9ee",
     "main"
   ]
 }
