@@ -59,8 +59,8 @@
         "image_hafHwB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-clean.png",
-            "mobile_image": "shopify://shop_images/oldskull-autumn-drop1-2025-teaser-banner-clean-mobile.png",
+            "image": "shopify://shop_images/oldskull-drop-12-november-paco-flaco-teaser-banner.jpg",
+            "mobile_image": "shopify://shop_images/oldskull-drop-12-november-paco-flaco-teaser-banner-mobile.jpg",
             "slide_link": "shopify://collections/oldskull-drop",
             "subheading": "",
             "title": "AUTUMN DROP",
@@ -68,12 +68,12 @@
             "title_size": 84,
             "title_size_mobile": 46,
             "use_h1": false,
-            "text": "<p>PART I | AW25</p>",
+            "text": "<p>PART III | AW25</p><p>Die Tage werden kürzer und kälter. Zeit für neue Sweatshirts, Hoodies und Zipper. Decke dich jetzt bei Oldskull für den Winter ein!</p>",
             "enlarge_text": true,
-            "button_label_1": "Zum Drop >",
+            "button_label_1": "Direkt zum Drop >",
             "button_url_1": "shopify://collections/oldskull-drop",
-            "button_label_2": "Mehr Infos >",
-            "button_url_2": "shopify://pages/autumn-drop-1",
+            "button_label_2": "",
+            "button_url_2": "",
             "text_alignment": "bottom center"
           }
         },
