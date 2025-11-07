@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/deal-of-the-year\" title=\"Unser Deal des Jahres!\"><strong>UNSER DEAL DES JAHRES: 25% UND MEHR AUF ALLES, DAZU DEIN GRATIS T-SHIRT AB 159€</strong></a>",
             "show_countdown": true,
@@ -32,7 +33,6 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
             "show_countdown": false,
