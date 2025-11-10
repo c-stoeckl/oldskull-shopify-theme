@@ -14,23 +14,22 @@
       "blocks": {
         "image_PpAMWH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner-mobile.png",
+            "image": "shopify://shop_images/oldskull-singles-day-25-3for2-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-singles-day-25-3for2-teaser-banner-mobile.jpg",
             "slide_link": "",
             "subheading": "",
-            "title": "OLDSKULL VIP SALE",
+            "title": "SINGLES DAY OFFER",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p>Wir starten mit unserem <strong>Deal des Jahres</strong> in den Black November!<br/><strong>Spare mindestens 25%</strong> und wähle <strong>ab 159 € ein T-Shirt aus unserer Oldskull Gifts Kategorie als Geschenk</strong>* dazu.</p>",
+            "text": "<p>Wir starten mit dem <strong>Singles Day</strong> in unsere <strong>Black Weeks</strong>!<br/>Nur für kurze Zeit erhältst du <strong>3 Artikel zum Preis von 2</strong>. Lege 3 beliebige Artikel in deinen Warenkorb - der günstigste kommt als Geschenk*</p>",
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "Mehr zur Aktion >",
-            "button_url_2": "shopify://pages/deal-of-the-year",
+            "button_label_2": "",
+            "button_url_2": "",
             "text_alignment": "bottom left"
           }
         },
