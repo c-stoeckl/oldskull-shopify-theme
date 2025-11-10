@@ -16,7 +16,6 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>SINGLES DAY OFFER: 3 ARTIKEL KAUFEN NUR 2 BEZAHLEN</strong></a>",
             "show_countdown": true,
