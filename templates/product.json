@@ -87,8 +87,8 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>SINGLES DAY OFFER: 3 ARTIKEL KAUFEN NUR 2 BEZAHLEN</strong></a></p>",
-            "icon": "dollar_sign",
+            "richtext": "<p><a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a></p>",
+            "icon": "shirt",
             "icon_size": "large",
             "enable_box": true,
             "box_color": "#c40000",
