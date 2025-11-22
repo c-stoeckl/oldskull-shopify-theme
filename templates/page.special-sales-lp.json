@@ -30,14 +30,14 @@
         "heading_DkcFpy": {
           "type": "heading",
           "settings": {
-            "title": "🎁 UNSER DEAL DES JAHRES 🎁",
+            "title": "🎁 OLDSKULL BLACK WEEK DEALS 🎁",
             "use_h1": false
           }
         },
         "text_NnECCg": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Black November is here!</strong></p>",
+            "text": "<p><strong>Black Week is here!</strong></p>",
             "enlarge_text": true
           }
         }
@@ -59,15 +59,15 @@
         "heading_9JUdGp": {
           "type": "heading",
           "settings": {
-            "title": "🎯 So funktioniert's",
+            "title": "🎯 Jetzt läuft die heftigste Aktion des Jahres",
             "use_h1": false
           }
         },
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<p>Spare <strong>25% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 159€ eines unserer T-Shirts</strong> aus der <a href=\"/collections/oldskull-gifts\" title=\"Oldskull Gifts\"><strong>Oldskull Gifts Kategorie</strong></a> auswählen. Lege dazu Artikel im Wert von 159€ in deinen Warenkorb und suche dir dann in dieser Kategorie deinen Wunschartikel dazu aus. Der Preis für das günstigste T-Shirt aus dieser Kollektion wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
-            "enlarge_text": true
+            "text": "<ul><li><strong>25% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 149€<br/>oder</strong></li><li><strong>Gratis Premium Sweat Artikel ab 199€</strong></li></ul><p>Spare <strong>25% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 149€ eines unserer T-Shirts</strong> aus der <a href=\"/collections/oldskull-gifts\" title=\"Oldskull Gifts\"><strong>Oldskull Gifts Kategorie</strong></a> auswählen. Lege dazu Artikel im Wert von 149€ in deinen Warenkorb und suche dir dann in dieser Kategorie deinen Wunschartikel dazu aus. Der Preis für das günstigste T-Shirt aus dieser Kollektion wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
+            "enlarge_text": false
           }
         },
         "button_7PhLWr": {
@@ -95,7 +95,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser.jpg",
+        "image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts.png",
         "image_width": 500,
         "image_link": "shopify://collections/shop-all",
         "image_position": "left",
