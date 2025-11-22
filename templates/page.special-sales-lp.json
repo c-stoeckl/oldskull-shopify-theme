@@ -245,8 +245,8 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "title": "Shoppe unsere Topseller",
-        "collection": "hot-selling-products",
+        "title": "Unsere Gratis T-Shirts ab 149€",
+        "collection": "gifts-from-149",
         "show_vendor": false,
         "enable_carousel": true,
         "grid": 4,
@@ -260,8 +260,8 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "title": "Entdecke unsere New Arrivals",
-        "collection": "new-arrivals",
+        "title": "Unsere Gratis Sweat Artikel ab 199€",
+        "collection": "gifts-from-199",
         "show_vendor": false,
         "enable_carousel": true,
         "grid": 4,
