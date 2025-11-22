@@ -14,23 +14,22 @@
       "blocks": {
         "image_PpAMWH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/oldskull-singles-day-25-3for2-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-singles-day-25-3for2-teaser-banner-mobile.jpg",
+            "image": "shopify://shop_images/oldskull-black-week-25-clean-teaser-banner.jpg",
+            "mobile_image": "shopify://shop_images/oldskull-black-week-25-clean-teaser-banner-mobile.jpg",
             "slide_link": "",
-            "subheading": "SINGLES DAY OFFER",
-            "title": "3-FOR-2 OVERTIME",
+            "subheading": "",
+            "title": "BLACK WEEK DEALS",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p>Wir starten mit dem <strong>Singles Day</strong> in unsere <strong>Black Weeks</strong>!<br/>Nur für kurze Zeit erhältst du <strong>3 Artikel zum Preis von 2</strong>. Lege 3 beliebige Artikel in deinen Warenkorb - der günstigste kommt als Geschenk*</p>",
+            "text": "<p><strong>Spare 25% und mehr auf alle Artikel!</strong> Wähle zusätzlich <strong>ab 149€ einen Gratis Artikel</strong>* aus unserer Oldskull Gifts Kategorie</p>",
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "",
-            "button_url_2": "",
+            "button_label_2": "Zu den Gratis Artikeln >",
+            "button_url_2": "shopify://collections/oldskull-gifts",
             "text_alignment": "bottom left"
           }
         },
@@ -58,6 +57,7 @@
         },
         "image_hafHwB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/oldskull-drop-12-november-paco-flaco-teaser-banner.jpg",
             "mobile_image": "shopify://shop_images/oldskull-drop-12-november-paco-flaco-teaser-banner-mobile.jpg",
@@ -123,6 +123,7 @@
         },
         "image_ER4WXB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1900x900_c2114a37-239a-4c2b-82da-de21b0c93fe9.jpg",
             "mobile_image": "shopify://shop_images/category_prints_tshirt_one_dollar_smile_1080x1350_266a0196-b208-4fb4-b6b4-4c12dd7226e2.jpg",
