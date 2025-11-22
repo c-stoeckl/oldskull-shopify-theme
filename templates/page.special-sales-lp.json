@@ -12,8 +12,8 @@
     "image_with_text_overlay_ETqpw3": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-closed-shop-VIP-Sale-2025-teaser-banner-mobile.png",
+        "image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main.png",
+        "mobile_image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main-mobile.png",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
@@ -100,7 +100,7 @@
         "image_link": "shopify://collections/shop-all",
         "image_position": "left",
         "text_alignment": "center",
-        "color_scheme": "default"
+        "color_scheme": "1"
       }
     },
     "image_with_text_ezi4cF": {
