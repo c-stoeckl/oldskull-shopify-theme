@@ -15,13 +15,13 @@
         "subheading_VnLReJ": {
           "type": "subheading",
           "settings": {
-            "subheading": "OLDSKULL VIP SALE"
+            "subheading": "Black Week Deals"
           }
         },
         "text_yyckKH": {
           "type": "text",
           "settings": {
-            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 50%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 159€</strong> dein <strong>Gratis T-Shirt </strong>aus unserer Oldskull Gifts Kategorie. Die Geschenkeartikel sind mit <strong>„Free from 159€”</strong> markiert. Du kannst auch einfach <a href=\"/collections/oldskull-gifts\" title=\"Oldskull Gifts\"><strong>hier klicken</strong></a></p>",
+            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 60%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 149€</strong> dein <strong>Gratis T-Shirt<br/></strong>oder<br/>🎁 <strong>ab 199€</strong> dein <strong>Gratis Sweat Artikel </strong>aus unserer Oldskull Gifts Kategorie. Die Geschenkeartikel sind mit <strong>„Free from 149€” und „Free from 199€”</strong> markiert.</p>",
             "enlarge_text": false
           }
         }
@@ -30,7 +30,6 @@
         "subheading_VnLReJ",
         "text_yyckKH"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
         ".lightly-spaced-row {font-size: 12px;}"
