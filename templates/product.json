@@ -87,8 +87,8 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a></p>",
-            "icon": "shirt",
+            "richtext": "<p><a href=\"/pages/black-week\" title=\"Black Week\"><strong>BLACK WEEK DEALS: SPARE 25% UND MEHR AUF ALLES UND WÄHLE DEINEN GRATIS ARTIKEL AB 149€</strong></a></p>",
+            "icon": "dollar_sign",
             "icon_size": "large",
             "enable_box": true,
             "box_color": "#c40000",

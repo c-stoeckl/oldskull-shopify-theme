@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
+        "announcement_text": "<a href=\"/pages/black-week\" title=\"Black Week\"><strong>BLACK WEEK DEALS: SPARE 25% UND MEHR AUF ALLES UND WÄHLE DEINEN GRATIS ARTIKEL AB 149€</strong></a>",
         "announcement_icon": "dollar_sign",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,
