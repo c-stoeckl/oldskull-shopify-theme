@@ -11,6 +11,7 @@
   "sections": {
     "image_with_text_overlay_ETqpw3": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main.png",
         "mobile_image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main-mobile.png",
