@@ -11,10 +11,9 @@
   "sections": {
     "4062590b-8a4b-4bf1-a5cc-525eb3d0f86c": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner.png",
-        "mobile_image": "shopify://shop_images/oldskull-Halloween-Special-2025-teaser-banner-mobile.png",
+        "image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main.png",
+        "mobile_image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main-mobile.png",
         "height": "adapt",
         "height_desktop": 560,
         "height_mobile": 320,
@@ -31,13 +30,13 @@
         "subheading_czPQhx": {
           "type": "subheading",
           "settings": {
-            "subheading": "OLDSKULL VIP SALE"
+            "subheading": "BLACK WEEK DEALS"
           }
         },
         "text_C9LXqM": {
           "type": "text",
           "settings": {
-            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 50%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 159€</strong> dein <strong>Gratis T-Shirt </strong>aus unserer Oldskull Gifts Kategorie. Die Geschenkeartikel sind mit <strong>„Free from 159€”</strong> markiert.</p>",
+            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 60%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 149€</strong> dein <strong>Gratis T-Shirt<br/></strong>oder<br/>🎁 <strong>ab 199€</strong> dein <strong>Gratis Sweat Artikel </strong>aus unserer Oldskull Gifts Kategorie. Die Geschenkeartikel sind mit <strong>„Free from 149€” und „Free from 199€”</strong> markiert.</p>",
             "enlarge_text": false
           }
         }
@@ -46,7 +45,6 @@
         "subheading_czPQhx",
         "text_C9LXqM"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
         ".lightly-spaced-row {font-size: 12px;}"
