@@ -15,13 +15,13 @@
         "subheading_W73kbn": {
           "type": "subheading",
           "settings": {
-            "subheading": "Celebrate good times!"
+            "subheading": "Black Week Deals"
           }
         },
         "text_JarzAX": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>BIRTHDAY SPECIAL:</strong> Shoppen und <strong>20–50 % bei fast allen Artikeln im Shop sparen</strong>. Ab einem Einkaufswert von <strong>149€</strong> kannst du dir zusätzlich eines unserer <strong>Geburtstagsgeschenke </strong>aussuchen und deiner Bestellung hinzufügen*. Die Geschenkeartikel sind mit <strong>„Free from 149€”</strong> markiert. Du kannst auch einfach danach filtern oder <a href=\"/collections/shop-all?filter.v.availability=1&filter.p.m.products.gift=Free%20from%20149%E2%82%AC&sort_by=manual\" title=\"/collections/shop-all?filter.v.availability=1&filter.p.m.products.gift=Free%20from%20149%E2%82%AC&sort_by=manual\"><strong>hier klicken</strong></a></p>",
+            "text": "<p>🔥 <strong>Spare mindestens 25% auf alles</strong> - keine Ausnahmen<br/>⚡ <strong>Bis zu 60%</strong> - auf ausgewählte Styles<br/>🎁 Wähle <strong>ab 149€</strong> dein <strong>Gratis T-Shirt<br/></strong>oder<br/>🎁 <strong>ab 199€</strong> dein <strong>Gratis Sweat Artikel </strong>aus unserer Oldskull Gifts Kategorie. Die Geschenkeartikel sind mit <strong>„Free from 149€” und „Free from 199€”</strong> markiert.</p>",
             "enlarge_text": false
           }
         }
@@ -30,7 +30,6 @@
         "subheading_W73kbn",
         "text_JarzAX"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
         ".lightly-spaced-row {font-size: 12px;}"
