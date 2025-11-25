@@ -35,24 +35,23 @@
         },
         "image_nWJaxP": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/oldskull_drop11_2025_japan_food_banner.png",
-            "mobile_image": "shopify://shop_images/oldskull_drop11_2025_japan_food_banner_mobile.png",
+            "image": "shopify://shop_images/oldskull-black-week-25-drop-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-black-week-25-drop-teaser-banner-mobile.jpg",
             "slide_link": "shopify://collections/oldskull-drop",
             "subheading": "",
-            "title": "AUTUMN DROP",
+            "title": "BLACK WEEK DROP",
             "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 46,
             "use_h1": false,
-            "text": "<p>PART II | AW25</p>",
+            "text": "<p>Wir lassen uns nicht lumpen und bringen dir auch zur Black Week <strong>7 neue Prints</strong>. Schlage jetzt zu und profitiere auch bei den neuen Teilen von unserer <strong>Black Week Aktion mit 25% Rabatt</strong>!</p>",
             "enlarge_text": true,
             "button_label_1": "Zum Drop >",
             "button_url_1": "shopify://collections/oldskull-drop",
             "button_label_2": "",
             "button_url_2": "",
-            "text_alignment": "top left"
+            "text_alignment": "bottom left"
           }
         },
         "image_hafHwB": {
