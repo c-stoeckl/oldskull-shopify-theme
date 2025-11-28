@@ -31,14 +31,14 @@
         "heading_DkcFpy": {
           "type": "heading",
           "settings": {
-            "title": "🎁 OLDSKULL BLACK WEEK DEALS 🎁",
+            "title": "🎁 OLDSKULL BLACK FRIDAY DEALS 🎁",
             "use_h1": false
           }
         },
         "text_NnECCg": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Black Week is here!</strong></p>",
+            "text": "<p><strong>Black Friday is here!</strong></p>",
             "enlarge_text": true
           }
         }
@@ -67,7 +67,7 @@
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>25% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 149€<br/>oder</strong></li><li><strong>Gratis Premium Sweat Artikel ab 199€</strong></li></ul><p>Spare <strong>25% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 149€ eines unserer T-Shirts</strong> aus der <a href=\"/collections/oldskull-gifts\" title=\"Oldskull Gifts\"><strong>Oldskull Gifts Kategorie</strong></a> auswählen. Lege dazu Artikel im Wert von 149€ in deinen Warenkorb und suche dir dann in dieser Kategorie deinen Wunschartikel dazu aus. Der Preis für das günstigste T-Shirt aus dieser Kollektion wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p><p><strong>Ab 199€ hast du sogar die Qual der Wahl</strong>: du kannst dir statt dem T-Shirt auch einen unserer <strong>Hoodies oder Sweatshirts als Geschenk</strong> auswählen!</p>",
+            "text": "<ul><li><strong>30% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>die schnellsten erhalten ab 99€ eine Gratis Tasse, solange der Vorrat reicht!</strong></li><li><strong>Gratis T-Shirt ab 149€<br/>oder</strong></li><li><strong>Gratis Premium Sweat Artikel ab 199€</strong></li></ul><p>Spare <strong>30% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 149€ eines unserer T-Shirts</strong> aus der <a href=\"/collections/oldskull-gifts\" title=\"Oldskull Gifts\"><strong>Oldskull Gifts Kategorie</strong></a> auswählen. Lege dazu Artikel im Wert von 149€ in deinen Warenkorb und suche dir dann in dieser Kategorie deinen Wunschartikel dazu aus. Der Preis für das günstigste T-Shirt aus dieser Kollektion wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p><p><strong>Ab 199€ hast du sogar die Qual der Wahl</strong>: du kannst dir statt dem T-Shirt auch einen unserer <strong>Hoodies oder Sweatshirts als Geschenk</strong> auswählen!</p>",
             "enlarge_text": false
           }
         },
@@ -96,7 +96,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts.png",
+        "image": "shopify://shop_images/Black_Week_2025-36.png",
         "image_width": 500,
         "image_link": "shopify://collections/shop-all",
         "image_position": "left",
