@@ -18,9 +18,9 @@
           "type": "announcement",
           "settings": {
             "text": "<a href=\"/pages/black-week\" title=\"Black Week\"><strong>BLACK FRIDAY: SPARE 30% UND MEHR AUF ALLES UND WÄHLE DEINEN GRATIS ARTIKEL AB 149€</strong></a>",
-            "show_countdown": false,
+            "show_countdown": true,
             "hide_on_end": false,
-            "end_date": "2025-11-17",
+            "end_date": "2025-12-02",
             "end_time": "00:00",
             "number_font": "base",
             "countdown_separator": "box",
