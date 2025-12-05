@@ -14,24 +14,23 @@
       "blocks": {
         "image_PpAMWH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Black_Week_Peak_Image_2.jpg",
-            "mobile_image": "shopify://shop_images/Black_Week_Peak_Image_1.jpg",
+            "image": "shopify://shop_images/oldskull-xmas-2025-20-extra-teaser-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-xmas-2025-20-extra-teaser-banner-mobile.png",
             "slide_link": "",
             "subheading": "",
-            "title": "BLACK FRIDAY",
+            "title": "X-MAS SPECIAL",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p><strong>Spare 30% und mehr auf alle Artikel!</strong> Wähle zusätzlich <strong>ab 149€ einen Gratis Artikel</strong>* aus unserer Oldskull Gifts Kategorie. <strong>Sei einer der ersten und staube ab 99€ eine Gratis Tasse ab (so lange der Vorrat reicht)!</strong></p>",
+            "text": "<p><strong>Spare 20% und mehr auf alle Artikel</strong>, die du bei uns findest! Ab einem Bestellwert von <strong>99€</strong> erhältst du <strong>zusätzlich 20% Extra-Rabatt</strong></p>",
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
             "button_label_2": "Zu den Gratis Artikeln >",
             "button_url_2": "shopify://collections/oldskull-gifts",
-            "text_alignment": "bottom left"
+            "text_alignment": "top center"
           }
         },
         "image_nWJaxP": {

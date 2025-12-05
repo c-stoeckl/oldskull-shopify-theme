@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "<a href=\"/pages/black-week\" title=\"Black Week\"><strong>BLACK FRIDAY: SPARE 30% UND MEHR AUF ALLES UND WÄHLE DEINEN GRATIS ARTIKEL AB 149€</strong></a>",
+        "announcement_text": "<strong>XMAS SPECIAL: 20% UND MEHR</strong> AUF ALLE ARTIKEL! <strong>AB 99€ 20% EXTRA-RABATT</strong>",
         "announcement_icon": "dollar_sign",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,

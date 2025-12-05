@@ -18,7 +18,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "<a href=\"/pages/black-week\" title=\"Black Week\"><strong>BLACK FRIDAY: SPARE 30% UND MEHR AUF ALLES UND WÄHLE DEINEN GRATIS ARTIKEL AB 149€</strong></a>",
+            "text": "<strong>XMAS SPECIAL: 20% UND MEHR</strong> AUF ALLE ARTIKEL! <strong>AB 99€ 20% EXTRA-RABATT</strong>",
             "show_countdown": true,
             "hide_on_end": false,
             "end_date": "2025-12-02",
