@@ -28,8 +28,8 @@
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "Zu den Gratis Artikeln >",
-            "button_url_2": "shopify://collections/oldskull-gifts",
+            "button_label_2": "Zu unseren Bestsellern >",
+            "button_url_2": "shopify://collections/hot-selling-products",
             "text_alignment": "top center"
           }
         },
