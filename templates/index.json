@@ -57,6 +57,7 @@
         },
         "image_hafHwB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/oldskull-drop-12-november-paco-flaco-teaser-banner.jpg",
             "mobile_image": "shopify://shop_images/oldskull-drop-12-november-paco-flaco-teaser-banner-mobile.jpg",
