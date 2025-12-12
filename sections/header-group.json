@@ -67,6 +67,7 @@
         },
         "announcement_KWybDz": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER</strong> UND ERHALTE EINEN <strong>10% RABATTCODE</strong></a>",
             "show_countdown": false,
