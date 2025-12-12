@@ -16,7 +16,6 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<strong>XMAS SPECIAL: 20% UND MEHR</strong> AUF ALLE ARTIKEL! <strong>AB 99€ 20% EXTRA-RABATT</strong>",
             "show_countdown": true,
