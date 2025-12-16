@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<strong>XMAS SPECIAL: 20% UND MEHR</strong> AUF ALLE ARTIKEL! <strong>AB 99€ 20% EXTRA-RABATT</strong>",
             "show_countdown": true,
@@ -32,9 +33,8 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
+            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL X-MAS BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
             "end_date": "2025-08-04",

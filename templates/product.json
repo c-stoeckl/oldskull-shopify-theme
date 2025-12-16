@@ -87,8 +87,8 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><strong>XMAS SPECIAL: 20% UND MEHR</strong> AUF ALLE ARTIKEL! <strong>AB 99€ 20% EXTRA-RABATT</strong></p>",
-            "icon": "dollar_sign",
+            "richtext": "<p><a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL X-MAS BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a></p>",
+            "icon": "shirt",
             "icon_size": "large",
             "enable_box": true,
             "box_color": "#c40000",
