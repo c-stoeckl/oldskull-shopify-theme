@@ -34,7 +34,7 @@
         "announcement_Jgan7f": {
           "type": "announcement",
           "settings": {
-            "text": "<a href=\"/pages/bundle-offers\" title=\"Bundle Offers\"><strong>OLDSKULL X-MAS BUNDLE</strong>: ERHALTE EIN <strong>GRATIS T-SHIRT</strong> FÜR DEINE BESTELLUNG <strong>AB 119€</strong></a>",
+            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>END OF YEAR SALE: 25% UND MEHR AUF ALLES + GRATIS T-SHIRT AB 149€</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
             "end_date": "2025-08-04",
