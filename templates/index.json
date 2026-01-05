@@ -15,21 +15,21 @@
         "image_PpAMWH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-end-of-year-25-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-end-of-year-25-teaser-banner-mobile.png",
+            "image": "shopify://shop_images/Black_Week_Peak_Image_2.jpg",
+            "mobile_image": "shopify://shop_images/Black_Week_Peak_Image_1.jpg",
             "slide_link": "",
             "subheading": "",
-            "title": "END OF YEAR SALE",
+            "title": "NEW YEAR 3-FOR-2 SPECIAL",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p><strong>Goodbye 2025! Spare 25% und mehr auf alle Artikel</strong>, die du bei uns findest! Suche dir ab einem Bestellwert von <strong>149€</strong> <strong>zusätzlich eins unserer T-Shirts aus dem Outlet als Geschenk* aus</strong></p>",
+            "text": "<p>Hello 2026! Shoppe jetzt zum Start ins neue Jahr <strong>3 Artikel und zahle nur 2</strong>! Richtig gelesen: Wir haben wieder deine geliebte <strong>3-FOR-2 Aktion auf das gesamte Sortiment</strong> am Start</p>",
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "Zum Outlet >",
-            "button_url_2": "shopify://collections/outlet",
+            "button_label_2": "",
+            "button_url_2": "",
             "text_alignment": "top center"
           }
         },

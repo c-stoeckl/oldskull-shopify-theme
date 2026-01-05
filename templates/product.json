@@ -87,7 +87,7 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>END OF YEAR SALE: 25% UND MEHR AUF ALLES + GRATIS T-SHIRT AB 149€</strong></a></p>",
+            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>NEW YEAR 3-FOR-2 SPECIAL: KAUFE 3 UND ZAHLE NUR 2*</strong></a></p>",
             "icon": "shirt",
             "icon_size": "large",
             "enable_box": true,
