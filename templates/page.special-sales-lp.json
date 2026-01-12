@@ -31,12 +31,13 @@
         "heading_DkcFpy": {
           "type": "heading",
           "settings": {
-            "title": "🎁 OLDSKULL BLACK FRIDAY DEALS 🎁",
+            "title": "🎁 WINTER SALE 🎁",
             "use_h1": false
           }
         },
         "text_NnECCg": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Black Friday is here!</strong></p>",
             "enlarge_text": true
@@ -51,7 +52,7 @@
         "height": "small",
         "text_alignment": "center",
         "full_width": true,
-        "color_scheme": "1"
+        "color_scheme": "default"
       }
     },
     "image_with_text_bcR8Cd": {
@@ -60,14 +61,14 @@
         "heading_9JUdGp": {
           "type": "heading",
           "settings": {
-            "title": "🎯 Jetzt läuft die heftigste Aktion des Jahres",
+            "title": "Frieren war gestern ☃️",
             "use_h1": false
           }
         },
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>30% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 149€<br/>oder</strong></li><li><strong>Gratis Premium Sweat Artikel ab 199€</strong></li></ul><p>Spare <strong>30% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 149€ eines unserer T-Shirts</strong> aus der <a href=\"/collections/oldskull-gifts\" title=\"Oldskull Gifts\"><strong>Oldskull Gifts Kategorie</strong></a> auswählen. Lege dazu Artikel im Wert von 149€ in deinen Warenkorb und suche dir dann in dieser Kategorie deinen Wunschartikel dazu aus. Der Preis für das günstigste T-Shirt aus dieser Kollektion wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p><p><strong>Ab 199€ hast du sogar die Qual der Wahl</strong>: du kannst dir statt dem T-Shirt auch einen unserer <strong>Hoodies oder Sweatshirts als Geschenk</strong> auswählen!</p>",
+            "text": "<ul><li><strong>20, 35 und 50% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 129€</strong></li></ul><p>Spare <strong>20% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 129€ eines unserer T-Shirts</strong> aus dem gesamten Sortiment auswählen. Lege dazu Artikel im Wert von 129€ + 1 T-Shirt deiner Wahl in deinen Warenkorb. Der Preis für das günstigste T-Shirt wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
             "enlarge_text": false
           }
         },
@@ -76,11 +77,12 @@
           "settings": {
             "button_label": "Zum Shop >",
             "button_link": "shopify://collections/shop-all",
-            "button_style": "primary"
+            "button_style": "secondary"
           }
         },
         "button_YDU9cG": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Zu den Oldskull Gifts >",
             "button_link": "shopify://collections/oldskull-gifts",
@@ -96,12 +98,12 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/Black_Week_2025-36.png",
+        "image": "shopify://shop_images/oldskull-winter-sale-26-start-banner-mobile.jpg",
         "image_width": 500,
         "image_link": "shopify://collections/shop-all",
         "image_position": "left",
         "text_alignment": "center",
-        "color_scheme": "1"
+        "color_scheme": "default"
       }
     },
     "image_with_text_ezi4cF": {
@@ -239,11 +241,12 @@
         "height": "small",
         "text_alignment": "center",
         "full_width": true,
-        "color_scheme": "1"
+        "color_scheme": "default"
       }
     },
     "featured_collection_aTj8yW": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "title": "Unsere Gratis Sweat Artikel ab 199€",
@@ -259,6 +262,7 @@
     },
     "featured_collection_Lzp994": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "title": "Unsere Gratis T-Shirts ab 149€",

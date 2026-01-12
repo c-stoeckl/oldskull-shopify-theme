@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>NEW YEAR 3-FOR-2 SPECIAL: KAUFE 3 UND ZAHLE NUR 2*</strong></a>",
             "show_countdown": true,
@@ -32,9 +33,8 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>END OF YEAR SALE: 25% UND MEHR AUF ALLES + GRATIS T-SHIRT AB 149€</strong></a>",
+            "text": "<a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 20% UND MEHR AUF ALLES + GRATIS T-SHIRT AB 129€</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
             "end_date": "2025-08-04",

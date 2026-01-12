@@ -15,13 +15,13 @@
         "subheading_VnLReJ": {
           "type": "subheading",
           "settings": {
-            "subheading": "NEW YEAR 3-FOR-2 SPECIAL"
+            "subheading": "WINTER SALE"
           }
         },
         "text_yyckKH": {
           "type": "text",
           "settings": {
-            "text": "<p>🔥 <strong>NEW YEAR 3-FOR-2 SPECIAL: KAUFE 3 UND ZAHLE NUR 2*</strong></p>",
+            "text": "<p>🔥 <a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>20% UND MEHR AUF ALLES + GRATIS T-SHIRT AB 129€</strong></a></p>",
             "enlarge_text": false
           }
         }
