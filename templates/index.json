@@ -134,7 +134,7 @@
             "subheading": "",
             "title": "20% OFF",
             "button_label": "",
-            "link": "",
+            "link": "shopify://collections/winter-sale-20-off",
             "text_alignment": "center center"
           }
         },
@@ -146,7 +146,7 @@
             "subheading": "",
             "title": "35% OFF",
             "button_label": "",
-            "link": "",
+            "link": "shopify://collections/winter-sale-35-off",
             "text_alignment": "center center"
           }
         },
@@ -158,7 +158,7 @@
             "subheading": "",
             "title": "50%+ OFF",
             "button_label": "",
-            "link": "",
+            "link": "shopify://collections/winter-sale-50-off",
             "text_alignment": "center center"
           }
         }
