@@ -119,6 +119,86 @@
         "accessibility_info": ""
       }
     },
+    "gallery_zpnqQc": {
+      "type": "gallery",
+      "blocks": {
+        "media_KXaMy3": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Winter_Sale_2026_categories.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "20% OFF",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "center center"
+          }
+        },
+        "media_VNdFQ4": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Winter_Sale_2026_categories.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "30% OFF",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "center center"
+          }
+        },
+        "media_UVxfqh": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Winter_Sale_2026_categories.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "40% OFF",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "center center"
+          }
+        },
+        "media_6ejnqV": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Winter_Sale_2026_categories.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "50%+ OFF",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "media_KXaMy3",
+        "media_VNdFQ4",
+        "media_UVxfqh",
+        "media_6ejnqV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".text-overlay__text {color: #c40000;}"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "2",
+        "height": "fixed",
+        "desktop_image_height": 340,
+        "mobile_image_height": 170,
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "enable_margin": false,
+        "enable_row_spacing": false,
+        "full_width": true,
+        "color_scheme": "default",
+        "enable_carousel": false,
+        "overlay_style": "no_background",
+        "button_style": "link"
+      }
+    },
     "countdown_timer_qcJAMQ": {
       "type": "countdown-timer",
       "blocks": {
@@ -427,6 +507,7 @@
   },
   "order": [
     "16359276425da8ce46",
+    "gallery_zpnqQc",
     "countdown_timer_qcJAMQ",
     "featured_collection_xprFgE",
     "16359278676808bea5",
