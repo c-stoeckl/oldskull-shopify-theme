@@ -244,34 +244,47 @@
         "color_scheme": "default"
       }
     },
-    "featured_collection_aTj8yW": {
+    "featured_collection_9dJ6iC": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
-        "title": "Unsere Gratis Sweat Artikel ab 199€",
-        "collection": "gifts-from-199",
+        "title": "50+% REDUZIERT",
+        "collection": "winter-sale-50-off",
         "show_vendor": false,
         "enable_carousel": true,
         "grid": 4,
         "rows": 2,
-        "color_scheme": "1",
+        "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
       }
     },
     "featured_collection_Lzp994": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "Featured collection",
       "settings": {
-        "title": "Unsere Gratis T-Shirts ab 149€",
-        "collection": "gifts-from-149",
+        "title": "35% REDUZIERT",
+        "collection": "winter-sale-35-off",
         "show_vendor": false,
         "enable_carousel": true,
         "grid": 4,
         "rows": 2,
-        "color_scheme": "1",
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_aTj8yW": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "20% REDUZIERT",
+        "collection": "winter-sale-20-off",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
       }
@@ -292,8 +305,9 @@
     "image_with_text_ezi4cF",
     "image_with_text_MGEkbb",
     "rich_text_iLiKjt",
-    "featured_collection_aTj8yW",
+    "featured_collection_9dJ6iC",
     "featured_collection_Lzp994",
+    "featured_collection_aTj8yW",
     "main"
   ]
 }
