@@ -14,22 +14,23 @@
       "blocks": {
         "image_PpAMWH": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Welcome_2026_4.png",
-            "mobile_image": "shopify://shop_images/Welcome_2026_3.jpg",
+            "image": "shopify://shop_images/oldskull-winter-sale-26-start-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-winter-sale-26-start-banner-mobile.jpg",
             "slide_link": "",
             "subheading": "",
-            "title": "NEW YEAR 3-FOR-2 SPECIAL",
+            "title": "WINTER SALE",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p>Hello 2026! Shoppe jetzt zum Start ins neue Jahr <strong>3 Artikel und zahle nur 2</strong>! Richtig gelesen: Wir haben wieder deine geliebte <strong>3-FOR-2 Aktion auf das gesamte Sortiment</strong> am Start</p>",
+            "text": "<p>Spare jetzt in 3 Kategorien 20, 35 oder 50% auf unsere Artikel. Für einen Einkauf ab 129€ bekommst du ein T-Shirt deiner Wahl gratis*</p>",
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "",
-            "button_url_2": "",
+            "button_label_2": "Mehr zur Aktion >",
+            "button_url_2": "shopify://pages/winter-sale",
             "text_alignment": "bottom center"
           }
         },
@@ -105,13 +106,16 @@
         "image_hafHwB",
         "image_ER4WXB"
       ],
+      "custom_css": [
+        ".text-overlay__text {color: #c40000;}"
+      ],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "shadow",
+        "overlay_style": "no_background",
         "transition": "zoom-fade",
         "navigation": "arrows",
         "autoplay": true,
@@ -171,7 +175,7 @@
       "name": "Gallery",
       "settings": {
         "grid_desktop": 3,
-        "grid_mobile": "3",
+        "grid_mobile": "1",
         "height": "fixed",
         "desktop_image_height": 340,
         "mobile_image_height": 170,
