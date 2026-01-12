@@ -140,19 +140,7 @@
             "image": "shopify://shop_images/Winter_Sale_2026_categories.jpg",
             "enlarge_media": true,
             "subheading": "",
-            "title": "30% OFF",
-            "button_label": "",
-            "link": "",
-            "text_alignment": "center center"
-          }
-        },
-        "media_UVxfqh": {
-          "type": "media",
-          "settings": {
-            "image": "shopify://shop_images/Winter_Sale_2026_categories.jpg",
-            "enlarge_media": true,
-            "subheading": "",
-            "title": "40% OFF",
+            "title": "35% OFF",
             "button_label": "",
             "link": "",
             "text_alignment": "center center"
@@ -174,7 +162,6 @@
       "block_order": [
         "media_KXaMy3",
         "media_VNdFQ4",
-        "media_UVxfqh",
         "media_6ejnqV"
       ],
       "disabled": true,
@@ -183,7 +170,7 @@
       ],
       "name": "Gallery",
       "settings": {
-        "grid_desktop": 2,
+        "grid_desktop": 3,
         "grid_mobile": "2",
         "height": "fixed",
         "desktop_image_height": 340,
