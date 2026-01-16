@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "<a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 20-60% AUF ALLES + GRATIS T-SHIRT AB 129€</strong></a>",
+        "announcement_text": "<a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 20-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a>",
         "announcement_icon": "dollar_sign",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,
