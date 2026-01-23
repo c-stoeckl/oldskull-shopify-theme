@@ -24,7 +24,7 @@
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p>Spare jetzt in 3 Kategorien <strong>20, 35 oder 50%</strong> auf unsere Artikel. Für einen Einkauf <strong>ab 119€</strong> bekommst du <strong>ein T-Shirt deiner Wahl gratis*</strong></p>",
+            "text": "<p>Spare jetzt in 3 Kategorien <strong>25, 35 oder 50%</strong> auf unsere Artikel. Für einen Einkauf <strong>ab 119€</strong> bekommst du <strong>ein T-Shirt deiner Wahl gratis*</strong></p>",
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
@@ -132,7 +132,7 @@
             "image": "shopify://shop_images/Winter_Sale_2026_categories.jpg",
             "enlarge_media": true,
             "subheading": "",
-            "title": "20% OFF",
+            "title": "25% OFF",
             "button_label": "",
             "link": "shopify://collections/winter-sale-20-off",
             "text_alignment": "center center"
