@@ -68,7 +68,7 @@
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>20, 35 und 50% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 119€</strong></li></ul><p>Spare <strong>20% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 119€ eines unserer T-Shirts</strong> aus dem gesamten Sortiment auswählen. Lege dazu Artikel im Wert von 119€ + 1 T-Shirt deiner Wahl in deinen Warenkorb. Der Preis für das günstigste T-Shirt wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
+            "text": "<ul><li><strong>25, 35 und 50% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 119€</strong></li></ul><p>Spare <strong>25% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 119€ eines unserer T-Shirts</strong> aus dem gesamten Sortiment auswählen. Lege dazu Artikel im Wert von 119€ + 1 T-Shirt deiner Wahl in deinen Warenkorb. Der Preis für das günstigste T-Shirt wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
             "enlarge_text": false
           }
         },
@@ -278,7 +278,7 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "title": "20% REDUZIERT",
+        "title": "25% REDUZIERT",
         "collection": "winter-sale-20-off",
         "show_vendor": false,
         "enable_carousel": true,
