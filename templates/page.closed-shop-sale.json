@@ -31,8 +31,8 @@
         "heading_DkcFpy": {
           "type": "heading",
           "settings": {
-            "title": "🎁 WINTER SALE 🎁",
-            "use_h1": false
+            "title": "OLDSKULL VIP SALE",
+            "use_h1": true
           }
         },
         "text_NnECCg": {
@@ -61,15 +61,15 @@
         "heading_9JUdGp": {
           "type": "heading",
           "settings": {
-            "title": "Frieren war gestern ☃️",
+            "title": "Hallo Oldskull Fan",
             "use_h1": false
           }
         },
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>25, 35 und 50% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 119€</strong></li></ul><p>Spare <strong>25% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 119€ eines unserer T-Shirts</strong> aus dem gesamten Sortiment auswählen. Lege dazu Artikel im Wert von 119€ + 1 T-Shirt deiner Wahl in deinen Warenkorb. Der Preis für das günstigste T-Shirt wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
-            "enlarge_text": false
+            "text": "<p>Die erste Hürde mit der Passworteingabe hast du geschafft. Nun haben wir ein ganz spezielles Angebot nur für dich:</p><p><strong>Spare heute als VIP 50% EXTRA auf jeden zweiten Artikel!</strong></p><p>Lege dazu <strong>beliebig viele Artikel</strong> in deinen Warenkorb. <strong>Jeder zweite Artikel wird automatisch um weitere 50% reduziert.</strong><br/>Deal?</p>",
+            "enlarge_text": true
           }
         },
         "button_7PhLWr": {
@@ -88,17 +88,26 @@
             "button_link": "shopify://collections/oldskull-gifts",
             "button_style": "primary"
           }
+        },
+        "image_4hmHig": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VIP-sale-0226-details.png",
+            "image_width": 450,
+            "url": ""
+          }
         }
       },
       "block_order": [
         "heading_9JUdGp",
         "text_wF7pNE",
         "button_7PhLWr",
-        "button_YDU9cG"
+        "button_YDU9cG",
+        "image_4hmHig"
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/oldskull-winter-sale-26-start-banner-mobile.jpg",
+        "image": "shopify://shop_images/VIP_Sale_2026_2.jpg",
         "image_width": 500,
         "image_link": "shopify://collections/shop-all",
         "image_position": "left",
@@ -165,56 +174,6 @@
         "color_scheme": "default"
       }
     },
-    "image_with_text_MGEkbb": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_KYcATc": {
-          "type": "heading",
-          "settings": {
-            "title": "🎯 Summer Outlet: Spare bis zu 50%",
-            "use_h1": false
-          }
-        },
-        "heading_xfnTQh": {
-          "type": "heading",
-          "settings": {
-            "title": "Restgrößen. Rare Pieces. Real Deals!",
-            "use_h1": false
-          }
-        },
-        "text_KiJUN4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die letzte Chance auf Pieces, die nicht wiederkommen. Ältere Drops, Sommer-Styles, limitierte Größen - nur solange der Vorrat reicht.</p>",
-            "enlarge_text": true
-          }
-        },
-        "button_Yr4bAY": {
-          "type": "button",
-          "settings": {
-            "button_label": "Letzte Teile sichern, bevor sie weg sind >",
-            "button_link": "shopify://collections/outlet",
-            "button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KYcATc",
-        "heading_xfnTQh",
-        "text_KiJUN4",
-        "button_Yr4bAY"
-      ],
-      "disabled": true,
-      "name": "Image with text",
-      "settings": {
-        "image": "shopify://shop_images/oldskull-Summer-Deals-25-outlet-banner.png",
-        "image_width": 500,
-        "image_link": "shopify://collections/shop-all",
-        "image_position": "left",
-        "text_alignment": "center",
-        "color_scheme": "default"
-      }
-    },
     "rich_text_iLiKjt": {
       "type": "rich-text",
       "blocks": {
@@ -248,8 +207,8 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "title": "50+% REDUZIERT",
-        "collection": "winter-sale-50-off",
+        "title": "Unsere Bestseller des Monats",
+        "collection": "hot-selling-products",
         "show_vendor": false,
         "enable_carousel": true,
         "grid": 4,
@@ -263,8 +222,8 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "title": "35% REDUZIERT",
-        "collection": "winter-sale-35-off",
+        "title": "Print T-Shirts",
+        "collection": "print-t-shirts",
         "show_vendor": false,
         "enable_carousel": true,
         "grid": 4,
@@ -278,8 +237,8 @@
       "type": "featured-collection",
       "name": "Featured collection",
       "settings": {
-        "title": "25% REDUZIERT",
-        "collection": "winter-sale-20-off",
+        "title": "Hoodies",
+        "collection": "hoodies",
         "show_vendor": false,
         "enable_carousel": true,
         "grid": 4,
@@ -303,7 +262,6 @@
     "rich_text_48ypKN",
     "image_with_text_bcR8Cd",
     "image_with_text_ezi4cF",
-    "image_with_text_MGEkbb",
     "rich_text_iLiKjt",
     "featured_collection_9dJ6iC",
     "featured_collection_Lzp994",

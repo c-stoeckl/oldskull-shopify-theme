@@ -478,7 +478,7 @@
     "prod_reduction_show": true,
     "prod_reduction_type": "percent",
     "prod_stock_warn_show": true,
-    "prod_stock_warn_limit_int": 3,
+    "prod_stock_warn_limit_int": 5,
     "prod_new_method": "tag",
     "prod_new_limit_int": 100,
     "prod_sale_show": true,
