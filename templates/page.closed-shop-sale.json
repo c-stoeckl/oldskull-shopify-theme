@@ -1,0 +1,313 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_ETqpw3": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main.png",
+        "mobile_image": "shopify://shop_images/oldskull-black-week-25-teaser-discounts-main-mobile.png",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "shopify://collections/shop-all",
+        "full_width": true,
+        "text_alignment": "bottom center",
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background"
+      }
+    },
+    "rich_text_48ypKN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DkcFpy": {
+          "type": "heading",
+          "settings": {
+            "title": "🎁 WINTER SALE 🎁",
+            "use_h1": false
+          }
+        },
+        "text_NnECCg": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Black Friday is here!</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DkcFpy",
+        "text_NnECCg"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_bcR8Cd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9JUdGp": {
+          "type": "heading",
+          "settings": {
+            "title": "Frieren war gestern ☃️",
+            "use_h1": false
+          }
+        },
+        "text_wF7pNE": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>25, 35 und 50% auf das gesamte Sortiment, auch auf New Arrivals und Bestseller</strong></li><li><strong>bis zu 60%</strong> auf ausgewählte Styles</li><li><strong>Gratis T-Shirt ab 119€</strong></li></ul><p>Spare <strong>25% und mehr auf alle Artikel im Shop</strong> - die Preise sind bereits komplett für dich reduziert. Es gibt also keine Überraschung an der Kasse.</p><p>Zusätzlich kannst du dir für deine Bestellung <strong>ab 119€ eines unserer T-Shirts</strong> aus dem gesamten Sortiment auswählen. Lege dazu Artikel im Wert von 119€ + 1 T-Shirt deiner Wahl in deinen Warenkorb. Der Preis für das günstigste T-Shirt wird dir dann automatisch abgezogen und ist unser Geschenk* an dich!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_7PhLWr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zum Shop >",
+            "button_link": "shopify://collections/shop-all",
+            "button_style": "secondary"
+          }
+        },
+        "button_YDU9cG": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Zu den Oldskull Gifts >",
+            "button_link": "shopify://collections/oldskull-gifts",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9JUdGp",
+        "text_wF7pNE",
+        "button_7PhLWr",
+        "button_YDU9cG"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-winter-sale-26-start-banner-mobile.jpg",
+        "image_width": 500,
+        "image_link": "shopify://collections/shop-all",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_ezi4cF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HgAzdb": {
+          "type": "heading",
+          "settings": {
+            "title": "🎯 Free Gift ab 119€ Einkaufswert",
+            "use_h1": false
+          }
+        },
+        "heading_EDx6k7": {
+          "type": "heading",
+          "settings": {
+            "title": "Mehr im Warenkorb - mehr im Paket!",
+            "use_h1": false
+          }
+        },
+        "text_7mDzV3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ab 119 € darfst du dir ein Extra T-Shirt aussuchen. <a href=\"/collections/shop-all/Free-gift-from-119%E2%82%AC\" title=\"/collections/shop-all/Free-gift-from-119%E2%82%AC\">Die teilnehmenden Artikel sind mit \"Gift from 119€\" markiert</a>.<br/>Und das Beste: Die Free Tee Gifts haben Zuwachs bekommen. Neue Designs. Same Deal.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_QXtYHV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt shoppen & Freebie sichern >",
+            "button_link": "shopify://collections/shop-all",
+            "button_style": "primary"
+          }
+        },
+        "button_9qViEV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zu den \"Gift from 119€\" Artikeln >",
+            "button_link": "/collections/shop-all/Free-gift-from-119%E2%82%AC",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HgAzdb",
+        "heading_EDx6k7",
+        "text_7mDzV3",
+        "button_QXtYHV",
+        "button_9qViEV"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-Summer-Deals-25-119-tshirt-bundle-banner.png",
+        "image_width": 500,
+        "image_link": "shopify://collections/shop-all",
+        "image_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_MGEkbb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KYcATc": {
+          "type": "heading",
+          "settings": {
+            "title": "🎯 Summer Outlet: Spare bis zu 50%",
+            "use_h1": false
+          }
+        },
+        "heading_xfnTQh": {
+          "type": "heading",
+          "settings": {
+            "title": "Restgrößen. Rare Pieces. Real Deals!",
+            "use_h1": false
+          }
+        },
+        "text_KiJUN4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die letzte Chance auf Pieces, die nicht wiederkommen. Ältere Drops, Sommer-Styles, limitierte Größen - nur solange der Vorrat reicht.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_Yr4bAY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Letzte Teile sichern, bevor sie weg sind >",
+            "button_link": "shopify://collections/outlet",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KYcATc",
+        "heading_xfnTQh",
+        "text_KiJUN4",
+        "button_Yr4bAY"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/oldskull-Summer-Deals-25-outlet-banner.png",
+        "image_width": 500,
+        "image_link": "shopify://collections/shop-all",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_iLiKjt": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cVYpNR": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Wichtiger Hinweis: Die einzelnen Stufen sind nicht miteinander kombinierbar, unser Shop wählt immer den besseren Deal für dich aus."
+          }
+        },
+        "text_cbPKXU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/hinweis-fur-den-fall-des-teil-widerrufs\" target=\"_blank\" title=\"Hinweis für den Fall des (Teil-)Widerrufs\"><em>* </em>Bitte beachte unseren Hinweis für den Fall des (Teil-)Widerrufs!</a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cVYpNR",
+        "text_cbPKXU"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_9dJ6iC": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "50+% REDUZIERT",
+        "collection": "winter-sale-50-off",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_Lzp994": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "35% REDUZIERT",
+        "collection": "winter-sale-35-off",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_aTj8yW": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "25% REDUZIERT",
+        "collection": "winter-sale-20-off",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_ETqpw3",
+    "rich_text_48ypKN",
+    "image_with_text_bcR8Cd",
+    "image_with_text_ezi4cF",
+    "image_with_text_MGEkbb",
+    "rich_text_iLiKjt",
+    "featured_collection_9dJ6iC",
+    "featured_collection_Lzp994",
+    "featured_collection_aTj8yW",
+    "main"
+  ]
+}
