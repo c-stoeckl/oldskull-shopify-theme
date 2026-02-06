@@ -30,6 +30,7 @@
         "subheading_W73kbn",
         "text_JarzAX"
       ],
+      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
         ".lightly-spaced-row {font-size: 12px;}"
