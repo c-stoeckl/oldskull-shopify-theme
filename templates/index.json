@@ -106,16 +106,14 @@
         "image_hafHwB",
         "image_ER4WXB"
       ],
-      "custom_css": [
-        ".text-overlay__text {color: #c40000;}"
-      ],
+      "custom_css": [],
       "settings": {
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "no_background",
+        "overlay_style": "full image-overlay--bg-shadow",
         "transition": "zoom-fade",
         "navigation": "arrows",
         "autoplay": true,
