@@ -16,12 +16,11 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>NEW YEAR 3-FOR-2 SPECIAL: KAUFE 3 UND ZAHLE NUR 2*</strong></a>",
+            "text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE:</strong> SPARE HEUTE <strong>50% AUF JEDEN 2.ARTIKEL</strong> IN DEINEM WARENKORB</a>",
             "show_countdown": true,
             "hide_on_end": false,
-            "end_date": "2026-01-12",
+            "end_date": "2026-02-08",
             "end_time": "00:00",
             "number_font": "heading",
             "countdown_separator": "box",
@@ -67,6 +66,7 @@
         },
         "announcement_KWybDz": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER</strong> UND ERHALTE EINEN <strong>10% RABATTCODE</strong></a>",
             "show_countdown": false,

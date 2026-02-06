@@ -86,10 +86,9 @@
         },
         "richtext_7Lknxh": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "richtext": "<p><a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a></p>",
-            "icon": "shirt",
+            "richtext": "<p><a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE:</strong> SPARE HEUTE <strong>50% AUF JEDEN 2.ARTIKEL</strong> IN DEINEM WARENKORB</a></p>",
+            "icon": "dollar_sign",
             "icon_size": "large",
             "enable_box": true,
             "box_color": "#c40000",

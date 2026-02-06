@@ -14,23 +14,22 @@
       "blocks": {
         "image_PpAMWH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/oldskull-winter-sale-26-start-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-winter-sale-26-start-banner-mobile.jpg",
-            "slide_link": "",
+            "image": "shopify://shop_images/VIP_Sale_2026_3.jpg",
+            "mobile_image": "shopify://shop_images/VIP_Sale_February_2026_5.jpg",
+            "slide_link": "shopify://pages/vip-sale",
             "subheading": "",
-            "title": "WINTER SALE",
+            "title": "",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p>Spare jetzt in 3 Kategorien <strong>25, 35 oder 50%</strong> auf unsere Artikel. Für einen Einkauf <strong>ab 119€</strong> bekommst du <strong>ein T-Shirt deiner Wahl gratis*</strong></p>",
+            "text": "",
             "enlarge_text": true,
-            "button_label_1": "Zum Shop >",
-            "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "Mehr zur Aktion >",
-            "button_url_2": "shopify://pages/winter-sale",
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
             "text_alignment": "bottom center"
           }
         },
@@ -194,20 +193,21 @@
         "text_9KqGh3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>UNITY SALE: 3-FOR-2</strong></p>",
+            "text": "<p><strong>Spare heute 50% auf jeden 2. Artikel in deinem Warenkorb</strong></p>",
             "enlarge_text": true
           }
         },
         "subheading_Xzn6x9": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "subheading": "Kaufe 3 Artikel aus dem kompletten Sortiment und bezahle nur 2*"
+            "subheading": ""
           }
         },
         "countdown_HbjezN": {
           "type": "countdown",
           "settings": {
-            "end_date": "2025-10-13",
+            "end_date": "2026-02-08",
             "end_time": "00:00",
             "end_text": "",
             "hide_on_end": true,
@@ -219,10 +219,9 @@
         },
         "button_rtJNpM": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Direkt zu den Summer Deals",
-            "button_link": "shopify://pages/summer-deals",
+            "button_label": "Zum Shop >",
+            "button_link": "shopify://collections/shop-all",
             "button_style": "primary"
           }
         }
@@ -233,7 +232,6 @@
         "countdown_HbjezN",
         "button_rtJNpM"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--medium {margin-top: 0; margin-bottom: 0;}"
       ],
