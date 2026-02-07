@@ -68,7 +68,7 @@
         "text_wF7pNE": {
           "type": "text",
           "settings": {
-            "text": "<p>Du hast die erste Hürde mit der Passworteingabe geschafft. Nun haben wir ein ganz spezielles Angebot nur für dich:</p><p><strong>Spare heute als VIP 50% EXTRA auf jeden zweiten Artikel!</strong></p><p>Lege dazu <strong>beliebig viele Artikel</strong> in deinen Warenkorb. <strong>Jeder zweite Artikel wird automatisch um weitere 50% reduziert.</strong><br/>Deal?</p>",
+            "text": "<p><strong>Spare jetzt 50% EXTRA auf jeden zweiten Artikel!</strong></p><p>Lege dazu <strong>beliebig viele Artikel</strong> in deinen Warenkorb. <strong>Jeder zweite Artikel wird automatisch um weitere 50% reduziert.</strong><br/>Deal?</p>",
             "enlarge_text": true
           }
         },
