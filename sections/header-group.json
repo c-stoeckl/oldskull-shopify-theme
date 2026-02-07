@@ -17,7 +17,7 @@
         "announcement_dHyh8A": {
           "type": "announcement",
           "settings": {
-            "text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE:</strong> SPARE HEUTE <strong>50% AUF JEDEN 2.ARTIKEL</strong> IN DEINEM WARENKORB</a>",
+            "text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL IN DEINEM WARENKORB</strong></a>",
             "show_countdown": true,
             "hide_on_end": false,
             "end_date": "2026-02-08",
