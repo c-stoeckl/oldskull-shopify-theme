@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE:</strong> SPARE HEUTE <strong>50% AUF JEDEN 2.ARTIKEL</strong> IN DEINEM WARENKORB</a>",
+        "announcement_text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL</strong></a>",
         "announcement_icon": "dollar_sign",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,

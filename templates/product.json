@@ -87,9 +87,9 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE:</strong> SPARE HEUTE <strong>50% AUF JEDEN 2.ARTIKEL</strong> IN DEINEM WARENKORB</a></p>",
+            "richtext": "<p><a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL</strong></a></p>",
             "icon": "dollar_sign",
-            "icon_size": "large",
+            "icon_size": "small",
             "enable_box": true,
             "box_color": "#c40000",
             "show_in_quickbuy": true
