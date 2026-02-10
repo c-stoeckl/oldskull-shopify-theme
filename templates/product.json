@@ -86,9 +86,8 @@
         },
         "richtext_7Lknxh": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "richtext": "<p><a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL</strong></a></p>",
+            "richtext": "<p><a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a></p>",
             "icon": "dollar_sign",
             "icon_size": "small",
             "enable_box": true,

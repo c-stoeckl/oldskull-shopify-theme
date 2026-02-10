@@ -22,7 +22,7 @@
         "text_JarzAX": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL</strong></a></p>",
+            "text": "<p><a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a></p>",
             "enlarge_text": false
           }
         }
@@ -31,7 +31,6 @@
         "subheading_W73kbn",
         "text_JarzAX"
       ],
-      "disabled": true,
       "custom_css": [
         ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",
         ".lightly-spaced-row {font-size: 14px;}"

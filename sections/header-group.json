@@ -33,7 +33,6 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a>",
             "show_countdown": false,

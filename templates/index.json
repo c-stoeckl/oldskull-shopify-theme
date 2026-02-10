@@ -14,23 +14,22 @@
       "blocks": {
         "image_PpAMWH": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Black_Week_Peak_Image_2.jpg",
-            "mobile_image": "shopify://shop_images/Black_Week_Peak_Image_1.jpg",
-            "slide_link": "shopify://pages/vip-sale",
+            "image": "shopify://shop_images/oldskull-winter-sale-26-start-banner.png",
+            "mobile_image": "shopify://shop_images/oldskull-winter-sale-26-start-banner-mobile.jpg",
+            "slide_link": "shopify://pages/winter-sale",
             "subheading": "",
-            "title": "VIP SALE",
+            "title": "WINTER CLEARANCE SALE",
             "heading_max_width": 25,
             "title_size": 70,
             "title_size_mobile": 50,
             "use_h1": false,
-            "text": "<p><strong>Spare jetzt 50% EXTRA auf jeden zweiten Artikel!</strong><br/>Lege dazu <strong>beliebig viele Artikel</strong> in deinen Warenkorb. <strong>Jeder zweite Artikel wird automatisch um weitere 50% reduziert.</strong> Deal?</p>",
+            "text": "<p><strong>Spare jetzt 25 - 60% auf alle Artikel!</strong><br/>Nutze zusätzlich die Chance auf dein <strong>Gratis T-Shirt ab 119€</strong> Einkaufswert*</p>",
             "enlarge_text": true,
             "button_label_1": "Zum Shop >",
             "button_url_1": "shopify://collections/shop-all",
-            "button_label_2": "",
-            "button_url_2": "",
+            "button_label_2": "Mehr zur Aktion >",
+            "button_url_2": "shopify://pages/winter-sale",
             "text_alignment": "bottom center"
           }
         },
