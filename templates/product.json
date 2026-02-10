@@ -86,6 +86,7 @@
         },
         "richtext_7Lknxh": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "richtext": "<p><a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL</strong></a></p>",
             "icon": "dollar_sign",

@@ -25,7 +25,7 @@
         "show_inventory_notice": "low",
         "show_inventory_count": "low",
         "inventory_threshold": 3,
-        "show_announcement": true,
+        "show_announcement": false,
         "announcement_position": "below-items",
         "announcement_text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL</strong></a>",
         "announcement_icon": "dollar_sign",

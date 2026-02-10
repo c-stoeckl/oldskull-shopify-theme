@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL IN DEINEM WARENKORB</strong></a>",
             "show_countdown": true,
@@ -66,7 +67,6 @@
         },
         "announcement_KWybDz": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER</strong> UND ERHALTE EINEN <strong>10% RABATTCODE</strong></a>",
             "show_countdown": false,
