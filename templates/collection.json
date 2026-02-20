@@ -21,15 +21,24 @@
         },
         "text_yyckKH": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a></p>",
+            "enlarge_text": false
+          }
+        },
+        "text_HjE683": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>3-FÜR-2 FLASH SALE: KAUFE 3 UND ZAHLE NUR 2</strong></a></p>",
             "enlarge_text": false
           }
         }
       },
       "block_order": [
         "subheading_VnLReJ",
-        "text_yyckKH"
+        "text_yyckKH",
+        "text_HjE683"
       ],
       "custom_css": [
         ".fully-spaced-row--small {margin-top: 5px; margin-bottom: 0;}",

@@ -16,12 +16,11 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/pages/vip-sale\" title=\"VIP SALE\"><strong>VIP SALE: SPARE 50% AUF JEDEN 2.ARTIKEL IN DEINEM WARENKORB</strong></a>",
+            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>3-FÜR-2 FLASH SALE: KAUFE 3 UND ZAHLE NUR 2</strong></a>",
             "show_countdown": true,
             "hide_on_end": false,
-            "end_date": "2026-02-08",
+            "end_date": "2026-02-23",
             "end_time": "00:00",
             "number_font": "heading",
             "countdown_separator": "box",
@@ -33,6 +32,7 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>WINTER SALE: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a>",
             "show_countdown": false,
