@@ -15,11 +15,11 @@
         "image_PpAMWH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-winter-sale-March-2026-desktop.jpg",
-            "mobile_image": "shopify://shop_images/oldskull-winter-sale-March-2026-mobile.jpg",
+            "image": "shopify://shop_images/Easter_2026_banner_desktop.jpg",
+            "mobile_image": "shopify://shop_images/Easter_2026_banner_mobile.jpg",
             "slide_link": "shopify://pages/winter-sale",
             "subheading": "",
-            "title": "SEASON SWITCH ON!",
+            "title": "Spring Mode: ON",
             "heading_max_width": 20,
             "title_size": 60,
             "title_size_mobile": 46,
