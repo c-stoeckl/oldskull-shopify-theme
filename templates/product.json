@@ -87,7 +87,7 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>FRÜHJAHRS SPECIAL: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a></p>",
+            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>FRÜHJAHRS SPECIAL: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a> (exkl. New Arrivals)</p>",
             "icon": "shirt",
             "icon_size": "large",
             "enable_box": true,
@@ -112,6 +112,7 @@
             "secondary_colour": "#ebeaea",
             "preview_scenario": "log_in_required_to_earn_points",
             "should_show_icon": true,
+            "custom_image_height": 40,
             "should_show_points_label": true,
             "points_text_logged_in": "<p>Erhalte <strong>[points_amount]</strong> beim Kauf dieses Artikels.</p>",
             "points_text_logged_out": "<p>Mitglieder erhalten <strong>[points_amount]</strong> beim Kauf dieses Artikels. <a href=\"/account/register/\" title=\"/account/register/\">Jetzt registrieren</a> oder <a href=\"/account/login/\" title=\"/account/login/\">einloggen</a>.</p>"
