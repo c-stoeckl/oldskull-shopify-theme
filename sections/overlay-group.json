@@ -27,7 +27,7 @@
         "inventory_threshold": 3,
         "show_announcement": true,
         "announcement_position": "below-items",
-        "announcement_text": "FRÜHJAHRS SPECIAL<a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a> (exkl. New Arrivals)",
+        "announcement_text": "SUMMER SPECIAL<a href=\"/pages/winter-sale\" title=\"Winter Sale\"><strong>: 25-60% AUF ALLES + GRATIS T-SHIRT AB 119€</strong></a> (exkl. New Arrivals)",
         "announcement_icon": "shirt",
         "announcement_icon_size": "large",
         "announcement_enable_box": true,
