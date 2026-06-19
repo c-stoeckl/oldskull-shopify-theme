@@ -59,8 +59,8 @@
         "image_hafHwB": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/oldskull-summer-drop-may-2026-teaser-banner.png",
-            "mobile_image": "shopify://shop_images/oldskull-summer-drop-may-2026-teaser-banner-mobile.png",
+            "image": "shopify://shop_images/oldskull-summer-drop-june-2026-teaser-banner.jpg",
+            "mobile_image": "shopify://shop_images/oldskull-summer-drop-june-2026-teaser-banner-mobile.jpg",
             "slide_link": "shopify://collections/oldskull-drop",
             "subheading": "",
             "title": "SUMMER DROP",
@@ -68,7 +68,7 @@
             "title_size": 84,
             "title_size_mobile": 46,
             "use_h1": false,
-            "text": "<p>PART I | SS26</p><p>Die Tage werden länger und heißer - Zeit für neue T-Shirts! Decke dich jetzt bei Oldskull für deinen Sommer ein!</p>",
+            "text": "<p>PART II | SS26</p><p>Die Tage werden länger und heißer - Zeit für neue T-Shirts! Decke dich jetzt bei Oldskull für deinen Sommer ein!</p>",
             "enlarge_text": true,
             "button_label_1": "Direkt zum Drop >",
             "button_url_1": "shopify://collections/oldskull-drop",
@@ -112,7 +112,7 @@
         "height_mobile": 460,
         "full_width": true,
         "mobile_overlay_under": false,
-        "overlay_style": "full image-overlay--bg-shadow",
+        "overlay_style": "shadow",
         "transition": "zoom-fade",
         "navigation": "arrows",
         "autoplay": true,

@@ -14,6 +14,7 @@
       "blocks": {
         "subheading_XVj4kx": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "WINTER = HOODIE TIME"
           }
@@ -21,7 +22,7 @@
         "heading_UtbMm9": {
           "type": "heading",
           "settings": {
-            "title": "AUTUMN DROP",
+            "title": "SUMMER DROP",
             "heading_max_width": 15,
             "title_size": 50,
             "title_size_mobile": 40,
@@ -31,7 +32,7 @@
         "text_VKxNax": {
           "type": "text",
           "settings": {
-            "text": "<p>PART III | AW25</p>",
+            "text": "<p>PART II | SS26</p>",
             "enlarge_text": true
           }
         }
@@ -41,11 +42,10 @@
         "heading_UtbMm9",
         "text_VKxNax"
       ],
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/oldskull-drop-12-november-samurise-teaser-banner.jpg",
-        "mobile_image": "shopify://shop_images/oldskull-drop-12-november-samurise-teaser-banner-mobile.jpg",
+        "image": "shopify://shop_images/oldskull-summer-drop-june-2026-teaser-banner-2.jpg",
+        "mobile_image": "shopify://shop_images/oldskull-summer-drop-june-2026-teaser-banner-2-mobile.jpg",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
