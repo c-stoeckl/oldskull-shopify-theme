@@ -87,7 +87,7 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>SUMMER SPECIAL: 15-60% AUF ALLES + GRATIS T-SHIRT ODER SHORTS AB 119€</strong></a></p>",
+            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>HALLOWEEN SPECIAL: 15-60% AUF ALLES + GRATIS T-SHIRT ODER SHORTS AB 119€</strong></a></p>",
             "icon": "shirt",
             "icon_size": "large",
             "enable_box": true,
@@ -108,8 +108,8 @@
         "smile_io_smile_points_on_product_page_teRnWW": {
           "type": "shopify://apps/smile-io/blocks/smile-points-on-product-page/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
           "settings": {
-            "primary_colour": "#121212",
             "secondary_colour": "#ebeaea",
+            "primary_colour": "#121212",
             "preview_scenario": "log_in_required_to_earn_points",
             "should_show_icon": true,
             "custom_image_height": 40,

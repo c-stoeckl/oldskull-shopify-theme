@@ -34,7 +34,7 @@
         "announcement_Jgan7f": {
           "type": "announcement",
           "settings": {
-            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>SUMMER SPECIAL: 15-60% AUF ALLES + GRATIS T-SHIRT ODER SHORTS AB 119€</strong></a>",
+            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>HALLOWEEN SPECIAL: 15-60% AUF ALLES + GRATIS T-SHIRT ODER SHORTS AB 119€</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
             "end_date": "2025-08-04",
@@ -66,6 +66,7 @@
         },
         "announcement_KWybDz": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/pages/newsletter\" target=\"_blank\" title=\"Oldskull Europe Newsletter\">ABONNIERE UNSEREN <strong>NEWSLETTER</strong> UND ERHALTE EINEN <strong>10% RABATTCODE</strong></a>",
             "show_countdown": false,
