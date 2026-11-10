@@ -16,9 +16,8 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>3-FÜR-2 FLASH SALE: KAUFE 3 UND ZAHLE NUR 2</strong></a>",
+            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>SINGLES DAY 3-FOR-2: KAUFE 3 UND ZAHLE NUR 2</strong></a>",
             "show_countdown": true,
             "hide_on_end": false,
             "end_date": "2026-02-23",
@@ -33,6 +32,7 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>HALLOWEEN SPECIAL: 15-60% AUF ALLES + GRATIS T-SHIRT ODER SHORTS AB 119€</strong></a>",
             "show_countdown": false,
