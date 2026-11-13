@@ -87,7 +87,7 @@
         "richtext_7Lknxh": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BLACK WEEKS: 50% UND MEHR AUF ALLES!</strong></a></p>",
+            "richtext": "<p><a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BLACK DEALS: 50% UND MEHR AUF ALLES!</strong></a></p>",
             "icon": "shirt",
             "icon_size": "large",
             "enable_box": true,
