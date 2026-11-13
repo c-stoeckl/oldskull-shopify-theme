@@ -34,7 +34,7 @@
         "announcement_Jgan7f": {
           "type": "announcement",
           "settings": {
-            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BLACK WEEKS: 50% UND MEHR AUF ALLES!</strong></a>",
+            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BLACK DEALS: 50% UND MEHR AUF ALLES!</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
             "end_date": "",
