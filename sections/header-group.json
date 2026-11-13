@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_dHyh8A": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>SINGLES DAY 3-FOR-2: KAUFE 3 UND ZAHLE NUR 2</strong></a>",
             "show_countdown": true,
@@ -32,13 +33,12 @@
         },
         "announcement_Jgan7f": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>HALLOWEEN SPECIAL: 15-60% AUF ALLES + GRATIS T-SHIRT ODER SHORTS AB 119€</strong></a>",
+            "text": "<a href=\"/collections/shop-all\" title=\"Shop all\"><strong>BLACK WEEKS: 50% UND MEHR AUF ALLES!</strong></a>",
             "show_countdown": false,
             "hide_on_end": false,
-            "end_date": "2025-08-04",
-            "end_time": "00:00",
+            "end_date": "",
+            "end_time": "",
             "number_font": "base",
             "countdown_separator": "dot",
             "use_custom_colors": false,
